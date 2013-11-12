@@ -33,47 +33,68 @@ def seed_reader():
 
 
 '''Data store to already created object when site marked as visited'''
-def datastorer():  
+def datastorer(at_given_url):      # return beautifulsoup string                   *** # at exception return 0 
 # on that url that page text saved 
+# beautiful soap used for url
+# try and catch used (broken url)
+# url stored in dictionary and returns for further use of link on that page
+# modify time visit 
+
+
+
+
 
 '''Returns all page on given page '''
-def all_url_on_given_page():  
+def all_url_on_given_page(beautful_soap_string):   # return [[url,anchor,anchorwindow],[url,anchor,anchorwindow],.... ]  
 #give all urls on given page 
 #normalized them using below defination
+#return all url,achor text , anchor text window 
+
+
 
 '''Site normalized before further processong '''
-def sitenamenormalization():       
+def sitenamenormalization(one_url_at_a_time):      # url provided    # return ['site','normalized absoluteurl']  ***#return 0 for same page (# used for identifing refernce of same page )        
+
 #lower case 
-#normalizes sitr name www.asd.com => http://asd.com
+#normalizes site name www.asd.com => http://asd.com
 # relative to absolute /ddd => http://asd.com/ddd
 #same page remove 
 
 
 '''Check for duplicate '''
-def url_checker_dupli():
+def url_checker_dupli(site , normalized_absolute_url ):
 #checks is url used first time or used before
+# checks in visited_site_url dictionary at key site and in list for normalized_absolute_url
 #return 0 or 1 accordingly
 
+
+
+
 ''' If duplicate url then ... and add to object created already '''
-def add_anchor_only():
-#add anchor of given url bz it done before jst add anchor  AND anchor window  
+def add_anchor_only(site, url , anchor , anchor_window):
+#add anchor of given url bz it done before jst add anchor  AND anchor window
+#add in data_url dictionary at key site and in list for normalized_absolute_url
+
+  
 
 ''' Mark as visited and create object'''
-def url_visited():
+def url_visited(site, url_provided):                       #return nothing 
 #mark that url as visited and create object for it 
+#add to both dictionary data_url and visited_site_url
+ 
 
 '''Robot call checker'''
-def robots_checker():
+def robots_checker(url_provided):   #return 0: denied 1 : granted
 #check robots for that url call 
 
 
 '''If robots denied'''
-def denied_robots_call():
+def denied_robots_call(site, url , anchor , anchor_window):
 #add data="Robots denied" , anchor and anchor window to already created object 
 
 
 ''' If not denied by robots call ''' 
-def add_to_site_queue_dict():
+def add_to_site_queue_dict(site, url):
 #add to dictionary of queue sitewise
 
 
