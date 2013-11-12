@@ -28,17 +28,23 @@ site_last_time_visit ={}       # {'http://asd.com':time(), .... }
 site_current_url_remain = {}   # {'http://asd.com':['http://asd.com/ddd','http://asd.com/fff'] , ... }
 
 '''Seed reader .. only used for first time'''
-def seed_reader():
+def seed_reader():   ##return list of urls 
 #read all seed normalized it and then put it into back queue 
+    list_of_url = [] 
+    DocumentWhole = open( "url", "r" )
+    for line in DocumentWhole:
+        line = line.strip('\n')
+        list_of_url.append(line)
+    return list_of_url
 
 
 '''Data store to already created object when site marked as visited'''
 def datastorer(at_given_url):      # return beautifulsoup string                   *** # at exception return 0 
-# on that url that page text saved 
+# on that url that page text saved , title , meta character also saved  
 # beautiful soap used for url
 # try and catch used (broken url)
 # url stored in dictionary and returns for further use of link on that page
-# modify time visit 
+# modify time visit of that site 
 
 
 
@@ -96,23 +102,31 @@ def denied_robots_call(site, url , anchor , anchor_window):
 ''' If not denied by robots call ''' 
 def add_to_site_queue_dict(site, url):
 #add to dictionary of queue sitewise
+#first check site name present in dictionary or not if not create new key and empty list 
+#if present append to site list 
 
 
 '''Back queue lenght is less than 3'''
 def back_queue_feeder():
 #fill back queue 
+#check queue lenght if greater than 3 dont do anything
+#if smaller then go through all dictionary site_current_url_remain keys pop 1 element (remove from queue)
+#if list remaining 1 element then pop and delete that list and key from dictionary
+
+# if dictionary is empty then ???? 
 
 
 '''Before url fetched check this time '''
-def time_checker():
+def time_checker(site_name):
 #checks time and return 0 or 1 accordingly what to do 
-
+#checks last visit
 
 '''Give url  to fetch '''
 def url_giver():
 # returns one url that want to fetch 
-
-
+# check time before giving 
+#if time is less then pop another one and push this one back to queue   (if 1 or 2 element is remaining then)
+# return url 
 
 
 
