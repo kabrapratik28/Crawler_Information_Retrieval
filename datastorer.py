@@ -29,11 +29,11 @@ data_url = {}             #{site : [urlobject1 , .... ]}  ##urrl object => url,a
 site_last_time_visit ={}       # {'http://asd.com':time(), .... }
 site_current_url_remain = {}   # {'http://asd.com':['http://asd.com/ddd','http://asd.com/fff'] , ... }
 
-newobj = Url_class('http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html')
-data_url['http://nlp.stanford.edu'] = [newobj,]
+newobj = Url_class('http://rediff.com')
+data_url['http://rediff.com'] = [newobj,]
 
-newobj2 = Url_class('http://stackoverflow.com/questions/10858575/find-object-by-its-member-inside-a-list-in-python')
-data_url['http://stackoverflow.com'] = [newobj2,]
+newobj2 = Url_class('http://w3schools.com/html/default.asp')
+data_url['http://w3schools.com'] = [newobj2,]
 
 newobj3 = Url_class('http://prat.com/questions/10858575/find-object-by-its-member-inside-a-list-in-python')
 data_url['http://prat.com'] = [newobj3,]
@@ -62,7 +62,7 @@ def datastorer(site , at_given_url):      # return beautifulsoup string         
         ##print soupobject.body.get_text().encode('utf-8') ##printing purpose utf8 conversion 
         new_modified_string  =  re.sub('\s+',' ', soupobject.body.get_text())                        ##  addded .... remove extra spaces and new lines
         object_url.dataadd(new_modified_string)
-        print new_modified_string.encode('utf-8')
+        #print new_modified_string.encode('utf-8')
         return  soupobject
     except Exception :
         object_url.dataadd("Error : Url is broken !!!")
@@ -73,17 +73,19 @@ def datastorer(site , at_given_url):      # return beautifulsoup string         
     
 
 
-a = datastorer('http://nlp.stanford.edu' ,'http://nlp.stanford.edu/IR-book/html/htmledition/boolean-retrieval-1.html' )
-b =  datastorer('http://stackoverflow.com' ,'http://stackoverflow.com/questions/10858575/find-object-by-its-member-inside-a-list-in-python' )
+a = datastorer('http://rediff.com' ,'http://rediff.com' )
+b =  datastorer('http://w3schools.com' ,'http://w3schools.com/html/default.asp' )
 c =  datastorer('http://prat.com' ,'http://prat.com/questions/10858575/find-object-by-its-member-inside-a-list-in-python' )
 
-'''
-for link in a.find_all('a'):
-    print(link.get('href'))
 
-for link in b.find_all('a'):
-    print(link.get('href'))
-'''
+for link in a.body.find_all('a'):
+	if link.get('href') :     
+			print(link.get('href'))
+
+for link in b.body.find_all('a'):
+	if link.get('href') : 
+			print(link.get('href'))
+
 #print a.find_all('a')
 #print b.find_all('a')
 #print c   ##return  0   

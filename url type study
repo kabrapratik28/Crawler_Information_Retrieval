@@ -1,0 +1,42 @@
+CHECK STARTING OF URL GIVEN       *******************
+------------------------------------
+types of url a href 
+1. whole site  
+2. same folder 
+3. same page by #
+4. refernce from home directory 
+5. ?lastactivity                          => ????? php perl 
+6. started with # ...... ignore them
+n. only '/' or '#'   - ----- remove or add homepage 
+
+
+
+1.new site 
+------------------
+=> add as it is 
+
+e.g. http://informationretrieval.org
+
+
+
+2.same folder
+------------
+=> cut last / and replace by this 
+
+e.g. an-example-information-retrieval-problem-1.html
+
+
+3.remove same page 
+------------------------------------------------------
+=> refernce by cutting  after this #
+
+ 
+e.g. footnode.html#foot814
+
+
+4.  refernce from home directory 
+------------------------------------
+=> add home site + relative path
+
+
+5. 
