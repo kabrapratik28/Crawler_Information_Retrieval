@@ -22,9 +22,15 @@ STOPING CONDITION => after N(e.g. 10) url dont tc urls into url dictionary and e
 data
 '''
 
-"""
-Objects url 
-"""
+from bs4 import BeautifulSoup
+import urllib2
+
+
+
+'''
+url data
+'''
+
 class Url_class  :
     def __init__(self , url ):
 		self.url = url
@@ -36,9 +42,11 @@ class Url_class  :
     	self.anchor.append(anchortext)
         self.anchor_win.append(ancwintext)
     def add_title(self,titletext):
-        self.title =  titletex 
+        self.title =  titletext 
     def dataadd  (self,datatext):
         self.urldata = datatext
+
+
 
 url_fecher_queue = []   #['http://asd.com/ddd','http://asd.com/fff']
 visited_site_url = {}	 # {'http://asd.com':['http://asd.com/ddd','http://asd.com/fff'] , ... }
@@ -58,14 +66,35 @@ def seed_reader():   ##return list of urls
 
 
 '''Data store to already created object when site marked as visited'''
-def datastorer(site , at_given_url):      # return beautifulsoup string                   *** # at exception return 0 
+def datastorer(site , at_given_url):      # return beautifulsoup object                   *** # at exception return 0 
 # on that url that page text saved , title , meta character also saved  
 # beautiful soap used for url
 # try and catch used (broken url)
 # url stored in dictionary and returns for further use of link on that page
 # modify time visit of that site 
-
-
+    listofobject = data_url[site] 
+    list_of_one_object =  filter(lambda x: x.url ==at_given_url , listofobject)
+    object_url = list_of_one_object[0]
+    ##open page and give to beautiful soup
+    try : 
+        objecturllib = urllib2.urlopen( at_given_url) 
+        htmlcode  =  objecturllib.read()
+        soupobject = BeautifulSoup(htmlcode)
+        #soupnormalized = soupobject.prettify()
+        #print soupnormalized
+        if soupobject.title : 
+            ##print soupobject.title.string 
+            object_url.add_title(soupobject.title.string) 
+        ##print soupobject.body.get_text().encode('utf-8') ##printing purpose utf8 conversion 
+        object_url.dataadd(soupobject.body.get_text())
+        return  soupobject
+    except Exception :
+        object_url.dataadd("Error : Url is broken !!!")
+        return 0 
+    #print object_url.url.encode('utf-8')           
+    #print object_url.title.encode('utf-8')               
+    #print object_url.urldata.encode('utf-8')
+    
 
 
 
