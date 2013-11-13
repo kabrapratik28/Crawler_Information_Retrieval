@@ -103,11 +103,23 @@ def all_url_on_given_page(beautful_soap_string):   # return [[url,anchor,anchorw
 #give all urls on given page 
 #normalized them using below defination
 #return all url,achor text , anchor text window 
+    temp_list = [] 
+    for link in soup.find_all('a'):             ## for all a
+         if link.get('href') :                  ## only contain href
+             ref_anchorwindow = ''
+             ref_link = link.get('href')
+             ref_anchor = link.string
+             if link.previousSibling : 
+                 ref_anchorwindow = link.previousSibling.string     ##******** CORRECT THIS AFTERWARDS  *******************
+             make_list = [ref_link, ref_anchor,ref_anchorwindow]
+             temp_list.append(make_list)
+    return temp_list
 
 
 
 '''Site normalized before further processong '''
-def sitenamenormalization(one_url_at_a_time):      # url provided    # return ['site','normalized absoluteurl']  ***#return 0 for same page (# used for identifing refernce of same page )        
+def sitenamenormalization(baseurl , one_url_at_a_time): ## baseurl is one used for datastored , and one url from all url returns from that page
+# url provided    # return ['site','normalized absoluteurl']  ***#return 0 for same page (# used for identifing refernce of same page )        
 
 #lower case 
 #normalizes site name www.asd.com => http://asd.com
