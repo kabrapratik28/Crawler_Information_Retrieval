@@ -121,12 +121,13 @@ def all_url_on_given_page(beautful_soap_string):   # return [[url,anchor,anchorw
 
 '''Site normalized before further processong '''
 def sitenamenormalization(baseurl , one_url_at_a_time): ## baseurl is one used for datastored , and one url from all url returns from that page
-# url provided    # return ['site','normalized absoluteurl']  ***#return 0 for same page (# used for identifing refernce of same page )        
+# return final url provided         
 
 #lower case 
 #normalizes site name www.asd.com => http://asd.com
 # relative to absolute /ddd => http://asd.com/ddd
 #same page remove 
+## REFER TO URL STUDY  ##
     if baseurl.startswith('http://'):
         baseurl = baseurl[7:]
     if baseurl.startswith('https://'):
@@ -152,7 +153,7 @@ def sitenamenormalization(baseurl , one_url_at_a_time): ## baseurl is one used f
     joinedurl = urljoin( modified_base_url,one_url_at_a_time )   ##join url
     joined_url_parsed  = urlparse( joinedurl)                    ## parsed ... remove query from urls 
     finalurl = joined_url_parsed.scheme+"://" + joined_url_parsed.netloc + joined_url_parsed.path
-    return finalurl.lower() 
+    return finalurl.lower().strip('/')             ##last element / no use and making duplicatswith / and without /               ## case insensative
 
 
 
@@ -162,7 +163,23 @@ def url_checker_dupli(site , normalized_absolute_url ):
 #checks in visited_site_url dictionary at key site and in list for normalized_absolute_url
 #check site is dere ot not in dictionary .... !!!!
 #return 0 or 1 accordingly
-
+# mark visited by adding url and site accordingly dere or not 
+    if visited_site_url.has_key(site):
+        if normalized_absolute_url in visited_site_url[site]:
+            return 0     ## duplicate 
+        else :
+            visited_site_url[site].append(normalized_absolute_url)  ## added as visited
+            new_obj_url = Url_class( normalized_absolute_url)
+            data_url[site].append(new_obj_url)                      ## blank dataobject created for that url and added 
+            return 1      ## site is present but url is new 
+    else : 
+        visited_site_url[site] = []
+        data_url[site] = []
+        visited_site_url[site].append(normalized_absolute_url)
+        new_obj_url = Url_class( normalized_absolute_url)
+        data_url[site].append(new_obj_url)   
+        #print "all new"
+        return 1          ## site also ... no url offcourse
 
 
 
@@ -172,12 +189,14 @@ def add_anchor_only(site, url , anchor , anchor_window):
 #add in data_url dictionary at key site and in list for normalized_absolute_url
 
   
-
-''' Mark as visited and create object'''
+'''*** MERGED IN URL DUPLICATE CLASS ... IT WILL CHECK IF NOT CREATE AND RETURN 1 IF DERE JST RETURN 0  .. both url and site check  
+# Mark as visited and create object
 def url_visited(site, url_provided):                       #return nothing 
 #mark that url as visited and create object for it 
 #add to both dictionary data_url and visited_site_url
 # check site in dictionary there or not ... if not add sitte to dictionary  
+'''
+
 
 '''Robot call checker'''
 def robots_checker(url_provided):   #return 0: denied 1 : granted
