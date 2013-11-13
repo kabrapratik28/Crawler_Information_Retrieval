@@ -24,6 +24,8 @@ data
 
 from bs4 import BeautifulSoup
 import urllib2
+from urlparse import urlparse
+from urlparse import urljoin
 
 
 
@@ -125,12 +127,40 @@ def sitenamenormalization(baseurl , one_url_at_a_time): ## baseurl is one used f
 #normalizes site name www.asd.com => http://asd.com
 # relative to absolute /ddd => http://asd.com/ddd
 #same page remove 
+    if baseurl.startswith('http://'):
+        baseurl = baseurl[7:]
+    if baseurl.startswith('https://'):
+        baseurl = baseurl[8:]
+    if baseurl.startswith('www.'):
+        baseurl = baseurl[4:]
+
+    flag_of_one_url_http = 0     
+    if one_url_at_a_time.startswith('http://'):
+        one_url_at_a_time = one_url_at_a_time[7:]
+        flag_of_one_url_http = 1
+    if one_url_at_a_time.startswith('https://'):
+        one_url_at_a_time = one_url_at_a_time[8:]
+        flag_of_one_url_http = 1
+    if one_url_at_a_time.startswith('www.'):
+        one_url_at_a_time = one_url_at_a_time[4:]
+        flag_of_one_url_http = 1 
+
+    if (flag_of_one_url_http==1):    
+        one_url_at_a_time = "http://" + one_url_at_a_time
+
+    modified_base_url = 'http://'+baseurl
+    joinedurl = urljoin( modified_base_url,one_url_at_a_time )   ##join url
+    joined_url_parsed  = urlparse( joinedurl)                    ## parsed ... remove query from urls 
+    finalurl = joined_url_parsed.scheme+"://" + joined_url_parsed.netloc + joined_url_parsed.path
+    return finalurl.lower() 
+
 
 
 '''Check for duplicate '''
 def url_checker_dupli(site , normalized_absolute_url ):
 #checks is url used first time or used before
-# checks in visited_site_url dictionary at key site and in list for normalized_absolute_url
+#checks in visited_site_url dictionary at key site and in list for normalized_absolute_url
+#check site is dere ot not in dictionary .... !!!!
 #return 0 or 1 accordingly
 
 
@@ -147,7 +177,7 @@ def add_anchor_only(site, url , anchor , anchor_window):
 def url_visited(site, url_provided):                       #return nothing 
 #mark that url as visited and create object for it 
 #add to both dictionary data_url and visited_site_url
- 
+# check site in dictionary there or not ... if not add sitte to dictionary  
 
 '''Robot call checker'''
 def robots_checker(url_provided):   #return 0: denied 1 : granted
@@ -173,13 +203,14 @@ def back_queue_feeder():
 #if smaller then go through all dictionary site_current_url_remain keys pop 1 element (remove from queue)
 #if list remaining 1 element then pop and delete that list and key from dictionary
 
-# if dictionary is empty then ???? 
+# if dictionary is empty then ????    ...end of crawl 
 
 
 '''Before url fetched check this time '''
 def time_checker(site_name):
 #checks time and return 0 or 1 accordingly what to do 
 #checks last visit
+#check site present or not ** very first task . then if present . not present create . ****time last visit remained in above dataadder function
 
 '''Give url  to fetch '''
 def url_giver():
@@ -188,6 +219,10 @@ def url_giver():
 #if time is less then pop another one and push this one back to queue   (if 1 or 2 element is remaining then)
 # return url 
 
+
+
+def url_splitter(fullurl):  ## in main this require bz every url function require site name and url 
+##url splitted returns two parts 1.main domain 2. full url 
 
 
 
