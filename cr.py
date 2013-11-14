@@ -221,7 +221,18 @@ def robots_checker(url_provided):   #return 0: denied 1 : granted
 '''If robots denied'''
 def denied_robots_call(site, url , anchor , anchor_window):
 #add data="Robots denied" , anchor and anchor window to already created object 
-
+#DONT ADD TO QUEUE OF SITE 
+    list_of_object_derived = data_url[site] 
+    list_of_one_object =  filter(lambda dd: dd.url == url ,  list_of_object_derived)
+    object_url_gotted = list_of_one_object[0]
+    object_url_gotted.add_title("ROBOTS DENIED")    ## ASK MADAM ... title of denied urls 
+    object_url_gotted.add_anchor( anchor , anchor_window)
+    object_url_gotted.dataadd("ROBOTS DENIED")     ## ASK MADAM CONFIRM  .... GOOGLE SHOWS LIKE THAT
+    #print object_url_gotted.anchor
+    #print object_url_gotted.anchor_win
+    #print object_url_gotted.url
+    #print object_url_gotted.title
+    #print object_url_gotted.urldata
 
 ''' If not denied by robots call ''' 
 def add_to_site_queue_dict(site, url):
