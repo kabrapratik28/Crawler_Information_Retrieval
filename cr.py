@@ -26,6 +26,8 @@ from bs4 import BeautifulSoup
 import urllib2
 from urlparse import urlparse
 from urlparse import urljoin
+from reppy.cache import RobotsCache
+robots = RobotsCache()         ## creating object for cache robots.txt
 
 
 
@@ -187,6 +189,12 @@ def url_checker_dupli(site , normalized_absolute_url ):
 def add_anchor_only(site, url , anchor , anchor_window):
 #add anchor of given url bz it done before jst add anchor  AND anchor window
 #add in data_url dictionary at key site and in list for normalized_absolute_url
+    all_url_rel = data_url[site]
+    list_of_one_url_of_site =  filter(lambda mm: mm.url == url ,all_url_rel )
+    one_url_gotted_obj = list_of_one_url_of_site[0] 
+    one_url_gotted_obj.add_anchor(anchor , anchor_window)
+
+
 
   
 '''*** MERGED IN URL DUPLICATE CLASS ... IT WILL CHECK IF NOT CREATE AND RETURN 1 IF DERE JST RETURN 0  .. both url and site check  
@@ -201,6 +209,13 @@ def url_visited(site, url_provided):                       #return nothing
 '''Robot call checker'''
 def robots_checker(url_provided):   #return 0: denied 1 : granted
 #check robots for that url call 
+  try : 
+    if robots.allowed(url_provided, '*'):   ## put user agent name instead of *
+        return 1
+    else : 
+        return 0 
+  except Exception : 
+        return -1                # ************* site doesn't exists  
 
 
 '''If robots denied'''
