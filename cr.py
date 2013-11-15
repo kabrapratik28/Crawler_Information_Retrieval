@@ -298,6 +298,12 @@ def time_checker(site_name):
 
 
 
+def url_splitter(fullurl):  ## in main this require bz every url function require site name and url 
+##url splitted returns two parts 1.main domain 2. full url 
+    site_and_rel   = urlparse( fullurl ) 
+    return site_and_rel.netloc    ## site name without http ... :)  ..... ##**** PROBLEM ON FTP PROTOCOL
+
+
 '''Give url  to fetch '''
 def url_giver():
 # returns one url that want to fetch 
@@ -306,10 +312,26 @@ def url_giver():
 # return url 
 
 
+## time checking and feeder covered here  .... 
 
-def url_splitter(fullurl):  ## in main this require bz every url function require site name and url 
-##url splitted returns two parts 1.main domain 2. full url 
+    if len(url_fecher_queue) == 0 : 
+        back_queue_feeder()
+    while True :
+        jstforhold = ""
+        current_pop_url = url_fecher_queue.pop(0)
+        site_of_given_url = url_splitter(current_pop_url)
+        value_return = time_checker(site_of_given_url)
+        if value_return==1 : 
+            jstforhold = current_pop_url 
+            break 
+        else : 
+            url_fecher_queue.insert(10 ,current_pop_url )                 ## **** TIME NOT MATCH THEN 10 th position insert .... 
+    return jstforhold
 
+
+
+
+## DONT NEED TO CHECK TIME AND QUEUE FEEDER .... TAKEN CARE BY URL_GIVER
 
 
 
