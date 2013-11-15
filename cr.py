@@ -240,6 +240,14 @@ def add_to_site_queue_dict(site, url):
 #first check site name present in dictionary or not if not create new key and empty list 
 #if present append to site list 
 
+##IF CHECK SITE PRESENT OR NOT 
+##IF PRESENT JUST ADD TO QUEUE
+##ELSE ADD SITE AND MAKE QUEUE BY MAKING LIST
+    if site_current_url_remain.has_key(site):
+        site_current_url_remain[site].append(url)
+    else :
+        site_current_url_remain[site] = [url , ]
+
 
 '''Back queue lenght is less than 3'''
 def back_queue_feeder():
