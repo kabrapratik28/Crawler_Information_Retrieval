@@ -257,6 +257,24 @@ def back_queue_feeder():
 #if list remaining 1 element then pop and delete that list and key from dictionary
 
 # if dictionary is empty then ????    ...end of crawl 
+    if len(url_fecher_queue)== 0  : 
+        if len(site_current_url_remain):
+                  dellist = []
+                  for eachsite in site_current_url_remain : 
+                        if len(site_current_url_remain[eachsite]) > 1 :
+                            tempvar = site_current_url_remain[eachsite].pop(0)
+                            url_fecher_queue.append(tempvar)
+                        else : 
+                            tempvar = site_current_url_remain[eachsite].pop(0)
+                            url_fecher_queue.append(tempvar)
+                            dellist.append(eachsite)
+                  for del_each in dellist : 
+                      del (site_current_url_remain[del_each])
+        else : 
+                  print "Site Queue Finished ... Stopping Crawling"
+                  exit()
+    #else : 
+    #    print "No need to feed"
 
 
 '''Before url fetched check this time '''
