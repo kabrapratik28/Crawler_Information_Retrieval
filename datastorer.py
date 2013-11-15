@@ -1,4 +1,4 @@
-
+import datetime as dt
 from bs4 import BeautifulSoup
 import urllib2
 import re
@@ -51,7 +51,8 @@ def datastorer(site , at_given_url):      # return beautifulsoup string         
     object_url = list_of_one_object[0]
     ##open page and give to beautiful soup
     try : 
-        objecturllib = urllib2.urlopen( at_given_url) 
+        objecturllib = urllib2.urlopen( at_given_url)
+        site_last_time_visit[site] = dt.datetime.now()
         htmlcode  =  objecturllib.read()
         soupobject = BeautifulSoup(htmlcode)
         #soupnormalized = soupobject.prettify()
@@ -89,3 +90,4 @@ for link in b.body.find_all('a'):
 #print a.find_all('a')
 #print b.find_all('a')
 #print c   ##return  0   
+print site_last_time_visit

@@ -21,7 +21,7 @@ STOPING CONDITION => after N(e.g. 10) url dont tc urls into url dictionary and e
 '''
 data
 '''
-
+import datetime as dt
 from bs4 import BeautifulSoup
 import urllib2
 from urlparse import urlparse
@@ -81,7 +81,8 @@ def datastorer(site , at_given_url):      # return beautifulsoup object         
     object_url = list_of_one_object[0]
     ##open page and give to beautiful soup
     try : 
-        objecturllib = urllib2.urlopen( at_given_url) 
+        objecturllib = urllib2.urlopen( at_given_url)
+        site_last_time_visit[site] = dt.datetime.now()               ## site visited now so time is updated 
         htmlcode  =  objecturllib.read()
         soupobject = BeautifulSoup(htmlcode)
         #soupnormalized = soupobject.prettify()
@@ -282,6 +283,20 @@ def time_checker(site_name):
 #checks time and return 0 or 1 accordingly what to do 
 #checks last visit
 #check site present or not ** very first task . then if present . not present create . ****time last visit remained in above dataadder function
+    
+    if site_last_time_visit.has_key(site_name):   ## site visited previously
+        time_when_vistied = site_last_time_visit[site_name]
+        time_now  =  dt.datetime.now()
+        difference_delta_obj  = time_now - time_when_vistied  
+        if difference_delta_obj.days > 0 or difference_delta_obj.seconds >=2 :             #========= PUTTED 2 SECOND GAP +++ ARY HERE IF U WANT DIFFERENT +++++ 
+            return 1   ## time is greater than 2 seconds  .... no problem
+        else :
+            return 0   ## not rite time last time visited is less than 2 seconds
+    else : 
+        ## do nothing datastorer create when he load the site url  .. he store site last time 
+        return 1    ## fine never visited so go ahead 
+
+
 
 '''Give url  to fetch '''
 def url_giver():
