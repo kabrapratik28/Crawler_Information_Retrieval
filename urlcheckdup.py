@@ -43,7 +43,7 @@ def url_checker_dupli(site , normalized_absolute_url ):
             visited_site_url[site].append(normalized_absolute_url)  ## added as visited
             new_obj_url = Url_class( normalized_absolute_url)
             data_url[site].append(new_obj_url)                      ## blank dataobject created for that url and added 
-            return 1      ## site is present but url is new 
+            return new_obj_url      ## site is present but url is new 
     else : 
         visited_site_url[site] = []
         data_url[site] = []
@@ -51,11 +51,11 @@ def url_checker_dupli(site , normalized_absolute_url ):
         new_obj_url = Url_class( normalized_absolute_url)
         data_url[site].append(new_obj_url)   
         print "all new"
-        return 1          ## site also ... no url offcourse
+        return new_obj_url          ## site also ... no url offcourse
 
 
 a = url_checker_dupli('rediff.com' , 'http://apra.net/telegraphic/sd' )
 
 print visited_site_url
 print data_url
-print a 
+print a.url 

@@ -155,8 +155,8 @@ def sitenamenormalization(baseurl , one_url_at_a_time): ## baseurl is one used f
     modified_base_url = 'http://'+baseurl
     joinedurl = urljoin( modified_base_url,one_url_at_a_time )   ##join url
     joined_url_parsed  = urlparse( joinedurl)                    ## parsed ... remove query from urls 
-    finalurl = joined_url_parsed.scheme+"://" + joined_url_parsed.netloc + joined_url_parsed.path
-    return finalurl.lower().strip('/')             ##last element / no use and making duplicatswith / and without /               ## case insensative
+    finalurl = joined_url_parsed.scheme+"://" + joined_url_parsed.netloc.lower() + joined_url_parsed.path
+    return finalurl.strip('/')             ##last element / no use and making duplicatswith / and without /               ## case insensative
 
 
 
@@ -174,7 +174,7 @@ def url_checker_dupli(site , normalized_absolute_url ):
             visited_site_url[site].append(normalized_absolute_url)  ## added as visited
             new_obj_url = Url_class( normalized_absolute_url)
             data_url[site].append(new_obj_url)                      ## blank dataobject created for that url and added 
-            return 1      ## site is present but url is new 
+            return new_obj_url      ## site is present but url is new 
     else : 
         visited_site_url[site] = []
         data_url[site] = []
@@ -182,7 +182,7 @@ def url_checker_dupli(site , normalized_absolute_url ):
         new_obj_url = Url_class( normalized_absolute_url)
         data_url[site].append(new_obj_url)   
         #print "all new"
-        return 1          ## site also ... no url offcourse
+        return new_obj_url          ## site also ... no url offcourse
 
 
 
@@ -301,7 +301,7 @@ def time_checker(site_name):
 def url_splitter(fullurl):  ## in main this require bz every url function require site name and url 
 ##url splitted returns two parts 1.main domain 2. full url 
     site_and_rel   = urlparse( fullurl ) 
-    return site_and_rel.netloc    ## site name without http ... :)  ..... ##**** PROBLEM ON FTP PROTOCOL
+    return site_and_rel.netloc.lower()    ## site name without http ... :)  ..... ##**** PROBLEM ON FTP PROTOCOL
 
 
 '''Give url  to fetch '''

@@ -174,7 +174,7 @@ def url_checker_dupli(site , normalized_absolute_url ):
             visited_site_url[site].append(normalized_absolute_url)  ## added as visited
             new_obj_url = Url_class( normalized_absolute_url)
             data_url[site].append(new_obj_url)                      ## blank dataobject created for that url and added 
-            return 1      ## site is present but url is new 
+            return new_obj_url      ## site is present but url is new 
     else : 
         visited_site_url[site] = []
         data_url[site] = []
@@ -182,7 +182,7 @@ def url_checker_dupli(site , normalized_absolute_url ):
         new_obj_url = Url_class( normalized_absolute_url)
         data_url[site].append(new_obj_url)   
         #print "all new"
-        return 1          ## site also ... no url offcourse
+        return new_obj_url          ## site also ... no url offcourse
 
 
 
@@ -301,7 +301,7 @@ def time_checker(site_name):
 def url_splitter(fullurl):  ## in main this require bz every url function require site name and url 
 ##url splitted returns two parts 1.main domain 2. full url 
     site_and_rel   = urlparse( fullurl ) 
-    return site_and_rel.netloc    ## site name without http ... :)  ..... ##**** PROBLEM ON FTP PROTOCOL
+    return site_and_rel.netloc.lower()    ## site name without http ... :)  ..... ##**** PROBLEM ON FTP PROTOCOL
 
 
 '''Give url  to fetch '''
@@ -347,7 +347,8 @@ for one_url_in_list in url_list :
     res_dpli = url_checker_dupli( site_base_name , one_url_in_list)
     if res_dpli :    ## url not present 
         ret_robo  = robots_checker(one_url_in_list) ##robots check 
-        if ret_robo== 1 :    ## if -1 do nothing site not present  or delete site from dictionary *****  
+        if ret_robo== 1 :    ## if -1 do nothing site not present  or delete site from dictionary ***** 
+            res_dpli.add_anchor("Seeds","Seeds")   ##    ASK madam ... remove bz .. other will give anchor abt seeds
             add_to_site_queue_dict(site_base_name , one_url_in_list)
         elif ret_robo == 0:  
             denied_robots_call(site_base_name , one_url_in_list , "NO ACHOR TO SEEDS","NO WINDOW TO SEEDS")
@@ -406,6 +407,7 @@ while counter <= 5 :
                     ret_robo  = robots_checker(modified_abs_url) ##robots check 
                     if ret_robo== 1 :    ## if -1 do nothing site not present  or delete site from dictionary *****  
                         add_to_site_queue_dict(modi_site_base , modified_abs_url)
+                        urlretval.add_anchor(one_url_list_in_all_list[1], one_url_list_in_all_list[2])   ## anchor added 
                     elif ret_robo == 0:  
                         denied_robots_call(modi_site_base , modified_abs_url,one_url_list_in_all_list[1] ,one_url_list_in_all_list[2])
             else :         ## duplicate url 
@@ -456,3 +458,17 @@ print "*****************************\n"
 
 
 print urllistvisted
+
+
+
+
+
+
+
+
+###  1. anchor window add  
+###  2. anchor add ...change url_visited class return object ... so used to add anchor 
+###  3. delete from dicitionary return -1 sites ... bz they are not present   
+###  4. user -agent 
+###  5. how many levels go deeper
+###  6. focused crawler 

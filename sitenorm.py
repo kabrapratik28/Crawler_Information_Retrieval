@@ -33,8 +33,8 @@ def sitenamenormalization(baseurl , one_url_at_a_time): ## baseurl is one used f
     modified_base_url = 'http://'+baseurl
     joinedurl = urljoin( modified_base_url,one_url_at_a_time )   ##join url
     joined_url_parsed  = urlparse( joinedurl)                    ## parsed ... remove query from urls 
-    finalurl = joined_url_parsed.scheme+"://" + joined_url_parsed.netloc + joined_url_parsed.path
-    return finalurl.lower().strip('/')             ##last element / no use and making duplicatswith / and without /               ## case insensative
+    finalurl = joined_url_parsed.scheme+"://" + joined_url_parsed.netloc.lower() + joined_url_parsed.path
+    return finalurl.strip('/')             ##last element / no use and making duplicatswith / and without /               ## case insensative
 
 a =  sitenamenormalization('https://w3schools.com/html/default.asp' ,'/sitemap/sitemap_examples.asp' ) 
 print a 
