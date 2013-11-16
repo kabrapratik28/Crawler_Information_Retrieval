@@ -352,6 +352,9 @@ for one_url_in_list in url_list :
             add_to_site_queue_dict(site_base_name , one_url_in_list)
         elif ret_robo == 0:  
             denied_robots_call(site_base_name , one_url_in_list , "NO ACHOR TO SEEDS","NO WINDOW TO SEEDS")
+        elif ret_robo == -1 :  #*** delete site bz its not present in actual world   
+            del   visited_site_url[site_base_name]
+            del   data_url[site_base_name]  
     else :         ## duplicate url 
         add_anchor_only(site_base_name , one_url_in_list , "NO ACHOR TO SEEDS","NO WINDOW TO SEEDS" )
         
@@ -410,6 +413,9 @@ while counter <= 5 :
                         urlretval.add_anchor(one_url_list_in_all_list[1], one_url_list_in_all_list[2])   ## anchor added 
                     elif ret_robo == 0:  
                         denied_robots_call(modi_site_base , modified_abs_url,one_url_list_in_all_list[1] ,one_url_list_in_all_list[2])
+                    elif ret_robo == -1 :  #*** delete site bz its not present in actual world   
+                        del   visited_site_url[modi_site_base]
+                        del   data_url[modi_site_base]  
             else :         ## duplicate url 
                     add_anchor_only(modi_site_base , modified_abs_url, one_url_list_in_all_list[1], one_url_list_in_all_list[2] )
         
@@ -467,7 +473,7 @@ print urllistvisted
 
 
 ###  1. anchor window add  
-###  2. anchor add ...change url_visited class return object ... so used to add anchor 
+###  2. anchor add ...change url_visited class return object ... so used to add anchor    #### DONE ... :) 
 ###  3. delete from dicitionary return -1 sites ... bz they are not present   
 ###  4. user -agent 
 ###  5. how many levels go deeper
