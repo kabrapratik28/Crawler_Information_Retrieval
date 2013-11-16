@@ -109,7 +109,7 @@ def all_url_on_given_page(beautful_soap_string):   # return [[url,anchor,anchorw
 #normalized them using below defination
 #return all url,achor text , anchor text window 
     temp_list = [] 
-    for link in soup.find_all('a'):             ## for all a
+    for link in beautful_soap_string.find_all('a'):             ## for all a
          if link.get('href') :                  ## only contain href
              ref_anchorwindow = ''
              ref_link = link.get('href')
@@ -155,8 +155,8 @@ def sitenamenormalization(baseurl , one_url_at_a_time): ## baseurl is one used f
     modified_base_url = 'http://'+baseurl
     joinedurl = urljoin( modified_base_url,one_url_at_a_time )   ##join url
     joined_url_parsed  = urlparse( joinedurl)                    ## parsed ... remove query from urls 
-    finalurl = joined_url_parsed.scheme+"://" + joined_url_parsed.netloc + joined_url_parsed.path
-    return finalurl.lower().strip('/')             ##last element / no use and making duplicatswith / and without /               ## case insensative
+    finalurl = joined_url_parsed.scheme+"://" + joined_url_parsed.netloc.lower() + joined_url_parsed.path
+    return finalurl.strip('/')             ##last element / no use and making duplicatswith / and without /               ## case insensative
 
 
 
@@ -354,8 +354,8 @@ for one_url_in_list in url_list :
     else :         ## duplicate url 
         add_anchor_only(site_base_name , one_url_in_list , "NO ACHOR TO SEEDS","NO WINDOW TO SEEDS" )
         
-
-#========== checking  ========== 
+'''
+#========== checking  ==========                              ## **** DONE NICE UPTIL ALL GOOD CHECK BY UN COMMETING ALL STUFF
 print "URL FECTER QUEUE"
 print url_fecher_queue
 
@@ -371,3 +371,88 @@ print site_last_time_visit
 print "URL REMAINED"
 print site_current_url_remain
 
+for data_con in data_url:
+    print data_con
+    for  dataobj in data_url[data_con]: 
+        	print dataobj.url 
+                print dataobj.anchor 
+                print dataobj.anchor_win 
+                print dataobj.title 
+                print dataobj.urldata  
+
+
+
+while True :
+    urlgiver  = url_giver()
+    print urlgiver
+'''
+
+## exit functionality remove  ..... and   delete sites which are not present when robots checker say no site by returning -1 
+counter = 0 
+#for now only 
+urllistvisted = []
+while counter <= 5 : 
+    urlgiver  = url_giver()
+    site_base_name  = url_splitter(urlgiver)
+    soup_catcher = datastorer(site_base_name ,urlgiver )
+    if soup_catcher : 
+        list_of_url = all_url_on_given_page(soup_catcher)
+        for one_url_list_in_all_list in list_of_url : 
+            modified_abs_url = sitenamenormalization(urlgiver ,one_url_list_in_all_list[0] )
+            modi_site_base =  url_splitter(modified_abs_url)
+            urlretval = url_checker_dupli(modi_site_base ,modified_abs_url)
+            
+            if urlretval :    ## url not present 
+                    ret_robo  = robots_checker(modified_abs_url) ##robots check 
+                    if ret_robo== 1 :    ## if -1 do nothing site not present  or delete site from dictionary *****  
+                        add_to_site_queue_dict(modi_site_base , modified_abs_url)
+                    elif ret_robo == 0:  
+                        denied_robots_call(modi_site_base , modified_abs_url,one_url_list_in_all_list[1] ,one_url_list_in_all_list[2])
+            else :         ## duplicate url 
+                    add_anchor_only(modi_site_base , modified_abs_url, one_url_list_in_all_list[1], one_url_list_in_all_list[2] )
+        
+    urllistvisted.append(urlgiver) ###tatpurta 
+    counter = counter + 1 
+
+
+
+
+
+print "URL FECTER QUEUE"
+print url_fecher_queue
+
+print "\n\n\n\n"
+
+print "VISITED SITE URL"
+print visited_site_url
+
+print "\n\n\n\n"
+
+print "DATA URL"
+print data_url
+
+print "\n\n\n\n"
+
+print "SITE TIME"
+print site_last_time_visit
+
+print "\n\n\n\n"
+
+print "URL REMAINED"
+print site_current_url_remain
+
+print "\n\n\n\n"
+
+for data_con in data_url:
+    print data_con
+    for  dataobj in data_url[data_con]: 
+                print dataobj.url.encode('utf-8')  
+                print dataobj.anchor
+                print dataobj.anchor_win  
+                print dataobj.title.encode('utf-8') 
+                print dataobj.urldata.encode('utf-8')        
+                print "=============\n"
+print "*****************************\n"          
+
+
+print urllistvisted

@@ -1,10 +1,4798 @@
 URL FECTER QUEUE
-[]
+['http://twitter.com/RyersonU/ryerson', 'http://tedrogersschool.ca', 'http://bit.ly/1elDxGB', 'http://ryersonrams.ca', 'http://studentlife.ryerson.ca', 'http://ryerson.ca/index.html']
+
+
+
+
+
 VISITED SITE URL
-{'ramtest55.site88.net': ['http://ramtest55.site88.net'], 'rediff.com': ['http://rediff.com'], 'aadasajfl.com': ['http://aadasajfl.com/'], 'cps530.scs.ryerson.ca': ['http://cps530.scs.ryerson.ca/labs/manual.html', 'http://cps530.scs.ryerson.ca/labs/mamma.html'], 'openloop.com': ['http://openloop.com/softwareEngineering/'], 'dl.dropboxusercontent.com': ['https://dl.dropboxusercontent.com/u/18549820/slides/cps530/02-HTML.pdf']}
+{'apps.library.ryerson.ca': ['http://apps.library.ryerson.ca/feed2js/feed2js.php'], 'youtube.com': ['http://youtube.com/user/RyersonUTube', 'http://youtube.com', 'http://youtube.com/channel/HCtnHdj3df7iM', 'http://youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ', 'http://youtube.com/channel/HC7Dr1BKwqctY', 'http://youtube.com/channel/HChfZhJdhTqX8', 'http://youtube.com/channel/HC-r1FlvvNFs0', 'http://youtube.com/channel/UCYbn7i88VIwuGq_sQRKN4DQ', 'http://youtube.com/channel/UCHX5-wIWTaClDu6uTKXKItg', 'http://youtube.com/channel/UChuLeaTGRcfzo0UjL-2qSbQ', 'http://youtube.com/channel/UCBWjJaTpplJdqMSTRT5ZRug', 'http://youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ', 'http://youtube.com/channel/UCqyku6Kofy1nV86yh9R8n8A', 'http://youtube.com/channels', 'http://youtube.com/user/RyersonUTube/featured', 'http://youtube.com/user/RyersonUTube/feed', 'http://youtube.com/user/RyersonUTube/videos', 'http://youtube.com/user/RyersonUTube/about', 'http://youtube.com/playlist', 'http://youtube.com/watch', 'http://youtube.com/user/CuriousGeorgeHDTV', 'http://youtube.com/user/UBC', 'http://youtube.com/user/mcgilluniversity', 'http://youtube.com/user/universitytoronto', 'http://youtube.com/user/SFUNews', 'http://youtube.com/user/WesternUniversity', 'http://youtube.com/t/terms', 'http://youtube.com/testtube', 'http://youtube.com/user/ryersonlibrary/videos'], 'ezproxy.lib.ryerson.ca': ['http://ezproxy.lib.ryerson.ca/login'], 'sfx.scholarsportal.info': ['http://sfx.scholarsportal.info/ryerson/a-z/default'], 'my.ryerson.ca': ['http://my.ryerson.ca'], 'openloop.com': ['http://openloop.com/softwareEngineering/', 'http://openloop.com/softwareEngineering/sfwEngClassic/index.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/index.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/index.htm', 'http://openloop.com/softwareEngineering/security/index.htm', 'http://openloop.com/softwareEngineering/sfwEngClassic/classicModel1.htm', 'http://openloop.com/softwareEngineering/sfwEngClassic/classicModel2.htm'], 'studentlife.ryerson.ca': ['http://studentlife.ryerson.ca'], 'ryerson.ca': ['http://ryerson.ca', 'http://ryerson.ca/index.html', 'http://ryerson.ca/accessibility', 'http://ryerson.ca/about', 'http://ryerson.ca/news/news', 'http://ryerson.ca/maps', 'http://ryerson.ca/studentservices', 'http://ryerson.ca/research', 'http://ryerson.ca/jobs', 'http://ryerson.ca/contact', 'http://ryerson.ca/currentstudents', 'http://ryerson.ca/undergraduate/admission', 'http://ryerson.ca/graduate', 'http://ryerson.ca/continuing', 'http://ryerson.ca/alumni', 'http://ryerson.ca/supporting/campaign', 'http://ryerson.ca/facultystaff', 'http://ryerson.ca/content/dam/images/promos/features/PMA_Entre.jpg', 'http://ryerson.ca/content/dam/images/promos/features/PMA_Architecture2.jpg', 'http://ryerson.ca/content/dam/images/promos/features/PMA_MBA.gif', 'http://ryerson.ca/content/dam/images/promos/features/PMA_Crowd2.jpg', 'http://ryerson.ca/content/dam/images/promos/features/PMA_RIC.jpg', 'http://ryerson.ca/campusupdates', 'http://ryerson.ca/content/ryerson/news/news/Research_News/20131115_parada.html', 'http://ryerson.ca/content/ryerson/news/news/General_Public/20131115_curld.html', 'http://ryerson.ca/content/ryerson/news/news/General_Public/20131113_idea.html', 'http://ryerson.ca/content/ryerson/news/news/General_Public/20131111_gold.html', 'http://ryerson.ca/news/news/bulletin.html', 'http://ryerson.ca/news/media/spotlight/Ryerson_Commemorates_Sam/index.html', 'http://ryerson.ca/news/events', 'http://ryerson.ca/supporting/makeyourmark', 'http://ryerson.ca/currentstudents/new', 'http://ryerson.ca/currentstudents/awards', 'http://ryerson.ca/currentstudents/forms', 'http://ryerson.ca/currentstudents/importantdates', 'http://ryerson.ca/convocation', 'http://ryerson.ca/currentstudents/calendars', 'http://ryerson.ca/undergraduate/admission/overview', 'http://ryerson.ca/undergraduate/admission/apply', 'http://ryerson.ca/undergraduate/admission/programs', 'http://ryerson.ca/undergraduate/admission/visit', 'http://ryerson.ca/graduate/admissions', 'http://ryerson.ca/graduate/graduate_calendar', 'http://ryerson.ca/graduate/faculty', 'http://ryerson.ca/graduate/fees', 'http://ryerson.ca/graduate/forms', 'http://ryerson.ca/continuing/courses_programs', 'http://ryerson.ca/continuing/enrollment', 'http://ryerson.ca/continuing/students', 'http://ryerson.ca/continuing/contact', 'http://ryerson.ca/alumni/alumniweekend', 'http://ryerson.ca/alumni/enjoy/index.html', 'http://ryerson.ca/alumni/get-involved/events/index.html', 'http://ryerson.ca/supporting', 'http://ryerson.ca/makeyourmark', 'http://ryerson.ca/supporting/give/index.html', 'http://ryerson.ca/supporting/recognition/gifts.html', 'http://ryerson.ca/ri', 'http://ryerson.ca/research/services/ethics/index.html', 'http://ryerson.ca/teaching', 'http://ryerson.ca/hr', 'http://ryerson.ca/adminsupport', 'http://ryerson.ca/courses', 'http://ryerson.ca/faculties', 'http://ryerson.ca/arts', 'http://ryerson.ca/fcad', 'http://ryerson.ca/fcs', 'http://ryerson.ca/feas', 'http://ryerson.ca/facultyofscience', 'http://ryerson.ca/content/ryerson/undergraduate/admission/programs/index.html', 'http://ryerson.ca/content/ryerson/graduate', 'http://ryerson.ca/content/ryerson/continuing', 'http://ryerson.ca/privacy', 'http://ryerson.ca/ryerson.ca/terms.html', 'http://ryerson.ca/madar'], 'catalogue.library.ryerson.ca': ['http://catalogue.library.ryerson.ca', 'http://catalogue.library.ryerson.ca/screens/mainmenu.html', 'http://catalogue.library.ryerson.ca/patroninfo'], 'twitter.com': ['http://twitter.com/RyersonU/ryerson', 'http://twitter.com/ryersonu', 'http://twitter.com/ryersonlibrary'], 'bit.ly': ['http://bit.ly/1elDxGB', 'http://bit.ly/HyO7vF'], 'minisis.library.ryerson.ca': ['http://minisis.library.ryerson.ca/m2a'], 'facebook.com': ['http://facebook.com/pages/Ryerson-University/6017214773', 'http://facebook.com/pages/Toronto-ON/Ryerson-University-Library/5863804371'], 'surveymonkey.com': ['http://surveymonkey.com/s/LIB3'], 'pipes.yahoo.com': ['http://pipes.yahoo.com/pipes/pipe.run'], 'library.ryerson.ca': ['http://library.ryerson.ca', 'http://library.ryerson.ca/m', 'http://library.ryerson.ca/../index.html', 'http://library.ryerson.ca/guides', 'http://library.ryerson.ca/articles', 'http://library.ryerson.ca/services', 'http://library.ryerson.ca/info', 'http://library.ryerson.ca/collections', 'http://library.ryerson.ca/asc', 'http://library.ryerson.ca/collections/digital-commons', 'http://library.ryerson.ca/summon', 'http://library.ryerson.ca/articles/indexes_title', 'http://library.ryerson.ca/services/av/search', 'http://library.ryerson.ca/info/hours', 'http://library.ryerson.ca/services/facilities/computer', 'http://library.ryerson.ca/info/whats-new/workshops-and-events', 'http://library.ryerson.ca/services/faculty', 'http://library.ryerson.ca/copyright', 'http://library.ryerson.ca/guides/book-an-appointment', 'http://library.ryerson.ca/contactus', 'http://library.ryerson.ca/blog/2013/09/need-research-help-chat-with-us-2', 'http://library.ryerson.ca/blog/2013/10/cover-spread-exhibition-featuring-images-from-canadian-architect', 'http://library.ryerson.ca/blog', 'http://library.ryerson.ca/info/accessibility', 'http://library.ryerson.ca/siteindex'], 'www.youtube.com': ['http://www.youtube.com/upload', 'http://www.youtube.com/yt/about', 'http://www.youtube.com/yt/press', 'http://www.youtube.com/yt/copyright', 'http://www.youtube.com/yt/creators', 'http://www.youtube.com/yt/advertise', 'http://www.youtube.com/yt/dev', 'http://www.youtube.com/yt/policyandsafety'], 'void(0)': ['javascript://void(0)'], 'mail.ryerson.ca': ['http://mail.ryerson.ca'], 'ryerson.summon.serialssolutions.com': ['http://ryerson.summon.serialssolutions.com/advanced'], 'tedrogersschool.ca': ['http://tedrogersschool.ca'], 'childrenslit.library.ryerson.ca': ['http://childrenslit.library.ryerson.ca'], 'library.cf.ryerson.ca': ['http://library.cf.ryerson.ca/madar/geospatial/libdata/by_keyword.cfm', 'http://library.cf.ryerson.ca/studentbooking'], 'ryersonrams.ca': ['http://ryersonrams.ca', 'http://ryersonrams.ca//SportSelect.dbml'], 'flickr.com': ['http://flickr.com/photos/ryersonlibrary'], 'cas.ryerson.ca': ['http://cas.ryerson.ca/login'], 'www.google.com': ['http://www.google.com/tools/feedback/intl/en/error.html'], 'ryersonbuilds.ryerson.ca': ['http://ryersonbuilds.ryerson.ca/student-learning-centre'], 'google.com': ['http://google.com/intl/en/policies/privacy'], 'racer.scholarsportal.info': ['http://racer.scholarsportal.info'], 'digitalcommons.ryerson.ca': ['http://digitalcommons.ryerson.ca'], 'ruonline.ryerson.ca': ['http://ruonline.ryerson.ca', 'http://ruonline.ryerson.ca/ccon/new_gift.do'], 'accounts.google.com': ['http://accounts.google.com/ServiceLogin']}
+
+
+
+
+
 DATA URL
-{'ramtest55.site88.net': [<__main__.Url_class instance at 0x942adac>], 'rediff.com': [<__main__.Url_class instance at 0x942afcc>], 'aadasajfl.com': [<__main__.Url_class instance at 0x9427c2c>], 'cps530.scs.ryerson.ca': [<__main__.Url_class instance at 0xb76d692c>, <__main__.Url_class instance at 0x94279ec>], 'openloop.com': [<__main__.Url_class instance at 0x94278cc>], 'dl.dropboxusercontent.com': [<__main__.Url_class instance at 0x942afac>]}
+{'apps.library.ryerson.ca': [<__main__.Url_class instance at 0xa539e6c>], 'youtube.com': [<__main__.Url_class instance at 0xa26d5cc>, <__main__.Url_class instance at 0xa4238cc>, <__main__.Url_class instance at 0xa423dcc>, <__main__.Url_class instance at 0xa423d8c>, <__main__.Url_class instance at 0xa423e0c>, <__main__.Url_class instance at 0xa423e8c>, <__main__.Url_class instance at 0xa423cec>, <__main__.Url_class instance at 0xa423a6c>, <__main__.Url_class instance at 0xa423c6c>, <__main__.Url_class instance at 0xa423a2c>, <__main__.Url_class instance at 0xa26372c>, <__main__.Url_class instance at 0xa423b8c>, <__main__.Url_class instance at 0xa423d6c>, <__main__.Url_class instance at 0xa423f2c>, <__main__.Url_class instance at 0xa42898c>, <__main__.Url_class instance at 0xb7759c4c>, <__main__.Url_class instance at 0xa423fcc>, <__main__.Url_class instance at 0xa423e6c>, <__main__.Url_class instance at 0xa4287ec>, <__main__.Url_class instance at 0xa4289ac>, <__main__.Url_class instance at 0xa423d4c>, <__main__.Url_class instance at 0xa12122c>, <__main__.Url_class instance at 0xa428a2c>, <__main__.Url_class instance at 0xa42896c>, <__main__.Url_class instance at 0xa4285cc>, <__main__.Url_class instance at 0xa42854c>, <__main__.Url_class instance at 0xa42bb2c>, <__main__.Url_class instance at 0xa42d04c>, <__main__.Url_class instance at 0xa54dbec>], 'ezproxy.lib.ryerson.ca': [<__main__.Url_class instance at 0xa54dc0c>], 'sfx.scholarsportal.info': [<__main__.Url_class instance at 0xa53c22c>], 'my.ryerson.ca': [<__main__.Url_class instance at 0xa12128c>], 'openloop.com': [<__main__.Url_class instance at 0xa0e0a4c>, <__main__.Url_class instance at 0xa0ec80c>, <__main__.Url_class instance at 0xa1210ac>, <__main__.Url_class instance at 0xa1210cc>, <__main__.Url_class instance at 0xa12110c>, <__main__.Url_class instance at 0xa26822c>, <__main__.Url_class instance at 0xa25ce4c>], 'studentlife.ryerson.ca': [<__main__.Url_class instance at 0xa26da6c>], 'ryerson.ca': [<__main__.Url_class instance at 0xa0e0ccc>, <__main__.Url_class instance at 0xa26824c>, <__main__.Url_class instance at 0xa2683cc>, <__main__.Url_class instance at 0xa26860c>, <__main__.Url_class instance at 0xa2685ec>, <__main__.Url_class instance at 0xa268e8c>, <__main__.Url_class instance at 0xa268b4c>, <__main__.Url_class instance at 0xa268f0c>, <__main__.Url_class instance at 0xa26d9cc>, <__main__.Url_class instance at 0xa26d9ec>, <__main__.Url_class instance at 0xa26884c>, <__main__.Url_class instance at 0xa2683ac>, <__main__.Url_class instance at 0xa2685cc>, <__main__.Url_class instance at 0xa26894c>, <__main__.Url_class instance at 0xa26d40c>, <__main__.Url_class instance at 0xa26d8cc>, <__main__.Url_class instance at 0xa26de2c>, <__main__.Url_class instance at 0xa268c4c>, <__main__.Url_class instance at 0xa268a0c>, <__main__.Url_class instance at 0xa26838c>, <__main__.Url_class instance at 0xa268dac>, <__main__.Url_class instance at 0xa268a4c>, <__main__.Url_class instance at 0xa26de0c>, <__main__.Url_class instance at 0xa26d06c>, <__main__.Url_class instance at 0xa26d54c>, <__main__.Url_class instance at 0xa26872c>, <__main__.Url_class instance at 0xa26844c>, <__main__.Url_class instance at 0xa268a8c>, <__main__.Url_class instance at 0xa26d3ac>, <__main__.Url_class instance at 0xa26f74c>, <__main__.Url_class instance at 0xa26dc0c>, <__main__.Url_class instance at 0xa26f48c>, <__main__.Url_class instance at 0xa26fa6c>, <__main__.Url_class instance at 0xa26f6cc>, <__main__.Url_class instance at 0xa26f2ec>, <__main__.Url_class instance at 0xa268cac>, <__main__.Url_class instance at 0xa26d52c>, <__main__.Url_class instance at 0xa26f1ec>, <__main__.Url_class instance at 0xa26f08c>, <__main__.Url_class instance at 0xa26f5ec>, <__main__.Url_class instance at 0xa26d62c>, <__main__.Url_class instance at 0xa26f52c>, <__main__.Url_class instance at 0xa26f14c>, <__main__.Url_class instance at 0xa26fb6c>, <__main__.Url_class instance at 0xa26f24c>, <__main__.Url_class instance at 0xa26f0ec>, <__main__.Url_class instance at 0xa2684cc>, <__main__.Url_class instance at 0xa26fa4c>, <__main__.Url_class instance at 0xa26fccc>, <__main__.Url_class instance at 0xa26f26c>, <__main__.Url_class instance at 0xa26db0c>, <__main__.Url_class instance at 0xa26d3ec>, <__main__.Url_class instance at 0xa26f4ac>, <__main__.Url_class instance at 0xa26fc0c>, <__main__.Url_class instance at 0xa26fcac>, <__main__.Url_class instance at 0xa273a2c>, <__main__.Url_class instance at 0xa273c8c>, <__main__.Url_class instance at 0xa26f10c>, <__main__.Url_class instance at 0xa26f9ec>, <__main__.Url_class instance at 0xa27370c>, <__main__.Url_class instance at 0xa273dec>, <__main__.Url_class instance at 0xa26fe0c>, <__main__.Url_class instance at 0xa26f96c>, <__main__.Url_class instance at 0xa273b6c>, <__main__.Url_class instance at 0xa273a8c>, <__main__.Url_class instance at 0xa273eac>, <__main__.Url_class instance at 0xa273f8c>, <__main__.Url_class instance at 0xa26d64c>, <__main__.Url_class instance at 0xa26f98c>, <__main__.Url_class instance at 0xa273cec>, <__main__.Url_class instance at 0xa273e2c>, <__main__.Url_class instance at 0xa3463ec>, <__main__.Url_class instance at 0xa26f06c>, <__main__.Url_class instance at 0xa273e0c>, <__main__.Url_class instance at 0xa53c0ac>], 'catalogue.library.ryerson.ca': [<__main__.Url_class instance at 0xa42826c>, <__main__.Url_class instance at 0xa0ec22c>, <__main__.Url_class instance at 0xa539c8c>], 'twitter.com': [<__main__.Url_class instance at 0xa268b0c>, <__main__.Url_class instance at 0xa26fb8c>, <__main__.Url_class instance at 0xa5565ac>], 'bit.ly': [<__main__.Url_class instance at 0xa26d1cc>, <__main__.Url_class instance at 0xa26deec>], 'minisis.library.ryerson.ca': [<__main__.Url_class instance at 0xa54a8ec>], 'facebook.com': [<__main__.Url_class instance at 0xa26f4cc>, <__main__.Url_class instance at 0xa552a0c>], 'surveymonkey.com': [<__main__.Url_class instance at 0xa54a98c>], 'pipes.yahoo.com': [<__main__.Url_class instance at 0xa54aa4c>], 'library.ryerson.ca': [<__main__.Url_class instance at 0xa0e43ec>, <__main__.Url_class instance at 0xa53976c>, <__main__.Url_class instance at 0xa539d8c>, <__main__.Url_class instance at 0xa53c0ec>, <__main__.Url_class instance at 0xa539f8c>, <__main__.Url_class instance at 0xa53c5ac>, <__main__.Url_class instance at 0xa544d4c>, <__main__.Url_class instance at 0xa428d6c>, <__main__.Url_class instance at 0xa544c8c>, <__main__.Url_class instance at 0xa539eac>, <__main__.Url_class instance at 0xa54a02c>, <__main__.Url_class instance at 0xa26f6ac>, <__main__.Url_class instance at 0xa544cac>, <__main__.Url_class instance at 0xa54acac>, <__main__.Url_class instance at 0xa54dd6c>, <__main__.Url_class instance at 0xa0ec0ec>, <__main__.Url_class instance at 0xa53c40c>, <__main__.Url_class instance at 0xa54dd8c>, <__main__.Url_class instance at 0xa54de0c>, <__main__.Url_class instance at 0xa54dc2c>, <__main__.Url_class instance at 0xa53c1cc>, <__main__.Url_class instance at 0xa54ddcc>, <__main__.Url_class instance at 0xa552dac>, <__main__.Url_class instance at 0xa54d24c>, <__main__.Url_class instance at 0xa5524ec>], 'www.youtube.com': [<__main__.Url_class instance at 0xa2688cc>, <__main__.Url_class instance at 0xa42878c>, <__main__.Url_class instance at 0xa428fcc>, <__main__.Url_class instance at 0xa428dac>, <__main__.Url_class instance at 0xa4289ec>, <__main__.Url_class instance at 0xa273d6c>, <__main__.Url_class instance at 0xa42be4c>, <__main__.Url_class instance at 0xa42b1ec>], 'void(0)': [<__main__.Url_class instance at 0xa428f8c>], 'mail.ryerson.ca': [<__main__.Url_class instance at 0xa0ec24c>], 'ryerson.summon.serialssolutions.com': [<__main__.Url_class instance at 0xa54a20c>], 'tedrogersschool.ca': [<__main__.Url_class instance at 0xa26fcec>], 'childrenslit.library.ryerson.ca': [<__main__.Url_class instance at 0xa53986c>], 'library.cf.ryerson.ca': [<__main__.Url_class instance at 0xa5398cc>, <__main__.Url_class instance at 0xa54a7ec>], 'ryersonrams.ca': [<__main__.Url_class instance at 0xa268d2c>, <__main__.Url_class instance at 0xa268b6c>], 'flickr.com': [<__main__.Url_class instance at 0xa5564cc>], 'cas.ryerson.ca': [<__main__.Url_class instance at 0xa268fcc>], 'www.google.com': [<__main__.Url_class instance at 0xa42816c>], 'ryersonbuilds.ryerson.ca': [<__main__.Url_class instance at 0xa539eec>], 'google.com': [<__main__.Url_class instance at 0xa428fec>], 'racer.scholarsportal.info': [<__main__.Url_class instance at 0xa539b2c>], 'digitalcommons.ryerson.ca': [<__main__.Url_class instance at 0xa346acc>], 'ruonline.ryerson.ca': [<__main__.Url_class instance at 0xa26f72c>, <__main__.Url_class instance at 0xa0e4bcc>], 'accounts.google.com': [<__main__.Url_class instance at 0xa423c0c>]}
+
+
+
+
+
 SITE TIME
-{}
+{'youtube.com': datetime.datetime(2013, 11, 16, 9, 25, 53, 449078), 'openloop.com': datetime.datetime(2013, 11, 16, 9, 25, 53, 140463), 'mail.ryerson.ca': datetime.datetime(2013, 11, 16, 9, 25, 55, 462047), 'ryerson.ca': datetime.datetime(2013, 11, 16, 9, 25, 48, 235918), 'library.ryerson.ca': datetime.datetime(2013, 11, 16, 9, 25, 56, 23433)}
+
+
+
+
+
 URL REMAINED
-{'openloop.com': ['http://openloop.com/softwareEngineering/'], 'rediff.com': ['http://rediff.com'], 'ramtest55.site88.net': ['http://ramtest55.site88.net']}
+{'apps.library.ryerson.ca': ['http://apps.library.ryerson.ca/feed2js/feed2js.php'], 'youtube.com': ['http://youtube.com', 'http://youtube.com/channel/HCtnHdj3df7iM', 'http://youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ', 'http://youtube.com/channel/HC7Dr1BKwqctY', 'http://youtube.com/channel/HChfZhJdhTqX8', 'http://youtube.com/channel/HC-r1FlvvNFs0', 'http://youtube.com/channel/UCYbn7i88VIwuGq_sQRKN4DQ', 'http://youtube.com/channel/UCHX5-wIWTaClDu6uTKXKItg', 'http://youtube.com/channel/UChuLeaTGRcfzo0UjL-2qSbQ', 'http://youtube.com/channel/UCBWjJaTpplJdqMSTRT5ZRug', 'http://youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ', 'http://youtube.com/channel/UCqyku6Kofy1nV86yh9R8n8A', 'http://youtube.com/channels', 'http://youtube.com/user/RyersonUTube/featured', 'http://youtube.com/user/RyersonUTube/feed', 'http://youtube.com/user/RyersonUTube/videos', 'http://youtube.com/user/RyersonUTube/about', 'http://youtube.com/playlist', 'http://youtube.com/watch', 'http://youtube.com/user/CuriousGeorgeHDTV', 'http://youtube.com/user/UBC', 'http://youtube.com/user/mcgilluniversity', 'http://youtube.com/user/universitytoronto', 'http://youtube.com/user/SFUNews', 'http://youtube.com/user/WesternUniversity', 'http://youtube.com/t/terms', 'http://youtube.com/testtube', 'http://youtube.com/user/ryersonlibrary/videos'], 'sfx.scholarsportal.info': ['http://sfx.scholarsportal.info/ryerson/a-z/default'], 'accounts.google.com': ['http://accounts.google.com/ServiceLogin'], 'openloop.com': ['http://openloop.com/softwareEngineering/patterns/designPattern/index.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/index.htm', 'http://openloop.com/softwareEngineering/security/index.htm', 'http://openloop.com/softwareEngineering/sfwEngClassic/classicModel1.htm', 'http://openloop.com/softwareEngineering/sfwEngClassic/classicModel2.htm'], 'ryerson.ca': ['http://ryerson.ca/accessibility', 'http://ryerson.ca/about', 'http://ryerson.ca/news/news', 'http://ryerson.ca/maps', 'http://ryerson.ca/studentservices', 'http://ryerson.ca/research', 'http://ryerson.ca/jobs', 'http://ryerson.ca/contact', 'http://ryerson.ca/currentstudents', 'http://ryerson.ca/undergraduate/admission', 'http://ryerson.ca/graduate', 'http://ryerson.ca/continuing', 'http://ryerson.ca/alumni', 'http://ryerson.ca/supporting/campaign', 'http://ryerson.ca/facultystaff', 'http://ryerson.ca/content/dam/images/promos/features/PMA_Entre.jpg', 'http://ryerson.ca/content/dam/images/promos/features/PMA_Architecture2.jpg', 'http://ryerson.ca/content/dam/images/promos/features/PMA_MBA.gif', 'http://ryerson.ca/content/dam/images/promos/features/PMA_Crowd2.jpg', 'http://ryerson.ca/content/dam/images/promos/features/PMA_RIC.jpg', 'http://ryerson.ca/campusupdates', 'http://ryerson.ca/content/ryerson/news/news/Research_News/20131115_parada.html', 'http://ryerson.ca/content/ryerson/news/news/General_Public/20131115_curld.html', 'http://ryerson.ca/content/ryerson/news/news/General_Public/20131113_idea.html', 'http://ryerson.ca/content/ryerson/news/news/General_Public/20131111_gold.html', 'http://ryerson.ca/news/news/bulletin.html', 'http://ryerson.ca/news/media/spotlight/Ryerson_Commemorates_Sam/index.html', 'http://ryerson.ca/news/events', 'http://ryerson.ca/supporting/makeyourmark', 'http://ryerson.ca/currentstudents/new', 'http://ryerson.ca/currentstudents/awards', 'http://ryerson.ca/currentstudents/forms', 'http://ryerson.ca/currentstudents/importantdates', 'http://ryerson.ca/convocation', 'http://ryerson.ca/currentstudents/calendars', 'http://ryerson.ca/undergraduate/admission/overview', 'http://ryerson.ca/undergraduate/admission/apply', 'http://ryerson.ca/undergraduate/admission/programs', 'http://ryerson.ca/undergraduate/admission/visit', 'http://ryerson.ca/graduate/admissions', 'http://ryerson.ca/graduate/graduate_calendar', 'http://ryerson.ca/graduate/faculty', 'http://ryerson.ca/graduate/fees', 'http://ryerson.ca/graduate/forms', 'http://ryerson.ca/continuing/courses_programs', 'http://ryerson.ca/continuing/enrollment', 'http://ryerson.ca/continuing/students', 'http://ryerson.ca/continuing/contact', 'http://ryerson.ca/alumni/alumniweekend', 'http://ryerson.ca/alumni/enjoy/index.html', 'http://ryerson.ca/alumni/get-involved/events/index.html', 'http://ryerson.ca/supporting', 'http://ryerson.ca/makeyourmark', 'http://ryerson.ca/supporting/give/index.html', 'http://ryerson.ca/supporting/recognition/gifts.html', 'http://ryerson.ca/ri', 'http://ryerson.ca/research/services/ethics/index.html', 'http://ryerson.ca/teaching', 'http://ryerson.ca/hr', 'http://ryerson.ca/adminsupport', 'http://ryerson.ca/courses', 'http://ryerson.ca/faculties', 'http://ryerson.ca/arts', 'http://ryerson.ca/fcad', 'http://ryerson.ca/fcs', 'http://ryerson.ca/feas', 'http://ryerson.ca/facultyofscience', 'http://ryerson.ca/content/ryerson/undergraduate/admission/programs/index.html', 'http://ryerson.ca/content/ryerson/graduate', 'http://ryerson.ca/content/ryerson/continuing', 'http://ryerson.ca/privacy', 'http://ryerson.ca/ryerson.ca/terms.html', 'http://ryerson.ca/madar'], 'catalogue.library.ryerson.ca': ['http://catalogue.library.ryerson.ca'], 'twitter.com': ['http://twitter.com/ryersonu', 'http://twitter.com/ryersonlibrary'], 'bit.ly': ['http://bit.ly/HyO7vF'], 'minisis.library.ryerson.ca': ['http://minisis.library.ryerson.ca/m2a'], 'surveymonkey.com': ['http://surveymonkey.com/s/LIB3'], 'pipes.yahoo.com': ['http://pipes.yahoo.com/pipes/pipe.run'], 'www.youtube.com': ['http://www.youtube.com/upload', 'http://www.youtube.com/yt/about', 'http://www.youtube.com/yt/press', 'http://www.youtube.com/yt/copyright', 'http://www.youtube.com/yt/creators', 'http://www.youtube.com/yt/advertise', 'http://www.youtube.com/yt/dev', 'http://www.youtube.com/yt/policyandsafety'], 'childrenslit.library.ryerson.ca': ['http://childrenslit.library.ryerson.ca'], 'ryersonrams.ca': ['http://ryersonrams.ca//SportSelect.dbml'], 'flickr.com': ['http://flickr.com/photos/ryersonlibrary'], 'www.google.com': ['http://www.google.com/tools/feedback/intl/en/error.html'], 'google.com': ['http://google.com/intl/en/policies/privacy'], 'digitalcommons.ryerson.ca': ['http://digitalcommons.ryerson.ca'], 'library.ryerson.ca': ['http://library.ryerson.ca/m', 'http://library.ryerson.ca/../index.html', 'http://library.ryerson.ca/guides', 'http://library.ryerson.ca/articles', 'http://library.ryerson.ca/services', 'http://library.ryerson.ca/info', 'http://library.ryerson.ca/collections', 'http://library.ryerson.ca/asc', 'http://library.ryerson.ca/collections/digital-commons', 'http://library.ryerson.ca/summon', 'http://library.ryerson.ca/articles/indexes_title', 'http://library.ryerson.ca/services/av/search', 'http://library.ryerson.ca/info/hours', 'http://library.ryerson.ca/services/facilities/computer', 'http://library.ryerson.ca/info/whats-new/workshops-and-events', 'http://library.ryerson.ca/services/faculty', 'http://library.ryerson.ca/copyright', 'http://library.ryerson.ca/guides/book-an-appointment', 'http://library.ryerson.ca/contactus', 'http://library.ryerson.ca/blog/2013/09/need-research-help-chat-with-us-2', 'http://library.ryerson.ca/blog/2013/10/cover-spread-exhibition-featuring-images-from-canadian-architect', 'http://library.ryerson.ca/blog', 'http://library.ryerson.ca/info/accessibility', 'http://library.ryerson.ca/siteindex'], 'ryersonbuilds.ryerson.ca': ['http://ryersonbuilds.ryerson.ca/student-learning-centre']}
+
+
+
+
+
+apps.library.ryerson.ca
+http://apps.library.ryerson.ca/feed2js/feed2js.php
+[]
+[]
+
+
+=============
+
+youtube.com
+http://youtube.com/user/RyersonUTube
+[None, None, u'Ryerson University', u'Ryerson University', u'Ryerson University', u'Ryerson University']
+[u'\n', u'\n', u'\n          by ', u'\n          by ', u'\n          by ', u'\n          by ']
+Ryerson University - YouTube
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (window.ytcsi) {window.ytcsi.tick("cl", null, '');} machid: oMnlYLS1fSTYxeXk4MHNINXJFSzVRLUpMOGk1ZjdoWUFYWXlLSFljVzgtUzVHdnhOMnBLazNR 
+
+ CA
+Sign in Upload Search 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Guide
+              
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Popular on YouTube
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Music
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Sports
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Gaming
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Education
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Movies
+
+
+
+
+
+
+
+
+
+
+Channels for you
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Truthloader
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ASP
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Country Now
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+YouTube Spotlight
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Alex Day
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Browse channels
+
+
+
+
+
+
+
+
+
+
+      Sign in now to see your channels and recommendations!
+    
+
+Sign In 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      #c4-header-bg-container {
+    background-image: url(http://s.ytimg.com/yts/img/channels/c4/default_banner-vfl7DRgTn.png);
+  }
+
+
+    @media screen and (-webkit-min-device-pixel-ratio: 1.5),
+           screen and (min-resolution: 1.5dppx) {
+#c4-header-bg-container {
+        background-image: url(http://s.ytimg.com/yts/img/channels/c4/default_banner_hq-vfl4dpY8T.png);
+      }
+    }
+
+    
+
+
+
+
+
+
+
+          ryerson.ca
+        
+
+
+
+
+
+
+
+
+
+
+
+
+SubscribeSubscribedUnsubscribe 569 
+
+
+
+
+
+
+
+
+                        Subscription preferences
+
+
+                
+
+
+
+Loading...
+
+
+
+
+
+
+
+
+Loading...
+    
+
+
+
+
+
+
+
+
+
+
+
+Working...
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+      Ryerson University
+  
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Feed
+
+
+
+
+
+Videos 
+
+
+About 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ryerson Alumni Weekend 2011
+
+Play 
+
+
+      Ryerson University Magazine at Alumni Weekend. We asked returning alumni to tell their stories and memories of Ryerson.
+    
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+1:38
+ 
+
+
+
+
+
+
+        Alison Barbaste
+    
+
+
+
+
+          by Ryerson University
+
+119 views
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+1:57
+ 
+
+
+
+
+
+
+        Chris Drew on closing Gould Street
+    
+
+
+
+
+          by Ryerson University
+
+249 views
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+1:40
+ 
+
+
+
+
+
+
+        Ryerson Alumni Weekend - Margo Sherwood
+    
+
+
+
+
+          by Ryerson University
+
+125 views
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+1:50
+ 
+
+
+
+
+
+
+        Rick Miller on RTA facilites
+    
+
+
+
+
+          by Ryerson University
+
+238 views
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+Recent uploads
+
+Play 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+2:04
+ 
+
+
+
+
+
+
+        Ryerson University and St. Michael's Hospital partnership
+    
+
+
+
+88 views
+
+            3 days ago
+        
+
+
+CC
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+0:58
+ 
+
+
+
+
+
+
+        Ryerson and St. Michael's Hospital announce partnership.
+    
+
+
+
+24 views
+
+            1 week ago
+        
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+3:19
+ 
+
+
+
+
+
+
+        Chillin' on Gould - Ryerson United Way campaign
+    
+
+
+
+89 views
+
+            1 week ago
+        
+
+
+CC
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+2:42
+ 
+
+
+
+
+
+
+        "Ghost Dance" exhibit at Ryerson Image Centre
+    
+
+
+
+136 views
+
+            2 weeks ago
+        
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+3:12
+ 
+
+
+
+
+
+
+        DIY Days Toronto at Ryerson University
+    
+
+
+
+125 views
+
+            3 weeks ago
+        
+
+
+CC
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+3:01
+ 
+
+
+
+
+
+
+        Ryerson Artworks at Nuit Blanche
+    
+
+
+
+240 views
+
+            1 month ago
+        
+
+
+CC
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+2:13
+ 
+
+
+
+
+
+
+        Why Ryerson? Ontario Universities' Fair
+    
+
+
+
+286 views
+
+            1 month ago
+        
+
+
+CC
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+4:08
+ 
+
+
+
+
+
+
+        Canadian International Council debate - Ryerson vs. U of T
+    
+
+
+
+115 views
+
+            1 month ago
+        
+
+
+CC
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+4:43
+ 
+
+
+
+
+
+
+        Equity, Diversity and Inclusion at Ryerson University
+    
+
+
+
+209 views
+
+            1 month ago
+        
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+3:38
+ 
+
+
+
+
+
+
+        Rye's HomeGrown Harvest Party and Cook-off
+    
+
+
+
+178 views
+
+            1 month ago
+        
+
+
+CC
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+1:06
+ 
+
+
+
+
+
+
+        Toronto We Day 2013 - Ryerson University
+    
+
+
+
+412 views
+
+            1 month ago
+        
+
+
+CC
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+1:44
+ 
+
+
+
+
+
+
+        Message for Ryerson University community from We Day co-founder Craig Kielburger
+    
+
+
+
+392 views
+
+            2 months ago
+        
+
+
+CC
+
+
+
+
+
+
+View all
+            
+
+                  100+ items
+            
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+        Related channels on YouTube
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+      CuriousGeorgeHDTV
+  
+
+
+
+SubscribeSubscribedUnsubscribe  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+      UBC
+  
+
+
+
+SubscribeSubscribedUnsubscribe  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+      McGill University
+  
+ 
+ 
+
+
+
+SubscribeSubscribedUnsubscribe  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+      universitytoronto
+  
+
+
+
+SubscribeSubscribedUnsubscribe  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+      Simon Fraser University
+  
+ 
+ 
+
+
+
+SubscribeSubscribedUnsubscribe  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+      Western University
+  
+
+
+
+SubscribeSubscribedUnsubscribe  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
+Language:
+  
+  English
+ 
+
+
+ 
+Country:
+  
+  Canada
+ 
+
+
+ 
+Safety:
+  
+Off
+ 
+
+
+ 
+Help
+
+
+
+
+
+
+Loading...
+    
+
+
+
+
+
+
+Loading...
+    
+
+
+
+
+
+
+Loading...
+    
+
+
+ About
+Press & Blogs
+Copyright
+Creators & Partners
+Advertising
+Developers
+ Terms
+Privacy
+
+Policy & Safety
+  
+Send feedback
+Try something new!
+
+
+
+
+
+
+
+
+
+Loading...
+
+
+
+
+
+
+
+
+
+
+
+Working...
+
+
+
+
+
+
+
+
+Sign in to add this to Watch Later
+
+    
+
+
+
+
+Sign in to add this to Watch Later
+  
+
+
+
+
+
+
+        Loading playlists...
+    
+
+
+
+
+
+
+
+Back
+
+
+
+
+if (window.ytcsi) {window.ytcsi.tick("hr", null, '');}var ytspf = ytspf || {};ytspf.enabled = false; 
+
+if (window.ytcsi) {window.ytcsi.tick("je", null, '');}
+
+    yt.setConfig('CHANNEL_TAB', 'featured');
+    yt.setAjaxToken('c4_shelves_ajax', "N0-1-U9vHzSG_4k25JMqwugDLDV8MTM4NDY2MDU1M0AxMzg0NTc0MTUz");
+    yt.setAjaxToken('c4_spotlight_ajax', "9Wv-fQ2okIXgZqUZ5BbgTrATjE58MTM4NDY2MDU1M0AxMzg0NTc0MTUz");
+  
+
+      yt.setAjaxToken('feed_change_ajax', "uv1PlunEcuBLc8PlhsBHFEYeRR98MTM4NDY2MDU1M0AxMzg0NTc0MTUz");
+
+    yt.setConfig('CHANNEL_ID', "UCDthq1CgmmqRTh7KlERqgqw");
+    yt.setAjaxToken('c4_force_migration_ajax', "YWYcIDGJyHVtt9i9PSdyIljskXl8MTM4NDY2MDU1M0AxMzg0NTc0MTUz");
+    yt.setAjaxToken('c4_profile_ajax', "9N15cP3gEcK7oQKGi2p7o8oUOx58MTM4NDY2MDU1M0AxMzg0NTc0MTUz");
+    yt.setAjaxToken('creator_suggestions_ajax', "rCDQr991c2vYfoJcwPqXVIjwzHp8MTM4NDY2MDU1M0AxMzg0NTc0MTUz");
+    yt.setConfig('JS_PAGE_MODULES', {
+      "\/\/s.ytimg.com\/yts\/jsbin\/www-vflAfr_4H\/www_channels_mod.js": [
+      ]
+    });
+    yt.setConfig('CHANNEL_EDITABLE', false);
+  
+
+      yt.setConfig({
+        'GUIDE_SELECTED_ITEM': "0qDduQEaEhhVQ0R0aHExQ2dtbXFSVGg3S2xFUnFncXc%3D"
+      });
+  
+yt.setConfig({'EVENT_ID': "yeyGUv62EoOq8QHynICADw",'PAGE_NAME': "channel",'LOGGED_IN': false,'SESSION_INDEX': null,'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.m6tSbhdDLmw.O\/m=__features__\/rt=j\/d=1\/rs=AItRSTME_Ha2FhX9c0yBsElqKy-XzbRdqw",'GAPI_LOCALE': "en_US",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflnuKN9H.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-vflAfr_4H\/www_common_mod.js",'PAGE_FRAME_DELAYLOADED_CSS': "http:\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vflpV8WZJ.css",'PREFETCH_CSS_RESOURCES' : ["http:\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflbYONAQ.css",''         ],'PREFETCH_JS_RESOURCES': ["\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflFrKymJ.js",''         ],'SAFETY_MODE_PENDING': false,'LOCAL_DATE_TIME_CONFIG': {"formatShortDate": "MMM d, yyyy", "shortWeekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "amPms": ["AM", "PM"], "formatWeekdayShortTime": "EE h:mm a", "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "formatLongDate": "MMMM d, yyyy h:mm a", "formatLongDateOnly": "MMMM d, yyyy", "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]},'PAGE_CL': 56750602,'PAGE_BUILD_TIMESTAMP': "Fri Nov 15 13:27:21 2013 (1384550841)",'UNIVERSAL_HOVERCARDS': true,'FEEDBACK_BUCKET_ID': "Channels 4",'FEEDBACK_LOCALE_LANGUAGE': "en",'FEEDBACK_LOCALE_EXTRAS': {"guide_subs": "NA", "is_branded": "", "is_partner": "", "accept_language": null, "logged_in": false, "experiments": "937601,916615,925724,936401,925728,906945,929935,929939,939602,939604,912715,919811,935704,921410,920607,936702,911427,901812,932211,934003,934004,938608,938614,938617,938626,938620,913581,936912,936910,934015,923308,936913,940501,936323,936321,913573,935006,924414,924416,939201,902560,934507,907231,907240"}});yt.setMsg({'ADDTO_WATCH_LATER': "Watch Later",'ADDTO_WATCH_LATER_ADDED': "Added",'ADDTO_WATCH_LATER_ERROR': "Error"});yt.setAjaxToken('addto_ajax_logged_out', "UjjMg2bNEf0UILJRxHWg-YU24IV8MTM4NDY2MDU1M0AxMzg0NTc0MTUz");  yt.setConfig('FEED_PRIVACY_CSS_URL', "http:\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflpxHkXM.css");
+  yt.setAjaxToken('feed_privacy_ajax', "cLnH2g7ZpnFUK4s3YTSqgzkb9UR8MTM4NDY2MDU1M0AxMzg0NTc0MTUz");
+    yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-vfl08WbvN.js",'SBOX_SETTINGS': {"EXPERIMENT_ID": -1, "SESSION_INDEX": null, "PSUGGEST_TOKEN": null, "REQUEST_DOMAIN": "ca", "USE_HTTPS": false, "REQUEST_LANGUAGE": "en", "HAS_ON_SCREEN_KEYBOARD": false},'SBOX_LABELS': {"SUGGESTION_DISMISS_LABEL": "Dismiss", "VIEW_CHANNEL_LABEL": "View channel", "WATCH_NOW_LABEL": "Watch now", "SUGGESTION_DISMISSED_LABEL": "Suggestion dismissed"}});  yt.setConfig({
+    'YPC_LOADER_ENABLED': true,
+    'YPC_LOADER_CONFIGS': "\/ypc_config_ajax",
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vflr2dThd.js",
+    'YPC_LOADER_CSS': "http:\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfl7OlCUa.css",
+    'YPC_LOADER_CALLBACKS': ['yt.www.ypc.checkout.init', 'yt.www.ypc.subscription.init']
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "default");
+ 
+ytcsi.span('st', 93);yt.setConfig({'TIMING_ACTION': "channels4",'TIMING_INFO': {"yt_li": 0, "yt_spf": 0, "e": "937601,916615", "ei": "yeyGUv62EoOq8QHynICADw", "yt_lt": "cold"}});    
+yt.setConfig({'XSRF_TOKEN': "Oenj5-Mgl79cp6bUQiE7ouy3qvF8MTM4NDY2MDU1M0AxMzg0NTc0MTUz",'XSRF_REDIRECT_TOKEN': "sv6TRA_Q7TikcVkqvOTDOerATQd8MTM4NDY2MDU1M0AxMzg0NTc0MTUz",'XSRF_FIELD_NAME': "session_token"});yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);if (window.ytcsi) {window.ytcsi.tick("jl", null, '');} 
+
+=============
+
+http://youtube.com
+[None]
+['']
+
+
+=============
+
+http://youtube.com/channel/HCtnHdj3df7iM
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/HC7Dr1BKwqctY
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/HChfZhJdhTqX8
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/HC-r1FlvvNFs0
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/UCYbn7i88VIwuGq_sQRKN4DQ
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/UCHX5-wIWTaClDu6uTKXKItg
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/UChuLeaTGRcfzo0UjL-2qSbQ
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/UCBWjJaTpplJdqMSTRT5ZRug
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ
+[]
+[]
+
+
+=============
+
+http://youtube.com/channel/UCqyku6Kofy1nV86yh9R8n8A
+[]
+[]
+
+
+=============
+
+http://youtube.com/channels
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/RyersonUTube/featured
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/RyersonUTube/feed
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/RyersonUTube/videos
+[None, None]
+[u'\n', u'\n']
+
+
+=============
+
+http://youtube.com/user/RyersonUTube/about
+[]
+[]
+
+
+=============
+
+http://youtube.com/playlist
+[]
+[]
+
+
+=============
+
+http://youtube.com/watch
+[None, u'\n        Alison Barbaste\n    ', None, u'\n        Chris Drew on closing Gould Street\n    ', None, u'\n        Ryerson Alumni Weekend - Margo Sherwood\n    ', None, u'\n        Rick Miller on RTA facilites\n    ', None, None, u"\n        Ryerson University and St. Michael's Hospital partnership\n    ", None, u"\n        Ryerson and St. Michael's Hospital announce partnership.\n    ", None, u"\n        Chillin' on Gould - Ryerson United Way campaign\n    ", None, u'\n        "Ghost Dance" exhibit at Ryerson Image Centre\n    ', None, u'\n        DIY Days Toronto at Ryerson University\n    ', None, u'\n        Ryerson Artworks at Nuit Blanche\n    ', None, u"\n        Why Ryerson? Ontario Universities' Fair\n    ", None, u'\n        Canadian International Council debate - Ryerson vs. U of T\n    ', None, u'\n        Equity, Diversity and Inclusion at Ryerson University\n    ', None, u"\n        Rye's HomeGrown Harvest Party and Cook-off\n    ", None, u'\n        Toronto We Day 2013 - Ryerson University\n    ', None, u'\n        Message for Ryerson University community from We Day co-founder Craig Kielburger\n    ']
+[u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n', u'\n']
+
+
+=============
+
+http://youtube.com/user/CuriousGeorgeHDTV
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/UBC
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/mcgilluniversity
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/universitytoronto
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/SFUNews
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/WesternUniversity
+[]
+[]
+
+
+=============
+
+http://youtube.com/t/terms
+[]
+[]
+
+
+=============
+
+http://youtube.com/testtube
+[]
+[]
+
+
+=============
+
+http://youtube.com/user/ryersonlibrary/videos
+[]
+[]
+
+
+=============
+
+ezproxy.lib.ryerson.ca
+http://ezproxy.lib.ryerson.ca/login
+[None]
+['']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+sfx.scholarsportal.info
+http://sfx.scholarsportal.info/ryerson/a-z/default
+[]
+[]
+
+
+=============
+
+my.ryerson.ca
+http://my.ryerson.ca
+[u'my.ryerson.ca', u'https://my.ryerson.ca']
+[u'\n', u"\nNote: if you can't log in to RMail it may be because your account has moved to Gmail.  \nIf it has you should be able to access your Ryerson Gmail account by going to \n"]
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+openloop.com
+http://openloop.com/softwareEngineering/
+[]
+[]
+New Page 
+
+Software Engineering Tutorial
+ 
+Classic Material
+ 
+Design Pattern
+ 
+Architecture Pattern
+ 
+Security
+&n   b   s   p   ;   /   p   >   
+   /   b   o   d   y   >   
+   /   h   t   m   l   >   
+   !   -   -       t   e   x   t       b   e   l   o   w       g   e   n   e   r   a   t   e   d       b   y       s   e   r   v   e   r   .       P   L   E   A   S   E       R   E   M   O   V   E       -   -   >   !   -   -       C   o   u   n   t   e   r   /   S   t   a   t   i   s   t   i   c   s       d   a   t   a       c   o   l   l   e   c   t   i   o   n       c   o   d   e       -   -   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   J   a   v   a   S   c   r   i   p   t   "       s   r   c   =   "   h   t   t   p   :   /   /   l   .   y   i   m   g   .   c   o   m   /   d   /   l   i   b   /   s   m   b   /   j   s   /   h   o   s   t   i   n   g   /   c   p   /   j   s   _   s   o   u   r   c   e   /   w   h   v   2   _   0   0   1   .   j   s   "   >   /   s   c   r   i   p   t   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   j   a   v   a   s   c   r   i   p   t   "   >   g   e   o   v   i   s   i   t   (   )   ;   /   s   c   r   i   p   t   >   n   o   s   c   r   i   p   t   >   i   m   g       s   r   c   =   "   h   t   t   p   :   /   /   v   i   s   i   t   .   w   e   b   h   o   s   t   i   n   g   .   y   a   h   o   o   .   c   o   m   /   v   i   s   i   t   .   g   i   f   ?   u   s   1   3   8   4   5   7   4   1   4   8   "       a   l   t   =   "   s   e   t   s   t   a   t   s   "       b   o   r   d   e   r   =   "   0   "       w   i   d   t   h   =   "   1   "       h   e   i   g   h   t   =   "   1   "   >   /   n   o   s   c   r   i   p   t   >   
+=============
+
+http://openloop.com/softwareEngineering/sfwEngClassic/index.htm
+[]
+[]
+New Page 
+
+Classic Software Engineering Material
+ 
+Classic Material Part I
+Classic Material Part II
+
+=============
+
+http://openloop.com/softwareEngineering/patterns/designPattern/index.htm
+[]
+[]
+
+
+=============
+
+http://openloop.com/softwareEngineering/patterns/architecturePattern/index.htm
+[]
+[]
+
+
+=============
+
+http://openloop.com/softwareEngineering/security/index.htm
+[]
+[]
+
+
+=============
+
+http://openloop.com/softwareEngineering/sfwEngClassic/classicModel1.htm
+[]
+[]
+
+
+=============
+
+http://openloop.com/softwareEngineering/sfwEngClassic/classicModel2.htm
+[]
+[]
+
+
+=============
+
+studentlife.ryerson.ca
+http://studentlife.ryerson.ca
+[]
+[]
+
+
+=============
+
+ryerson.ca
+http://ryerson.ca
+[None, None]
+[u'\n', u' | \r\n                                    \xa92013 ']
+Ryerson University - Toronto, Ontario, Canada
+
+
+
+
+
+
+
+
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("/etc/segmentation");
+        CQ_Analytics.ClientContextMgr.PATH = "/etc/clientcontext/default";
+    });
+
+
+    $CQ(function() {
+        //old style load config
+        CQ_Analytics.ClickstreamcloudMgr.loadConfig();
+    })
+
+
+
+
+
+
+ banner logo area 
+
+ banner search panel 
+
+Accessibility | Web Mail
+
+
+
+
+
+
+Search:
+
+
+
+
+
+
+
+ banner student login panel 
+
+        .myRyersonButton {
+            display:table !important;
+            border:1px solid #ccc !important;
+            background-color:#666;
+            height:20px !important;
+            width:128px !important;
+            margin:12px 0px 0px 14px !important;
+            padding-top: 4px !important;
+            font-weight:bold !important;
+            font-size:12px !important;
+            color:#FFFFFF !important;
+            text-decoration: none !important;
+            }
+        .myRyersonButton:hover {
+            background-color:#333;
+            }
+        .myRyersonButton a {
+             color:#FFFFFF !important;
+             text-decoration: none !important;
+            }
+        
+
+my.ryerson.ca
+
+
+
+
+ABOUT | NEWS & EVENTS | CAMPUS MAPS | LIBRARY | STUDENT SERVICES | ATHLETICS | RESEARCH | CAREERS | CONTACT
+
+
+ end main navigation 
+ stream navigation tabs 
+
+
+ current student tab 
+
+ undergraduate tab 
+
+ grad tab 
+
+ ContEd tab 
+
+ Alumni tab 
+
+ Supporting tab 
+
+ Student Life tab 
+
+ Staff tab 
+
+
+
+ end stream navigation tabs 
+
+ end fixed banner and nav area 
+
+
+
+
+
+ * COMMENT 1 OF 2 *
+
+
+<div id="emergencyArea">
+<div class="eHeader">Bulletin</div>
+
+<h2>Ryerson University</h2>
+<p>
+We are experiencing technical difficulties with www.ryerson.ca.  The regular homepage will be back online shortly.  We apologize for any inconvenience.
+</p>
+<p>
+Ryerson is Canada's leader in innovative, career-focused education and a university clearly on the move. It is a distinctly urban university with a mission to serve societal need, and a long-standing commitment to engaging its community.
+</p>
+<p>
+Guided by a bold new Academic Plan, an ambitious research agenda, and a recently-completed Master Plan to revitalize the campus and surrounding neighbourhood, Ryerson is now the most applied-to university in Ontario relative to available spaces, and its reputation with business and community leaders continues to rise.
+</p>
+
+</div>
+
+
+
+<style>
+#main_content_none #main_content_panel #page_content .center .PMAnewsV3, 
+#main_content_none #main_content_panel #page_content .center .columns
+ {
+display:none !important;
+}
+
+#emergencyArea {
+width:875px; 
+padding:20px; 
+margin:20px;
+border:2px solid #f00;
+background-color:#f9f9f9;
+}
+
+.eHeader {
+color:#f00; 
+font-weight:bold; 
+font-size:14px;
+}
+
+.emergency_on{
+display:none;
+}
+</style>
+
+
+* COMMENT 2 OF 2 * 
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+  var $jqPMA = jQuery.noConflict(); 
+  $jqPMA(function() {
+    
+             $jqPMA('img.image0').data('ad-title', "<a target='_blank' href='http://www.ryerson.ca/entrepreneurship'>Unleashing entrepreneurship</a>");                              
+             
+             $jqPMA('img.image1').data('ad-title', "<a target='_blank' href='http://ryerson.ca/news/news/General_Public/20131021_gallery.html'>New gallery opens at Ryerson</a>");                              
+             
+             $jqPMA('img.image2').data('ad-title', "<a target='_blank' href='http://ryerson.ca/ryersontoday/data/news/2013/11/20131106_mba.html'>MBA scores well in rankings<br></a>");                              
+             
+             $jqPMA('img.image3').data('ad-title', "<a target='_blank' href='  http://ryerson.ca/news/news/General_Public/20131025_movember.html'>Focusing on men’s health</a>");                              
+             
+             $jqPMA('img.image4').data('ad-title', "<a target='_blank' href='http://www.ryerson.ca/news/media/General_Public/20131029_MR_TourismTorontoAward.html'>Destination Ryerson</a>");                              
+             
+    
+    var galleries = $jqPMA('.ad-gallery').adGallery({
+        effect: 'fade',width:false, height: false, slideshow: {animate_first_image: false, speed: 5000}
+    });
+    galleries[0].settings.effect = 'fade'; 
+   
+    $jqPMA('#toggle-slideshow').click(
+      function() {
+        galleries[0].slideshow.toggle();
+        return false;
+      }
+    );
+    $jqPMA('#toggle-description').click(
+      function() {
+        if(!galleries[0].settings.description_wrapper) {
+          galleries[0].settings.description_wrapper = $jqPMA('#descriptions');
+        } else {
+          galleries[0].settings.description_wrapper = false;
+        }
+        return false;
+      }
+    );
+  });
+  
+
+
+	#component1185665846 .ad-gallery {
+	   /*Sets width and height of Gallery */
+	   width: 960px;
+	}
+	#component1185665846 .ad-gallery {
+	   height: 420px;
+	}
+	#component1185665846 .ad-description-title a{
+		color:#FFFFFF !important;
+		text-decoration:none !important;
+	}
+	
+    #component1185665846 .ad-image-description{
+	    color:#FFFFFF !important;
+	    margin-bottom:0px !important;
+    }
+    #component1185665846 .ad-description-title {
+	    /*This is CSS for the title */
+	    text-align: right !important; 
+	    border-color: #FFFFFF;
+    }
+    #component1185665846 .ad-gallery .ad-image-wrapper .ad-image .ad-image-description {
+	    /* This is to change the overlay colour and position */
+	    background-image:url("/content/dam/images/home/right_bg.png") repeat scroll 0 0 transparent;
+	    /*left: 0% !important;*/
+	    width:29% !important; 
+    }
+    #component1185665846 .ad-thumbs ul{
+        width:305px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+End ad-thumbs div
+End ad-nav div
+End gallery div
+End container div
+
+
+    var $jqPMA = jQuery.noConflict();   //reset old jquery variable    
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+ EMERGENCY CONTENT - Start 
+
+Campus open for business following storm
+
+ EMERGENCY CONTENT - End 
+ Do not edit past this point 
+
+.newsEmergency_off {
+display: none;
+}
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+
+
+
+
+
+
+.customListTitlelistClass-539151{
+ 
+   
+    
+    
+}
+
+.displayedFontsTimesNewRoman{font-family:"Times New Roman", Times, serif;} 
+.displayedFontsGeorgia{font-family:"Palatino Linotype";} 
+.displayedFontsPalatino{font-family:"Times New Roman", Times, serif;} 
+.displayedFontsArial{font-family:"Arial";} 
+.displayedFontsComic{font-family:"Comic Sans MS";} 
+.displayedFontsVerdana{font-family:"Verdana";} 
+.displayedFontsLucida{font-family:"Lucida Console";} 
+.displayedFontsTrebuchet{font-family:"Trebuchet MS";}
+
+
+
+ 
+
+
+
+
+                Transforming children’s lives in Dominican Republic
+
+
+
+
+
+
+                Centre for Urban Research and Land Development gives students inside look at city-building initiatives
+
+
+
+
+
+
+                Competition winners get first-rate access to commercialization incubator
+
+
+
+
+
+
+                Psychology PhD graduate leads in advocacy, academia
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+ CAMPUS UPDATES - Start 
+
+
+
+Water main break update
+
+
+ CAMPUS UPDATES - End 
+ ANNOUNCEMENTS - Start 
+
+
+
+Commemorating the legacy of Sam the Record Man 
+
+
+ ANNOUNCEMENTS - End 
+ RYERSON IN THE NEWS - Start
+
+
+
+St. Michael's Hospital partners with Ryerson to create collaborative biomedical science and technology research centre
+
+Ryerson’s Braletic named CIS men’s soccer player of the year
+
+
+ RYERSON IN THE NEWS - End
+ Do not edit past this point 
+
+.newsFeature_off {
+display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+    if(eventCalendarPaths === undefined){
+    var eventCalendarPaths = new Object();
+    }
+    eventCalendarPaths["70383382"] = "1_group.p.or=true&1_group.0_path=/content/ryerson";
+    
+    if(eventCalendarTags === undefined){
+        var eventCalendarTags = new Object();
+    }
+    eventCalendarTags["70383382"] = "";
+    
+    if(eventCalendarPathsSig === undefined){
+        var eventCalendarPathsSig = new Object();
+        }
+        eventCalendarPathsSig["70383382"] = "1_group.p.or=true&1_group.0_path=/content/ryerson/studentguide/significant-dates";
+    
+    if(eventCalendarTagsSig === undefined){
+        var eventCalendarTagsSig = new Object();
+    }
+    eventCalendarTagsSig["70383382"] = "";
+
+
+.smallCalendar-70383382 a {
+text-decoration:none !important;
+}
+
+#smallCalendarEventHolder-70383382{
+margin-left:auto;
+text-decoration:none !important;
+font-family: Arial,sans-serif;
+overflow-x:hidden;
+overflow-y:auto;
+height:255px;
+padding-left:10px;
+}
+
+
+var calendarColorDates = new Array();
+var calendarSignificantDates = new Array();
+var showEventSigMessage = false;
+function getSignificantMonthlyEvents(dateInst,year,month,paths,tags){
+    if(dateInst != null){
+        monthlyQueryDateStart = new Date(dateInst.drawYear,dateInst.drawMonth,1);
+        monthlyQueryDateEnd = new Date(dateInst.drawYear,dateInst.drawMonth,1);
+        monthlyQueryDateEnd.setMonth(monthlyQueryDateEnd.getMonth() + 1 );
+    } else{ 
+        monthlyQueryDateStart = new Date(year,month,1);
+        monthlyQueryDateEnd = new Date(year,month,1);
+        monthlyQueryDateEnd.setMonth(monthlyQueryDateEnd.getMonth() + 1 );
+    }
+    
+    jqcal.ajax({
+        url: "/content/ryeBuilder.json",
+        type: "POST",
+        data: "3_group.2_daterange.lowerBound="+(monthlyQueryDateStart.getTime()-1)+"&3_group.2_daterange.property=toDate&3_group.2_daterange.upperBound="+monthlyQueryDateEnd.getTime()+"&3_group.1_daterange.lowerBound="+(monthlyQueryDateStart.getTime()-1)+"&3_group.1_daterange.property=fromDate&3_group.1_daterange.upperBound="+monthlyQueryDateEnd.getTime()+"&3_group.p.or=true&orderby=toDate&orderby.sort=asc&p.limit=250&"+paths+"&"+tags, 
+        async: false,
+        success: function(msg){
+            counter = 0; 
+            var ajaxCounter = 0;
+            calendarSignificantDates = new Array();
+            
+           var dateArr = "";
+               if(msg.hits != null){
+                    for(i=0;i<msg.hits.length;i++){
+                    dateArr += msg.hits[i].path+";;";
+                    counter++;
+               }   
+                jqcal.ajax({
+                    url: "/content/eventsCalendarData.html",
+                    type: "POST", 
+                    data: dateArr,
+                    async: false,
+                    success: function(eventinfo){
+                    var retData = (jqcal.trim(eventinfo)).split(";;");
+                    var caldate;
+                    for(caldate in retData){
+                    if(Number(caldate) >= 0){
+                        var retDate = new Date(retData[caldate]);
+                        var newDay = retDate.getDate();
+                        if(!isNaN(newDay) && retDate.getMonth() == month){
+                        calendarSignificantDates.push(newDay);
+                        } 
+                    }
+                         
+                    }
+                    
+                    }
+                });    
+                counter++; 
+            } 
+
+        }
+    } 
+    );
+}
+
+function getMonthlyEvents(dateInst,year,month,paths,tags){
+    if(dateInst != null){
+        monthlyQueryDateStart = new Date(dateInst.drawYear,dateInst.drawMonth,1);
+        monthlyQueryDateEnd = new Date(dateInst.drawYear,dateInst.drawMonth,1);
+        monthlyQueryDateEnd.setMonth(monthlyQueryDateEnd.getMonth() + 1 );
+    } else{ 
+        monthlyQueryDateStart = new Date(year,month,1);
+        monthlyQueryDateEnd = new Date(year,month,1);
+        monthlyQueryDateEnd.setMonth(monthlyQueryDateEnd.getMonth() + 1 );
+    }
+    
+    jqcal.ajax({
+        url: "/content/ryeBuilder.json",
+        type: "POST",
+        data: "daterange.lowerBound="+(monthlyQueryDateStart.getTime()-1)+"&daterange.property=start&daterange.upperBound="+monthlyQueryDateEnd.getTime()+"&orderby=@start&orderby.sort=asc&p.limit=200&"+paths+"&type=cq%3aCalendarEvent"+"&"+tags,
+        async: false,
+        success: function(msg){
+            counter = 0; 
+            var ajaxCounter = 0;
+            calendarColorDates = new Array();
+            
+           var dateArr = "";
+               if(msg.hits != null){
+                    for(i=0;i<msg.hits.length;i++){
+                    dateArr += msg.hits[i].path+";;";
+                    counter++;
+               }   
+
+                jqcal.ajax({
+                    url: "/content/eventsCalendarData.html",
+                    type: "POST", 
+                    data: dateArr,
+                    async: false,
+                    success: function(eventinfo){
+                    var retData = (jqcal.trim(eventinfo)).split(";;");
+                     
+
+                    var caldate;
+                    for(caldate in retData){
+                    // alert(caldate);
+                    if(Number(caldate) >= 0){
+                        calendarColorDates.push(new Date(retData[caldate]).getDate()); 
+                    }
+                    }
+                    }
+                });    
+                counter++; 
+            } 
+        }
+    } 
+    );
+}
+
+function getEventPages(thedate,componentId,paths,tags){
+    eventQueryDateStart = new Date(thedate.getFullYear(),thedate.getMonth(),thedate.getDate());
+    eventQueryDateEnd = new Date(thedate.getFullYear(),thedate.getMonth(),thedate.getDate());
+    eventQueryDateEnd.setDate(eventQueryDateEnd.getDate() + 1 );
+    var returnValue = true;
+    jqcal.ajax({
+        url: "/content/ryeBuilder.json",
+        type: "POST",
+        data: "daterange.lowerBound="+(eventQueryDateStart.getTime()-1)+"&daterange.property=start&daterange.upperBound="+eventQueryDateEnd.getTime()+"&orderby=@start&orderby.sort=asc&"+paths+"&type=cq:CalendarEvent"+"&"+tags,
+        async: false,
+        success: function(msg){
+            counter = 0;
+            if(msg.hits != null && msg.hits.length > 0){
+                for(i=0;i<msg.hits.length;i++){
+                    getEventInfo(msg.hits[i].path,counter,componentId);
+                    counter++;
+                }
+                if(counter == 0){
+                    returnValue = false;
+                }
+            }else{
+                returnValue = false;
+            }
+        }
+    } 
+    );
+    return returnValue;
+}
+
+function getFutureEventPages(thedate,componentId,paths,tags){
+    console.log(paths);
+    showEventSigMessage = true;
+    eventQueryDateStart = new Date(thedate.getFullYear(),thedate.getMonth(),thedate.getDate());
+    jqcal.ajax({
+        url: "/bin/querybuilder.json",
+        type: "POST",
+        data: "daterange.lowerBound="+(eventQueryDateStart.getTime()-1)+"&daterange.property=start&p.limit=3&orderby=@start&orderby.sort=asc&"+paths+"&type=cq%3aCalendarEvent"+"&"+tags,
+        async: false,
+        success: function(msg){
+            counter = 0;
+            if(msg.hits != null && msg.hits.length > 0){
+                for(i=0;i<msg.hits.length;i++){
+                    getEventInfo(msg.hits[i].path,counter,componentId);
+                    counter++;
+                }
+            } 
+        }
+    } 
+    );
+}
+
+function getEventInfo(pageUrl,counter,componentId){
+
+    realPath=pageUrl.substring(0,pageUrl.indexOf("jcr:content",0)-1) + ".html";
+    jqcal.ajax({
+        url: pageUrl+".json",
+        type: "GET",
+        async: false,
+        success: function(eventinfo){
+           assembleEvent(eventinfo,realPath,counter,componentId);
+        }
+    }
+    );
+}
+
+function assembleEvent(eventobj,realPath,counter,componentId){
+    startDate = new Date(eventobj.start);
+    var randomnumber=Math.floor(Math.random()*11);
+    jqcal("#smallCalendarEventHolder-"+componentId + " .smallCalendarEventHolder").append("<div id=\""+componentId+""+counter+"\" class=\"smallCalendarEvent\" style=\"opacity:0;\"><div class=\"smallCalendarDate\">"+startDate.toDateString()+"</div><div class=\"smallCalendarTitle\"><a href='"+realPath+"'>"+eventobj["linkname"]+"</a></div></div>");
+     jqcal("#"+componentId+""+counter).delay(150+counter*150).animate({opacity:1},250);
+}
+
+function getSignificantPages(thedate,componentId,paths,tags){
+    eventQueryDateStart = new Date(thedate.getFullYear(),thedate.getMonth(),thedate.getDate());
+    eventQueryDateEnd = new Date(thedate.getFullYear(),thedate.getMonth(),thedate.getDate());
+    eventQueryDateEnd.setDate(eventQueryDateEnd.getDate() + 1 );
+    var returnValue = true;
+    jqcal.ajax({
+        url: "/content/ryeBuilder.json",
+        type: "POST",
+        data: "3_group.2_daterange.lowerBound="+(eventQueryDateStart.getTime()-1)+"&3_group.2_daterange.property=toDate&3_group.2_daterange.upperBound="+eventQueryDateEnd.getTime()+"&3_group.1_daterange.lowerBound="+(eventQueryDateStart.getTime()-1)+"&3_group.1_daterange.property=fromDate&3_group.1_daterange.upperBound="+eventQueryDateEnd.getTime()+"&3_group.p.or=true&orderby=@toDate&orderby.sort=asc&"+paths+"&"+tags,
+        async: false,
+        success: function(msg){
+            counter = 100;
+            if(msg.hits != null && msg.hits.length > 0){
+                for(i=0;i<msg.hits.length;i++){
+                    getSignificantInfo(msg.hits[i].path,counter,componentId);
+                    counter++;
+                }
+                if(counter == 100){
+                    returnValue = false;
+                }
+               
+            }else{
+                returnValue = false;
+            }
+        }
+    } 
+    );
+    return returnValue;
+}
+
+function getFutureSignificantPages(thedate,componentId,paths,tags){
+    //console.log("start");
+    //console.log(thedate.getFullYear() +" : " +thedate.getMonth()+" : " +thedate.getDate());
+    showEventSigMessage = true;
+    eventQueryDateStart = new Date(thedate.getFullYear(),(thedate.getMonth()),thedate.getDate());
+    console.log(eventQueryDateStart.getTime());
+    jqcal.ajax({
+        url: "/bin/querybuilder.json",
+        type: "POST",
+        data: "3_group.2_daterange.lowerBound="+(eventQueryDateStart.getTime()-1)+"&3_group.2_daterange.property=toDate&3_group.1_daterange.lowerBound="+(eventQueryDateStart.getTime()-1)+"&3_group.1_daterange.property=fromDate&3_group.p.or=true&orderby=@toDate&orderby.sort=asc&p.limit=2&"+paths+"&"+tags,
+        async: false,
+        success: function(msg){
+            counter = 100;
+            if(msg.hits != null && msg.hits.length > 0){
+                for(i=0;i<msg.hits.length;i++){
+                    getSignificantInfo(msg.hits[i].path,counter,componentId);
+                    counter++;
+                }
+            }
+        }
+    } 
+    );
+}
+
+function getSignificantInfo(pageUrl,counter,componentId){
+
+    realPath=pageUrl.substring(0,pageUrl.indexOf("jcr:content",0)-1) + ".html";
+    jqcal.ajax({
+        url: pageUrl+".json",
+        type: "GET",
+        async: false,
+        success: function(eventinfo){
+        assembleSignificant(eventinfo,realPath,counter,componentId);
+        }
+    }
+    );
+}
+
+function assembleSignificant(eventobj,realPath,counter,componentId){
+    startDate = new Date(eventobj.fromDate);
+    endDate = new Date(eventobj.toDate);
+    finalDateString = "";
+    if(eventobj.fromDate != undefined){
+        finalDateString += startDate.toDateString()+" - ";
+    }
+    finalDateString += endDate.toDateString();
+    var randomnumber=Math.floor(Math.random()*11);
+      jqcal("#smallCalendarEventHolder-"+componentId + " .smallCalendarEventHolder").append("<div id=\""+componentId+""+counter+"\" class=\"smallCalendarEvent sigEventListItem\" style=\"opacity:0;\"><div class=\"smallCalendarDate\">"+finalDateString+"</div><div class=\"smallCalendarTitle\"><a href=\""+realPath+"#"+eventobj["jcr:created"].substring(16,24).replace(/:/g,'') + eventobj["title"].substring(0,1)+"\">"+eventobj["title"]+"</a></div></div>");
+      jqcal("#"+componentId+""+counter).delay(150+(counter-100)*150).animate({opacity:1},250);
+}
+
+function checkFutureMessage(componentId){
+    if(showEventSigMessage){
+        jqcal("#smallCalendarEventHolder-" + componentId + " .noEventsMessage").html("<img style=\"position:relative;top:6px;left:10px;margin-bottom:3px;\" src=\"/content/dam/uiResources/jQuery/css/custom-theme/get_info.png\"/><div class=\"smallCalendarNoEvent\" style=\"\">There are currently no items scheduled for "+eventQueryDateStart.toDateString()+"</div>");
+    } else{
+        jqcal("#smallCalendarEventHolder-" + componentId + " .noEventsMessage").html("");
+    }
+    showEventSigMessage = false;
+}
+
+    jqcal(document).ready(function() { 
+        getMonthlyEvents(null,(new Date()).getFullYear(),(new Date()).getMonth(),eventCalendarPaths["70383382"],eventCalendarTags["70383382"]);
+        getSignificantMonthlyEvents(null,(new Date()).getFullYear(),(new Date()).getMonth(),eventCalendarPathsSig["70383382"],eventCalendarTagsSig["70383382"]); 
+        var datepicker = jqcal(".smallCalendar-70383382").datepicker({
+            onSelect: function(){
+            var milliseconds = jqcal(".smallCalendar-70383382").datepicker('getDate').getTime();
+            var date = new Date(milliseconds); 
+            jqcal("#smallCalendarEventHolder-70383382 .smallCalendarEventHolder").html("");
+
+            var currentViewPanelOption = jQuery("#component70383382 .calendarEventOptionsPanel .checkListOn").html();
+            if(currentViewPanelOption == "Events Only" ){
+                var checkExists = getEventPages(date,70383382,eventCalendarPaths["70383382"],eventCalendarTags["70383382"]);
+                if(!checkExists){
+                    getFutureEventPages(date,70383382,eventCalendarPaths["70383382"],eventCalendarTags["70383382"]);
+                }
+            } else if(currentViewPanelOption == "Significant Dates Only" ){
+                var checkExists = getSignificantPages(date,70383382,eventCalendarPathsSig["70383382"],eventCalendarTagsSig["70383382"]);
+                if(!checkExists){
+                    getFutureSignificantPages(date,70383382,eventCalendarPathsSig["70383382"],eventCalendarTagsSig["70383382"]);
+                }
+            } else {
+                var checkSigDatesExist = getSignificantPages(date,70383382,eventCalendarPathsSig["70383382"],eventCalendarTagsSig["70383382"]);
+                var checkEventsExist = getEventPages(date,70383382,eventCalendarPaths["70383382"],eventCalendarTags["70383382"]);
+                if(!checkSigDatesExist && !checkEventsExist){
+                    getFutureSignificantPages(date,70383382,eventCalendarPathsSig["70383382"],eventCalendarTagsSig["70383382"]);
+                    getFutureEventPages(date,70383382,eventCalendarPaths["70383382"],eventCalendarTags["70383382"]);
+                }     
+            }
+            
+            checkFutureMessage("70383382");
+        }, 
+        onChangeMonthYear:function(year,month,inst)
+        {
+            getMonthlyEvents(inst,year,month,eventCalendarPaths["70383382"],eventCalendarTags["70383382"]);
+            getSignificantMonthlyEvents(inst,year,month-1,eventCalendarPathsSig["70383382"],eventCalendarTagsSig["70383382"]);
+        },
+        beforeShowDay: function(date) {
+              var currentViewPanelOption = jQuery("#component70383382 .calendarEventOptionsPanel .checkListOn").html();
+            var dateindex = jqcal.inArray(date.getDate(),calendarColorDates);
+            var datesigindex = jqcal.inArray(date.getDate(),calendarSignificantDates);
+            calendarColorDates2 = calendarColorDates.slice(0);
+            calendarColorDates2[dateindex] = -999999;
+            var sigClass= "";
+            if(currentViewPanelOption != "Events Only"){
+                if(datesigindex >= 0){
+                    sigClass = "smallCalendarSigEvent"
+                } else {
+                    sigClass= "";
+                }
+            }
+            
+            var eventClass = "";
+            var mergedClass = "";
+            if(dateindex >= 0 && currentViewPanelOption != "Significant Dates Only"){
+                if(jqcal.inArray(date.getDate(),calendarColorDates2) >= 0){
+                    eventClass = "smallCalendarMultiEvent";
+                } else {
+                    eventClass = "smallCalendarSingleEvent";
+                }
+               
+            }
+            mergedClass = eventClass + " " + sigClass;
+            if(dateindex >= 0 || datesigindex >= 0){
+                return [true, mergedClass];
+            }
+            return [true, ' customTintCalendar'];
+        },
+        beforeShow: function(input, inst) {       
+            window.setTimeout(function(){
+                jqcal("body").find('.ui-state-highlight .ui-state-hover').removeClass('ui-state-highlight ui-state-hover');
+            },0)
+        }
+        });
+        jqcal("a, .ui-state-hover").removeClass('ui-state-hover');
+        var date = new Date();
+        jQuery(".ui-datepicker-current-day").trigger("click");
+        jQuery("#component70383382 .calendarEventOptionsPanel").hide();
+        jQuery("#component70383382 .calendarEventOptions").click(function(){
+            jQuery('#component70383382 .calendarEventOptionsPanel').toggle({duration:200});
+        });
+        jQuery("#component70383382 .calendarEventOptionsPanel ul li").click(function(){
+            if(jQuery(this).attr("class") == "checkListOff"){
+                jQuery('#component70383382 .calendarEventOptionsPanel ul li').each(function(index,value){
+                    jQuery(value).attr("class", "checkListOff");
+                });
+                jQuery(this).attr("class", "checkListOn");
+            } 
+            if(jQuery(this).html() == "Events Only"){
+                jQuery("#component70383382 .calendarMainTitle").html("Upcoming Events");
+            } else if(jQuery(this).html() == "Events and Significant Dates"){
+                 jQuery("#component70383382 .calendarMainTitle").html("Upcoming Events & Dates");
+            } else{
+                jQuery("#component70383382 .calendarMainTitle").html("Upcoming Significant Dates");
+            }
+            
+            jQuery("#component70383382 .calendarEventOptionsPanel").hide();
+            jQuery(".ui-datepicker-current-day").trigger("click");
+        
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+
+      
+
+Significant Dates
+
+
+
+      
+
+Multiple Events
+
+
+
+      
+
+Single Event
+
+
+
+
+
+
+
+
+
+Upcoming Events & Dates
+
+
+
+
+
+
+
+
+Events Only
+Significant Dates Only
+Events and Significant Dates
+
+
+
+
+
+
+
+
+
+
+var $ = jQuery.noConflict();
+
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+
+
+
+
+Basketball (W): vs Windsor (11/15/2013)
+at Toronto, Ont. (Mattamy Athletic Centre) - 6:00 PM -
+				
+				
+Volleyball (M): vs Windsor (11/15/2013)
+at Windsor, Ont. (St. Denis Centre) - 7:00 PM -
+				
+				
+Hockey (M): vs RMC (11/15/2013)
+at Toronto, Ont. (Mattamy Athletic Centre) - 7:30 PM -
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tweets from @RyersonU/ryerson
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+FOLLOW US:
+
+
+
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    **note changes made above in normal non preview css styles
+    repeat the style writing above and append X at the end of the component id for preview
+     
+
+
+
+
+ Current StudentsNew StudentsScholarshipsFormsDatesConvocationCalendar UndergraduateAdmissions OverviewApplyingAcademic ProgramsVisits & Tours GraduateAdmissionsProgramsGraduate CalendarFacultyFeesForms Continuing EducationCourses and ProgramsEnrollmentStudentsContact UsAlumniAlumni WeekendCard & DiscountsEventsRU Online SupportingMake Your Mark CampaignHow to GiveGift AnnouncementsGive Now Research & InnovationOffice of Research and InnovationRyerson InternationalResearch Ethics Faculty & StaffTeaching@RyersonHuman ResourcesAdmin SupportBlackboard SupportFaculties & ProgramsFaculty of ArtsFaculty of Communication & DesignFaculty of Community ServicesFaculty of Engineering & Architectural ScienceFaculty of ScienceTed Rogers School of ManagementUndergraduate Program SearchYeates School of Graduate StudiesContinuing EducationThe Chang School Course Calendar
+
+
+
+
+
+
+#searchlinks {width:510px !important; }
+
+#searchbox {width:510px !important;}
+
+#contentarea {margin-top: 0; margin-bottom: 0; } 
+
+#contentarea #main_content_panel {width:960px; }
+
+#main_content_none {padding-top: 0; margin-top: 0; width:959px;}
+
+#main_content_panel h1, #main_content_panel h1 a, #main_content_panel #toolbar, #sect_bannerarea {display: none; margin: 0;}
+
+#main_content_panel {padding: 0; margin: 0;}
+
+#bannernav {height: 97px !important;}
+
+#mainFeature {margin: 0;}
+
+#recent_news {width:auto;}
+
+.news_thumb a img {border:1px solid #d6d6d6;}
+
+div[id^="smallCalendarEventHolder"] {
+
+}
+
+.col1-966128 table {
+margin-left:10px;
+}
+
+
+
+#linkArea {
+	display:table;
+	width:940px;
+	height: auto;/*border:1px solid #f00;*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-left:10px;
+margin-top:10px;
+background-image:url('/content/dam/images/home/news_events_bg.gif');
+background-repeat:repeat-x;
+background-position: 0px 0px;
+}
+#main_content_panel a {
+	text-decoration:none !important;
+}
+.linkAreaSections {
+	display:table;
+	width:725px;
+	/*border:1px solid #0f0;*/
+	float:left;/*background: url(/content/dam/line-vertical.gif);
+	background-repeat: repeat-y;
+	background-position: right;*/
+margin-top:4px;
+background-color:#fff;
+}
+.linkRow {
+	display:table;
+	width:100%;
+	/*border:1px solid #000;*/ 
+	height: 180px;
+	background: url(/content/dam/images/home/line-horizontal.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.linkSection {
+	display:table;
+	width:25%;
+	height: 180px;
+	float:left;
+}
+
+.facultyLinkSection {
+	display:table;
+	width:185px;
+	height: 180px;
+	float:left;
+}
+
+.cell1 {
+	background: url(/content/dam/images/home/cell1.gif) right top no-repeat !important;
+}
+
+.cell2 {
+	background: url(/content/dam/images/home/cell2.gif) right top no-repeat !important;
+}
+
+.cell3 {
+	background: url(/content/dam/images/home/cell3.gif) right top no-repeat !important;
+}
+
+.cell4 {
+	background: url(/content/dam/images/home/cell4.gif) right top no-repeat !important;
+}
+
+.cell5 {
+	background: url(/content/dam/images/home/cell5.gif) right top no-repeat !important;
+}
+
+.cell6 {
+	background: url(/content/dam/images/home/cell6.gif) right top no-repeat !important;
+}
+
+.cell7 {
+	background: url(/content/dam/images/home/cell7.gif) right top no-repeat !important;
+}
+
+.cell8 {
+	background: url(/content/dam/images/home/cell8.gif) right top no-repeat !important;
+}
+
+.linkSection p {
+	padding:10px;
+}
+.linkSection ul {
+	list-style:none !important;
+	padding: 0 15px 0 15px;
+	margin:0;
+}
+
+ul li {
+	list-style:none !important;
+	list-style-image:none !important;
+}
+.linkAreaFaculties {
+	display:table;
+	width:210px;
+	float:left;
+margin-top:4px;
+background-color:#fff;
+}
+.linkAreaFaculties p {
+	padding:10px;
+}
+h1.sectionTitle {
+	position: relative;
+	overflow:hidden;
+	padding-left:6px;
+	margin:14px 0 10px 0 !important;
+        color:#ffffff;
+}
+h1.sectionTitle span {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.sectionTab {
+	width:25px;
+	height:25px;
+	display:table;
+	float:right;
+	top:5px;
+	 margin:3px;
+}
+
+.newsContainer {
+width:680px;
+/*border:1px solid #f00;*/
+height:auto;
+display: table;
+float:left;
+background-image:url('/content/dam/images/home/news_events_bg.gif');
+background-repeat:repeat-x;
+background-position: 0px 20px;
+margin-left:12px;
+margin-bottom:12px;
+font-size:12px !important;
+} 
+
+.newsHeadlines {
+float:left;
+width:400px;
+/*border:1px solid #00f;*/
+height:auto;
+margin-top:12px;
+background-color:#fff;
+}
+
+.featureContainer {
+float:right;
+width:240px;
+display:table;
+margin-bottom:6px;
+}
+
+.newsFeature_on {
+
+width:250px;
+background-color: #e6e3e6 !important;
+/*margin: 2px 10px 10px 10px;*/
+margin-top:10px;
+
+margin-right:5px;
+border-right: 1px solid #cfcfcf;
+border-bottom: 1px solid #cfcfcf;
+}
+
+
+.newsFeature_on img {
+margin:6px
+}
+
+.newsFeature_off {
+display: none;
+}
+
+.newsFeatureContent {
+min-width:215px;
+margin: 2px 6px 6px 6px;
+background-color:#ffffff;
+padding: 4px 10px 4px 10px;
+display:table;
+font-size:12px;
+}
+
+.newsEmergency_on {
+border:2px solid #cc0000; 
+margin:12px 4px 4px 4px;
+padding:6px 6px 6px 10px; 
+background-color:#ffffff;
+font-size:12px;
+}
+
+.newsEmergency_on a {
+color:#cc0000 !important;
+text-decoration: none !important;
+}
+
+.newsEmergency_off {
+display: none;
+}
+
+.sectionHeader {
+width:100%;
+}
+
+.listItemClass-713359 {
+padding-bottom:5px !important;
+}
+
+div.newslist {
+padding:1px 0 0 0 !important;
+margin-top:10px;
+background-color:#ffffff;
+}
+
+
+.listClass-539151 .listItemClass-713359 .news_teaser_item .news_teaser_headline a {
+    background-image: url("/content/dam/images/home/bullet_home.gif");
+    background-position: 0 4px;
+    background-repeat: no-repeat;
+    color: #005A9C;
+    display: block;
+    font-size: 12px !important;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 0 !important;
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 0;
+    text-decoration: none;
+}
+
+/* POPULAR LINKS - START */
+
+.linksContainer {
+width:250px;
+height:auto;
+display: table;
+/*margin-left:10px;*/
+}
+
+#linksArea {
+width:250px;
+/*border:1px solid #00f;*/
+height:40px;
+margin-top:8px;
+margin-left:2px;
+margin-bottom:24px;
+background-color:#FFF;
+height:auto;
+}
+
+.cc { color: #77f; line-height: inherit; font-family: Arial, Helvetica, sans-serif; margin-right:20px; }
+
+/* POPULAR LINKS - END */
+
+
+
+/* EVENT STYLES - START */
+
+.eventsContainer {
+width:400px;
+/*border:1px solid #f00;*/
+height:auto;
+display: table;
+background-image:url('/content/dam/images/home/news_events_bg.gif');
+background-repeat:repeat-x;
+background-position: 0px 20px;
+margin-left:10px;
+}
+
+.eventsArea {
+float:left;
+width:400px;
+/*border:1px solid #00f;*/
+height:4px;
+margin-top:6px;
+}
+
+.ui-widget-header {
+background: url("/content/dam/uiResources/jQuery/css/custom-theme/images/ui-bg_highlight-soft_50_dddddd_1x100.png") repeat-x scroll 50% 50% #DDDDDD !important;
+}
+
+.ui-state-active {
+background: url("/content/dam/uiResources/jQuery/css/custom-theme/images/ui-bg_glass_65_005a9c_1x400.png") repeat-x scroll 50% 50% #005A9C !important;
+}
+
+.ui-state-hover {
+background: url("/content/dam/uiResources/jQuery/css/custom-theme/images/ui-bg_glass_65_005a9c_1x400.png") repeat-x scroll 50% 50% #005A9C !important;
+}
+
+/* EVENT STYLES - END */
+
+
+/*BY THE NUMBERS CONTAINER*/
+.numbersContainer {
+width:250px;
+/*border:1px solid #f00;*/
+height:auto;
+display: table;
+background-image:url('/content/dam/images/home/news_events_bg.gif');
+background-repeat:repeat-x;
+background-position: 0px 20px;
+/*margin-left:10px;*/
+}
+
+.numbersArea {
+float:left;
+width:250px;
+/*border:1px solid #00f;*/
+margin-top:10px;
+background-image:url('/content/dam/images/home/numbers/numbers_bg.jpg');
+height:auto;
+display:table;
+}
+
+.numbersArea img {
+margin-left:2px;
+}
+
+.numbersArea p  {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #323433 !important;
+margin: 0px 8px 8px 8px !important;
+}
+
+.numbersArea a  {
+color: #323433 !important;
+}
+
+.socialMediaContainer {
+width:214px;
+height:auto;
+display: table;
+/*margin-left:10px;*/
+padding:6px 0px 6px 6px;
+margin:6px 0px 0px 6px;
+background-color:#e6e3e6;
+}
+
+.socialMediaContainer span.icon {
+float:left;
+height:auto;
+text-align: center;
+margin:4px;
+}
+
+.socialMediaContainer span.icon img {
+border-bottom:1px solid #c1c4c1 !important;
+border-right:1px solid #c1c4c1 !important;
+padding:4px;
+background-color:#fff;
+}
+
+.promoContainer {
+width:214px;
+height:auto;
+display: table;
+/*margin-left:10px;*/
+padding:2px;
+margin:6px 0px 0px 6px;
+border:1px solid #e5e3e6;
+}
+
+.eventsCalendarComponent{
+margin-top:8px;
+background-color:#ffffff;
+}
+
+.feedlist .feeditem .feedtitle {
+margin-bottom: 0px !important;
+}
+
+.feedlist .feeditem .feeddescription p {
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+}
+
+
+
+
+
+ end page content  
+
+
+
+ footer 
+
+
+
+
+        <!--
+        var today = new Date();
+        var year = today.getFullYear();
+        document.write("&copy; " + year + " Ryerson University");
+        //-->
+        
+
+        
+           |   
+        
+        
+        350 Victoria Street, Toronto, Ontario, Canada  M5B 2K3
+        
+
+Privacy Policy    
+        Accessibility    
+        Terms & Conditions
+
+
+ end footer 
+
+
+
+
+
+        
+            #component1817495424 .cStyles{
+                padding:0 !important;
+            border:0 !important;
+            margin:0 !important;
+            }
+
+            #component1817495424 .wholeImage{
+                padding:0 !important;
+            height:77px !important;
+            margin:0 !important;
+            }
+
+        
+        
+        
+            #component1846268940 .cStyles{
+                margin:0px !important;
+            }
+
+        
+            #component78979218 .cStyles{
+                padding:2px !important;
+            border:1px solid #E5E3E6 !important;
+            margin:6px !important;
+            }
+
+        
+        
+            #component1926651196 > .wholeGrid:first-child{
+                background-repeat:repeat-x !important;
+            background-image:url('/content/dam/images/home/news_events_bg.gif') !important;
+            }
+
+            #component1926651196 > .wholeGrid:first-child > .colCount_0_0{
+                margin-right:17px !important;
+            }
+
+        
+        
+            #component2121424787 .entireContainer{
+                margin-left:0 !important;
+            width:250px !important;
+            }
+
+            #component2121424787 .feedlist{
+                border-top:none !important;
+            }
+
+            #component2121424787 .feeditem{
+                margin-bottom:0 !important;
+            margin-top:0 !important;
+            }
+
+        
+        
+        
+        
+            #component1552829596 .cStyles{
+                margin:0px !important;
+            }
+
+        
+            #component985113209 > .wholeGrid:first-child > .colCount_0_0{
+                margin-left:12px !important;
+            margin-right:28px !important;
+            }
+
+            #component985113209 > .wholeGrid:first-child > .colCount{
+                margin-bottom:15px !important;
+            }
+
+        
+            #component1469228286 > .wholeGrid:first-child > .colCount_0_0{
+                background-repeat:repeat-x !important;
+            background-position:center 20px !important;
+            background-image:url('/content/dam/images/home/news_events_bg.gif') !important;
+            margin-right:17px !important;
+            }
+
+            #component1469228286 > .wholeGrid:first-child{
+                margin-top:16px !important;
+            }
+
+    
+
+=============
+
+http://ryerson.ca/index.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/accessibility
+[u'Accessibility']
+[u' \xa0\xa0\xa0\n        ']
+
+
+=============
+
+http://ryerson.ca/about
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/news/news
+[None]
+['']
+
+
+=============
+
+http://ryerson.ca/maps
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/studentservices
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/research
+[None, u'Office of Research and Innovation']
+[u' ', '']
+
+
+=============
+
+http://ryerson.ca/jobs
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/contact
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/currentstudents
+[None]
+[u' ']
+
+
+=============
+
+http://ryerson.ca/undergraduate/admission
+[None]
+[u' ']
+
+
+=============
+
+http://ryerson.ca/graduate
+[None, u'Programs']
+[u' ', '']
+
+
+=============
+
+http://ryerson.ca/continuing
+[None, u'The Chang School Course Calendar']
+[u' ', '']
+
+
+=============
+
+http://ryerson.ca/alumni
+[None]
+['']
+
+
+=============
+
+http://ryerson.ca/supporting/campaign
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/facultystaff
+[None]
+[u' ']
+
+
+=============
+
+http://ryerson.ca/content/dam/images/promos/features/PMA_Entre.jpg
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/dam/images/promos/features/PMA_Architecture2.jpg
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/dam/images/promos/features/PMA_MBA.gif
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/dam/images/promos/features/PMA_Crowd2.jpg
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/dam/images/promos/features/PMA_RIC.jpg
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/campusupdates
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/ryerson/news/news/Research_News/20131115_parada.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/ryerson/news/news/General_Public/20131115_curld.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/ryerson/news/news/General_Public/20131113_idea.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/ryerson/news/news/General_Public/20131111_gold.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/news/news/bulletin.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/news/media/spotlight/Ryerson_Commemorates_Sam/index.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/news/events
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/supporting/makeyourmark
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/currentstudents/new
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/currentstudents/awards
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/currentstudents/forms
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/currentstudents/importantdates
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/convocation
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/currentstudents/calendars
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/undergraduate/admission/overview
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/undergraduate/admission/apply
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/undergraduate/admission/programs
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/undergraduate/admission/visit
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/graduate/admissions
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/graduate/graduate_calendar
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/graduate/faculty
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/graduate/fees
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/graduate/forms
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/continuing/courses_programs
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/continuing/enrollment
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/continuing/students
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/continuing/contact
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/alumni/alumniweekend
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/alumni/enjoy/index.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/alumni/get-involved/events/index.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/supporting
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/makeyourmark
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/supporting/give/index.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/supporting/recognition/gifts.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/ri
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/research/services/ethics/index.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/teaching
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/hr
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/adminsupport
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/courses
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/faculties
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/arts
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/fcad
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/fcs
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/feas
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/facultyofscience
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/ryerson/undergraduate/admission/programs/index.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/ryerson/graduate
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/content/ryerson/continuing
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/privacy
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/ryerson.ca/terms.html
+[]
+[]
+
+
+=============
+
+http://ryerson.ca/madar
+[]
+[]
+
+
+=============
+
+catalogue.library.ryerson.ca
+http://catalogue.library.ryerson.ca
+[]
+[]
+
+
+=============
+
+http://catalogue.library.ryerson.ca/screens/mainmenu.html
+[u'Advanced Search']
+[u'\n']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+http://catalogue.library.ryerson.ca/patroninfo
+[None]
+['']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+twitter.com
+http://twitter.com/RyersonU/ryerson
+[]
+[]
+
+
+=============
+
+http://twitter.com/ryersonu
+[]
+[]
+
+
+=============
+
+http://twitter.com/ryersonlibrary
+[]
+[]
+
+
+=============
+
+bit.ly
+http://bit.ly/1elDxGB
+[]
+[]
+
+
+=============
+
+http://bit.ly/HyO7vF
+[]
+[]
+
+
+=============
+
+minisis.library.ryerson.ca
+http://minisis.library.ryerson.ca/m2a
+[]
+[]
+
+
+=============
+
+facebook.com
+http://facebook.com/pages/Ryerson-University/6017214773
+[None]
+['']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+http://facebook.com/pages/Toronto-ON/Ryerson-University-Library/5863804371
+[None]
+[u' |   \r\n                    ']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+surveymonkey.com
+http://surveymonkey.com/s/LIB3
+[]
+[]
+
+
+=============
+
+pipes.yahoo.com
+http://pipes.yahoo.com/pipes/pipe.run
+[None]
+[u'\n']
+
+
+=============
+
+library.ryerson.ca
+http://library.ryerson.ca
+[u'Skip to main menu', u'Skip to Search Everything', u'Skip the list of new books', None, u'Skip to content', u'Skip to news', u'Home']
+['', '', '', None, '', '', u'\n']
+Ryerson University Library & Archives
+
+
+
+
+Go to mobile version
+Skip to main menu
+
+
+                        document.write("<a class=\"assistive-text\" href=\"javascript:document.getElementById('searcheverythinginput').focus()\" title=\"Skip to search everything\">Skip to Search Everything</a>");
+                    
+Skip to Search Everything
+
+
+  end div logo_images 
+Skip the list of new books
+ New Book Titles Slider 
+
+
+
+
+
+
+
+
+  end title-wrap 
+ home-page-aligner 
+ end flash_content 
+
+Main menu
+Skip to content
+Skip to news
+
+
+Catalogue
+Research Help
+Articles
+Services
+About Us
+Collections ▼
+
+Archives and Special Collections
+Map & Data Resources
+Digital Commons @ Ryerson
+
+
+
+ Search this Site Section 
+
+
+
+
+
+Search the Library website
+
+
+
+
+
+
+
+
+ #access 
+ #branding 
+
+
+
+
+
+
+ SEARCH TABS 
+
+
+    Main Level Tabs
+    - the "data-tab_content" attribute refers to what content should be displayed. 
+    - It should be unique per tab.
+    - eg. data-tab_content="XYZ" 
+Search Everything
+Books & Media
+Journals List
+Research Databases
+More
+
+
+    Main Level Content 
+ Each li represents the content of a tab 
+  - The id should be "s_tab-" and then a reference to the tab that opens it
+ - eg. id="s_tab-XYZ" 
+ Search Everything Tab Content 
+
+
+
+Go
+
+
+
+
+
+
+What is this?
+
+
+Advanced Search
+
+
+
+
+
+  Catalog Tab Content 
+
+
+  Sub Level Tabs
+  - the "data-sub_tab_content" attribute refers to what content should be displayed. 
+  - It should be unique per sub tab.
+  - eg. data-sub_tab_content="subXYZ"  
+Keywords
+Title
+Author
+Course Readings
+Call #
+LC Subject
+
+
+
+  Main Level Content
+  - Each li represents the content of a sub tab
+  - The id should be "s_sub_tab-" and then a reference to the tab that opens it
+  - eg. id="s_sub_tab-subXYZ" 
+  Catalogue - Keywords Tab Content 
+
+Search by Keyword
+Find books, journals, DVDs, CDs, ebooks, theses, maps, Government Documents…
+
+
+Go
+
+
+
+Advanced Search
+
+
+
+  Catalogue - Title Tab Content 
+
+Search by Title
+eg. Boom Bust and Echo Map that Changed the World
+
+
+Go
+
+
+
+
+  Catalogue - Author Tab Content 
+
+Search by Author
+eg. Smith, John Canadian Medical Association Tragically Hip
+
+
+Go
+
+
+
+
+  Catalogue - Course Readings Tab Content 
+
+Search by Course Code
+eg. ece210
+
+Go
+
+
+
+
+
+Search by Instructor
+eg. Gao, Yunxiang
+
+Go
+
+
+
+
+  Catalogue - Call number Tab Content 
+
+Search by Call Number
+eg. QA403.P74 2004HD31
+
+
+Go
+
+
+
+
+  Catalogue - Subject Tab Content 
+
+Search by Library of Congress Subject
+eg. caribbean area historyeating disorderswomen employment canada
+
+
+Go
+
+
+
+
+
+
+
+  Journals List Tab Content 
+
+
+
+Go
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+or Browse Journals by Subject
+
+
+
+  Research Databases Tab Content 
+
+
+
+Go
+
+
+Select A Subject Area…
+Accounting Aerospace Engineering Architecture Art History Arts and Contemporary Studies Arts & Humanities Biology Biomedical Physics Business, Administrative and Labour Law Business & Economics Business Management Canadian Law Caribbean Studies Chemical Engineering ChemistryChild & Youth Care Civil Engineering Communication & Culture Community Development Computer Science Creative IndustriesCriminal Justice Dance Disability Studies Documentary Media Early Childhood Studies Economics Electrical Engineering ESL/EAL EnglishEntrepreneurshipEnvironmental Studies Fashion Film Studies Food and Nutrition French Geography Gerontology Graphic Communications Management Health & Medicine Health Services Management HistoryHolocaust Hospitality and Tourism Human Resources Management Immigration and Settlement Industrial Engineering Information Technology Management Interior Design International Business and Economics Journalism Law, Canadian Market Research Mathematics Mechanical Engineering Midwifery & Childbirth Molecular Science Multi-Disciplinary Music Native/Aboriginal Studies New Media News Nursing Occupational Health and Safety Philosophy Photographic Preservations Photography Physiotherapy Physics Politics, Canadian Professional Communications Psychology Public Health Public Policy & Administration Public Relations Radio & Television Arts Retail Management Science & Technology Studies Social Sciences Social Work Sociology Spanish Spatial Analysis Theatre Urban & Regional Planning Women’s Studies
+
+
+or Browse A-Z Databases List
+
+
+
+
+  More Tab Content 
+
+
+Digital Commons
+Archives & Special Collections
+GIS Data
+Videos
+
+
+
+
+
+ End Of Search Tabs 
+
+  Quick Picks Section 
+Quick Picks
+
+Hours
+Study Room Booking
+Computer Availability
+Renew
+Workshops & Events 
+InterLibrary Loan
+Services for Faculty
+Copyright
+Book aLibrarian
+my.ryerson
+Refworks
+
+Chatwith Us
+  End of: QuickPicks Section   .entry-content 
+
+ .entry-meta 
+ #post-35 
+ #content 
+ #primary 
+
+ 
+					     jQuery(document).ready(function() {
+			       			 jQuery(".nivoSlider1").nivoSlider({
+			       			 	effect:	"fade",  
+			    				startSlide:1, 
+			        			animSpeed:750,
+			            		pauseTime:10000,
+			    				controlNav:false, 
+			    				pauseOnHover:true     	
+			        		});
+					    });
+					
+ Library News 
+Library News Feed
+
+
+View RSS feed
+
+
+  #secondary .widget-area 
+ #main 
+
+ 
+jQuery(document).ready(function(){
+    jQuery("a[data-ga-event]").click(function(evt) {
+    //data-ga-event -> "gaEvent"
+    var data = jQuery(this).data("gaEvent").split(",");
+    data.unshift("_trackEvent");
+    //data == ['_trackEvent','category','action','label']
+    _gaq.push(data);
+  });
+});
+
+
+
+
+Home | Accessibility  | Site Index | Contact Us |   
+                    
+
+
+
+ | 
+                                    ©2013 
+
+
+ #colophon 
+ #page 
+
+
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/library.ryerson.ca\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+
+
+
+
+=============
+
+http://library.ryerson.ca/m
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/../index.html
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/guides
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/articles
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/services
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/info
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/collections
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/asc
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/collections/digital-commons
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/summon
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/articles/indexes_title
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/services/av/search
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/info/hours
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/services/facilities/computer
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/info/whats-new/workshops-and-events
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/services/faculty
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/copyright
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/guides/book-an-appointment
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/contactus
+[u'Contact Us']
+[u' | ']
+
+
+=============
+
+http://library.ryerson.ca/blog/2013/09/need-research-help-chat-with-us-2
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/blog/2013/10/cover-spread-exhibition-featuring-images-from-canadian-architect
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/blog
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/info/accessibility
+[]
+[]
+
+
+=============
+
+http://library.ryerson.ca/siteindex
+[]
+[]
+
+
+=============
+
+www.youtube.com
+http://www.youtube.com/upload
+[]
+[]
+
+
+=============
+
+http://www.youtube.com/yt/about
+[]
+[]
+
+
+=============
+
+http://www.youtube.com/yt/press
+[]
+[]
+
+
+=============
+
+http://www.youtube.com/yt/copyright
+[]
+[]
+
+
+=============
+
+http://www.youtube.com/yt/creators
+[]
+[]
+
+
+=============
+
+http://www.youtube.com/yt/advertise
+[]
+[]
+
+
+=============
+
+http://www.youtube.com/yt/dev
+[]
+[]
+
+
+=============
+
+http://www.youtube.com/yt/policyandsafety
+[]
+[]
+
+
+=============
+
+void(0)
+javascript://void(0)
+[u'Learn More about RMail', u'Activate Your Account', u'my.ryerson portal login', u"User's Guide to Academic Computing", u'Computing & Communications Services Website']
+['', '', '', '', '']
+
+
+=============
+
+mail.ryerson.ca
+http://mail.ryerson.ca
+[]
+[]
+ RMail System 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+More Information
+
+Can't Login to RMail?
+Learn More about RMail
+Activate Your Account
+my.ryerson portal login
+
+For more Help visit
+User's Guide to Academic Computing
+Computing & Communications Services Website
+
+
+
+
+
+ 
+
+
+ errorHTML(); 
+
+
+
+User Name:
+
+
+
+
+
+
+
+
+
+Password:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Note: if you can't log in to RMail it may be because your account has moved to Gmail.  
+If it has you should be able to access your Ryerson Gmail account by going to 
+https://my.ryerson.ca, logging in, clicking on the Apps tab, and then on the Gmail link.
+
+
+
+=============
+
+ryerson.summon.serialssolutions.com
+http://ryerson.summon.serialssolutions.com/advanced
+[u'Advanced Search']
+[u'\n']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+tedrogersschool.ca
+http://tedrogersschool.ca
+[]
+[]
+
+
+=============
+
+childrenslit.library.ryerson.ca
+http://childrenslit.library.ryerson.ca
+[]
+[]
+
+
+=============
+
+library.cf.ryerson.ca
+http://library.cf.ryerson.ca/madar/geospatial/libdata/by_keyword.cfm
+[u'GIS Data']
+[u'\n']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+http://library.cf.ryerson.ca/studentbooking
+[None]
+['']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+ryersonrams.ca
+http://ryersonrams.ca
+[None]
+['']
+
+
+=============
+
+http://ryersonrams.ca//SportSelect.dbml
+[u'Volleyball (M): vs Windsor (11/15/2013)', u'Hockey (M): vs RMC (11/15/2013)']
+['', '']
+
+
+=============
+
+flickr.com
+http://flickr.com/photos/ryersonlibrary
+[]
+[]
+
+
+=============
+
+cas.ryerson.ca
+http://cas.ryerson.ca/login
+[]
+[]
+
+
+=============
+
+www.google.com
+http://www.google.com/tools/feedback/intl/en/error.html
+[]
+[]
+
+
+=============
+
+ryersonbuilds.ryerson.ca
+http://ryersonbuilds.ryerson.ca/student-learning-centre
+[]
+[]
+
+
+=============
+
+google.com
+http://google.com/intl/en/policies/privacy
+[]
+[]
+
+
+=============
+
+racer.scholarsportal.info
+http://racer.scholarsportal.info
+[None]
+['']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+digitalcommons.ryerson.ca
+http://digitalcommons.ryerson.ca
+[]
+[]
+
+
+=============
+
+ruonline.ryerson.ca
+http://ruonline.ryerson.ca
+[u'RU Online']
+['']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+http://ruonline.ryerson.ca/ccon/new_gift.do
+[u'Give Now']
+['']
+ROBOTS DENIED
+ROBOTS DENIED
+=============
+
+accounts.google.com
+http://accounts.google.com/ServiceLogin
+[u'Sign in', u'Sign in']
+[u'\n', None]
+
+
+=============
+
+*****************************
+
+['http://openloop.com/softwareEngineering/', 'http://ryerson.ca', 'http://openloop.com/softwareEngineering/sfwEngClassic/index.htm', 'http://youtube.com/user/RyersonUTube', 'http://mail.ryerson.ca', 'http://library.ryerson.ca']
