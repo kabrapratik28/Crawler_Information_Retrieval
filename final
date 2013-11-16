@@ -1,0 +1,10 @@
+URL FECTER QUEUE
+[]
+VISITED SITE URL
+{'ramtest55.site88.net': ['http://ramtest55.site88.net'], 'rediff.com': ['http://rediff.com'], 'aadasajfl.com': ['http://aadasajfl.com/'], 'cps530.scs.ryerson.ca': ['http://cps530.scs.ryerson.ca/labs/manual.html', 'http://cps530.scs.ryerson.ca/labs/mamma.html'], 'openloop.com': ['http://openloop.com/softwareEngineering/'], 'dl.dropboxusercontent.com': ['https://dl.dropboxusercontent.com/u/18549820/slides/cps530/02-HTML.pdf']}
+DATA URL
+{'ramtest55.site88.net': [<__main__.Url_class instance at 0x942adac>], 'rediff.com': [<__main__.Url_class instance at 0x942afcc>], 'aadasajfl.com': [<__main__.Url_class instance at 0x9427c2c>], 'cps530.scs.ryerson.ca': [<__main__.Url_class instance at 0xb76d692c>, <__main__.Url_class instance at 0x94279ec>], 'openloop.com': [<__main__.Url_class instance at 0x94278cc>], 'dl.dropboxusercontent.com': [<__main__.Url_class instance at 0x942afac>]}
+SITE TIME
+{}
+URL REMAINED
+{'openloop.com': ['http://openloop.com/softwareEngineering/'], 'rediff.com': ['http://rediff.com'], 'ramtest55.site88.net': ['http://ramtest55.site88.net']}
