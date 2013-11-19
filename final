@@ -6,1106 +6,332 @@ URL FECTER QUEUE
 
 
 VISITED SITE URL
-{'openloop.com': ['http://openloop.com/softwareEngineering/', 'http://openloop.com/softwareEngineering/sfwEngClassic/index.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/index.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/index.htm', 'http://openloop.com/softwareEngineering/security/index.htm', 'http://openloop.com/softwareEngineering/sfwEngClassic/classicModel1.htm', 'http://openloop.com/softwareEngineering/sfwEngClassic/classicModel2.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/introPattern.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_wholePart.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_MasterSlave.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_Proxy.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_CommandProcessor.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_publisherSubscriber.ht', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Intro.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Layers.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Blackboard.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Broker.htm']}
+{'ramtest55.heliohost.org': ['http://ramtest55.heliohost.org/', 'http://ramtest55.heliohost.org/.htaccess', 'http://ramtest55.heliohost.org/.smileys', 'http://ramtest55.heliohost.org/.wysiwygPro_preview_f3ca88f5a4d4aeb8ee1331d6308823df.php', 'http://ramtest55.heliohost.org/abc.php', 'http://ramtest55.heliohost.org/allinfo', 'http://ramtest55.heliohost.org/allsite.css', 'http://ramtest55.heliohost.org/cgi-bin', 'http://ramtest55.heliohost.org/error_log', 'http://ramtest55.heliohost.org/homepageassign2.html', 'http://ramtest55.heliohost.org/proj_newusr.php', 'http://ramtest55.heliohost.org/proj_oldusr.php', 'http://ramtest55.heliohost.org/proj_upload_step2.php', 'http://ramtest55.heliohost.org/showallbyall.php', 'http://ramtest55.heliohost.org/upload', 'http://ramtest55.heliohost.org/userauth.html', 'http://ramtest55.heliohost.org/userguide.html', 'http://ramtest55.heliohost.org/userinfo', 'http://ramtest55.heliohost.org', 'http://ramtest55.heliohost.org/smiley1.gif', 'http://ramtest55.heliohost.org/smiley10.gif', 'http://ramtest55.heliohost.org/smiley11.gif', 'http://ramtest55.heliohost.org/smiley12.gif', 'http://ramtest55.heliohost.org/smiley13.gif', 'http://ramtest55.heliohost.org/smiley14.gif', 'http://ramtest55.heliohost.org/smiley15.gif', 'http://ramtest55.heliohost.org/smiley16.gif', 'http://ramtest55.heliohost.org/smiley2.gif', 'http://ramtest55.heliohost.org/smiley3.gif', 'http://ramtest55.heliohost.org/smiley4.gif', 'http://ramtest55.heliohost.org/smiley5.gif', 'http://ramtest55.heliohost.org/smiley6.gif', 'http://ramtest55.heliohost.org/smiley7.gif', 'http://ramtest55.heliohost.org/smiley8.gif', 'http://ramtest55.heliohost.org/smiley9.gif']}
 
 
 
 
 
 DATA URL
-{'openloop.com': [<__main__.Url_class instance at 0xa186a8c>, <__main__.Url_class instance at 0xa18af4c>, <__main__.Url_class instance at 0xa19226c>, <__main__.Url_class instance at 0xa192f0c>, <__main__.Url_class instance at 0xa192f4c>, <__main__.Url_class instance at 0xa192fec>, <__main__.Url_class instance at 0xa21e5ec>, <__main__.Url_class instance at 0xa21e76c>, <__main__.Url_class instance at 0xa19264c>, <__main__.Url_class instance at 0xa19210c>, <__main__.Url_class instance at 0xa186aac>, <__main__.Url_class instance at 0xa21e6cc>, <__main__.Url_class instance at 0xa21e26c>, <__main__.Url_class instance at 0xa2220ec>, <__main__.Url_class instance at 0xa222a4c>, <__main__.Url_class instance at 0xa222a8c>, <__main__.Url_class instance at 0xa222acc>]}
+{'ramtest55.heliohost.org': [<__main__.Url_class instance at 0x9d97a8c>, <__main__.Url_class instance at 0x9dfa2ac>, <__main__.Url_class instance at 0x9dfa3ac>, <__main__.Url_class instance at 0x9dfa40c>, <__main__.Url_class instance at 0x9dfa4cc>, <__main__.Url_class instance at 0x9dfa56c>, <__main__.Url_class instance at 0x9dfa5cc>, <__main__.Url_class instance at 0x9dfa6cc>, <__main__.Url_class instance at 0x9dfa76c>, <__main__.Url_class instance at 0x9d9bc0c>, <__main__.Url_class instance at 0x9dfa74c>, <__main__.Url_class instance at 0x9dfa28c>, <__main__.Url_class instance at 0x9dfa4ac>, <__main__.Url_class instance at 0x9dfa5ec>, <__main__.Url_class instance at 0x9dfa86c>, <__main__.Url_class instance at 0x9dfa8cc>, <__main__.Url_class instance at 0x9dfa94c>, <__main__.Url_class instance at 0x9dfaa0c>, <__main__.Url_class instance at 0x9dfd98c>, <__main__.Url_class instance at 0x9dfd9ec>, <__main__.Url_class instance at 0x9dfda2c>, <__main__.Url_class instance at 0x9dfda6c>, <__main__.Url_class instance at 0x9dfdaac>, <__main__.Url_class instance at 0x9dfdaec>, <__main__.Url_class instance at 0x9dfdb2c>, <__main__.Url_class instance at 0x9da210c>, <__main__.Url_class instance at 0x9dfad0c>, <__main__.Url_class instance at 0x9dfda4c>, <__main__.Url_class instance at 0x9dfd9cc>, <__main__.Url_class instance at 0x9dfdb6c>, <__main__.Url_class instance at 0x9dfdbec>, <__main__.Url_class instance at 0x9dfdc6c>, <__main__.Url_class instance at 0x9dfdcec>, <__main__.Url_class instance at 0x9dfdd6c>, <__main__.Url_class instance at 0x9dfddec>]}
 
 
 
 
 
 SITE TIME
-{'openloop.com': datetime.datetime(2013, 11, 16, 10, 22, 50, 878889)}
+{'ramtest55.heliohost.org': datetime.datetime(2013, 11, 17, 10, 42, 19, 542607)}
 
 
 
 
 
 URL REMAINED
-{'openloop.com': ['http://openloop.com/softwareEngineering/sfwEngClassic/classicModel2.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/introPattern.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_wholePart.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_MasterSlave.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_Proxy.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_CommandProcessor.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_publisherSubscriber.ht', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Intro.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Layers.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Blackboard.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Broker.htm']}
+{'ramtest55.heliohost.org': ['http://ramtest55.heliohost.org/allsite.css', 'http://ramtest55.heliohost.org/cgi-bin', 'http://ramtest55.heliohost.org/error_log', 'http://ramtest55.heliohost.org/homepageassign2.html', 'http://ramtest55.heliohost.org/proj_newusr.php', 'http://ramtest55.heliohost.org/proj_oldusr.php', 'http://ramtest55.heliohost.org/proj_upload_step2.php', 'http://ramtest55.heliohost.org/showallbyall.php', 'http://ramtest55.heliohost.org/upload', 'http://ramtest55.heliohost.org/userauth.html', 'http://ramtest55.heliohost.org/userguide.html', 'http://ramtest55.heliohost.org/userinfo', 'http://ramtest55.heliohost.org', 'http://ramtest55.heliohost.org/smiley1.gif', 'http://ramtest55.heliohost.org/smiley10.gif', 'http://ramtest55.heliohost.org/smiley11.gif', 'http://ramtest55.heliohost.org/smiley12.gif', 'http://ramtest55.heliohost.org/smiley13.gif', 'http://ramtest55.heliohost.org/smiley14.gif', 'http://ramtest55.heliohost.org/smiley15.gif', 'http://ramtest55.heliohost.org/smiley16.gif', 'http://ramtest55.heliohost.org/smiley2.gif', 'http://ramtest55.heliohost.org/smiley3.gif', 'http://ramtest55.heliohost.org/smiley4.gif', 'http://ramtest55.heliohost.org/smiley5.gif', 'http://ramtest55.heliohost.org/smiley6.gif', 'http://ramtest55.heliohost.org/smiley7.gif', 'http://ramtest55.heliohost.org/smiley8.gif', 'http://ramtest55.heliohost.org/smiley9.gif']}
 
 
 
 
 
-openloop.com
-http://openloop.com/softwareEngineering/
+ramtest55.heliohost.org
+http://ramtest55.heliohost.org/
 ['Seeds']
 ['Seeds']
-New Page 
+Index of /
 
-Software Engineering Tutorial
- 
-Classic Material
- 
-Design Pattern
- 
-Architecture Pattern
- 
-Security
-&n   b   s   p   ;   /   p   >   
-   /   b   o   d   y   >   
-   /   h   t   m   l   >   
-   !   -   -       t   e   x   t       b   e   l   o   w       g   e   n   e   r   a   t   e   d       b   y       s   e   r   v   e   r   .       P   L   E   A   S   E       R   E   M   O   V   E       -   -   >   !   -   -       C   o   u   n   t   e   r   /   S   t   a   t   i   s   t   i   c   s       d   a   t   a       c   o   l   l   e   c   t   i   o   n       c   o   d   e       -   -   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   J   a   v   a   S   c   r   i   p   t   "       s   r   c   =   "   h   t   t   p   :   /   /   l   .   y   i   m   g   .   c   o   m   /   d   /   l   i   b   /   s   m   b   /   j   s   /   h   o   s   t   i   n   g   /   c   p   /   j   s   _   s   o   u   r   c   e   /   w   h   v   2   _   0   0   1   .   j   s   "   >   /   s   c   r   i   p   t   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   j   a   v   a   s   c   r   i   p   t   "   >   g   e   o   v   i   s   i   t   (   )   ;   /   s   c   r   i   p   t   >   n   o   s   c   r   i   p   t   >   i   m   g       s   r   c   =   "   h   t   t   p   :   /   /   v   i   s   i   t   .   w   e   b   h   o   s   t   i   n   g   .   y   a   h   o   o   .   c   o   m   /   v   i   s   i   t   .   g   i   f   ?   u   s   1   3   8   4   5   7   7   5   5   9   "       a   l   t   =   "   s   e   t   s   t   a   t   s   "       b   o   r   d   e   r   =   "   0   "       w   i   d   t   h   =   "   1   "       h   e   i   g   h   t   =   "   1   "   >   /   n   o   s   c   r   i   p   t   >   
+Index of /
+ .htaccess
+ .smileys/
+ .wysiwygPro_preview_f3ca88f5a4d4aeb8ee1331d6308823df.php
+ abc.php
+ allinfo
+ allsite.css
+ cgi-bin/
+ error_log
+ homepageassign2.html
+ proj_newusr.php
+ proj_oldusr.php
+ proj_upload_step2.php
+ showallbyall.php
+ upload/
+ userauth.html
+ userguide.html
+ userinfo
+
+Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/0.9.8e-fips-rhel5 mod_mono/2.6.3 mod_jk/1.2.35 FrontPage/5.0.2.2635 mod_bwlimited/1.4 mod_auth_passthrough/2.1 mod_wsgi/3.4 Python/2.7.4 Server at ramtest55.heliohost.org Port 80
+
 =============
 
-http://openloop.com/softwareEngineering/sfwEngClassic/index.htm
-[u'Classic Material']
+http://ramtest55.heliohost.org/.htaccess
+[u' .htaccess']
 ['']
-New Page 
 
-Classic Software Engineering Material
- 
-Classic Material Part I
-Classic Material Part II
-
+Error : Url is broken !!!
 =============
 
-http://openloop.com/softwareEngineering/patterns/designPattern/index.htm
-[u'Design Pattern']
+http://ramtest55.heliohost.org/.smileys
+[u' .smileys/']
 ['']
-New Page 
+Index of /.smileys
 
-Design Pattern
- 
-Introduction
-Whole Part
-Master Slave
-Proxy
-Command Processor
-m   "   >   P   u   b   l   i   s   h   e   r       S   u   b   s   c   r   i   b   e   r   /   a   >   /   p   >   
-   
-   p   >   a       h   r   e   f   =   "   d   P   a   t   t   e   r   n   _   V   i   e   w   H   a   n   d   l   e   r   .   h   t   m   "   >   V   i   e   w       H   a   n   d   l   e   r   /   a   >   /   p   >   
-   /   b   o   d   y   >   
-   /   h   t   m   l   >   
-   !   -   -       t   e   x   t       b   e   l   o   w       g   e   n   e   r   a   t   e   d       b   y       s   e   r   v   e   r   .       P   L   E   A   S   E       R   E   M   O   V   E       -   -   >   !   -   -       C   o   u   n   t   e   r   /   S   t   a   t   i   s   t   i   c   s       d   a   t   a       c   o   l   l   e   c   t   i   o   n       c   o   d   e       -   -   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   J   a   v   a   S   c   r   i   p   t   "       s   r   c   =   "   h   t   t   p   :   /   /   l   .   y   i   m   g   .   c   o   m   /   d   /   l   i   b   /   s   m   b   /   j   s   /   h   o   s   t   i   n   g   /   c   p   /   j   s   _   s   o   u   r   c   e   /   w   h   v   2   _   0   0   1   .   j   s   "   >   /   s   c   r   i   p   t   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   j   a   v   a   s   c   r   i   p   t   "   >   g   e   o   v   i   s   i   t   (   )   ;   /   s   c   r   i   p   t   >   n   o   s   c   r   i   p   t   >   i   m   g       s   r   c   =   "   h   t   t   p   :   /   /   v   i   s   i   t   .   w   e   b   h   o   s   t   i   n   g   .   y   a   h   o   o   .   c   o   m   /   v   i   s   i   t   .   g   i   f   ?   u   s   1   3   8   4   5   7   7   5   6   4   "       a   l   t   =   "   s   e   t   s   t   a   t   s   "       b   o   r   d   e   r   =   "   0   "       w   i   d   t   h   =   "   1   "       h   e   i   g   h   t   =   "   1   "   >   /   n   o   s   c   r   i   p   t   >   
+Index of /.smileys
+ Parent Directory
+ smiley1.gif
+ smiley10.gif
+ smiley11.gif
+ smiley12.gif
+ smiley13.gif
+ smiley14.gif
+ smiley15.gif
+ smiley16.gif
+ smiley2.gif
+ smiley3.gif
+ smiley4.gif
+ smiley5.gif
+ smiley6.gif
+ smiley7.gif
+ smiley8.gif
+ smiley9.gif
+
+Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/0.9.8e-fips-rhel5 mod_mono/2.6.3 mod_jk/1.2.35 FrontPage/5.0.2.2635 mod_bwlimited/1.4 mod_auth_passthrough/2.1 mod_wsgi/3.4 Python/2.7.4 Server at ramtest55.heliohost.org Port 80
+
 =============
 
-http://openloop.com/softwareEngineering/patterns/architecturePattern/index.htm
-[u'Architecture Pattern']
+http://ramtest55.heliohost.org/.wysiwygPro_preview_f3ca88f5a4d4aeb8ee1331d6308823df.php
+[u' .wysiwygPro_preview_f3ca88f5a4d4aeb8ee1331d6308823df.php']
 ['']
-New Page 
 
-Architecture Patterns
- 
-Introduction
-Layers
-Blackboard 
-Broker
- 
- 
-
+Access Denied
 =============
 
-http://openloop.com/softwareEngineering/security/index.htm
-[u'Security']
+http://ramtest55.heliohost.org/abc.php
+[u' abc.php']
 ['']
-Security Tutorial
-
-Software
-Security Tutorial
-Version 1.0
- 
+Assignment 2
 
 
-h   =   "   8   0   %   "   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       0   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       1   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "   >   S   e   c   u   r   i   t   y       O   v   e   r   v   i   e   w       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   X   X   X   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   X   X   X   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "   >   a       h   r   e   f   =   "   J   a   v   a   /   O   v   e   r   v   i   e   w   /   i   n   d   e   x   .   h   t   m   "   >   J   a   v   a       S   e   c   u   r   i   t   y       O   v   e   r   v   i   e   w   /   a   >       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   G   a   r   b   a   g   e       C   o   l   l   e   c   t   i   o   n   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   L   a   n   g   u   a   g   e   -   L   e   v   e   l       S   e   c   u   r   i   t   y   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   M   e   m   o   r   y       A   c   c   e   s   s   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   J   V   M       /       B   y   t   e       C   o   d   e   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   C   l   a   s   s       L   o   a   d   i   n   g   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   S   e   c   u   r   i   t   y       M   a   n   a   g   e   r   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                           /   u   l   >   
-                                           p   >   &n   b   s   p   ;   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       2   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       3   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   a       h   r   e   f   =   "   J   a   v   a   /   J   a   v   a   A   c   c   e   s   s   C   o   n   t   r   o   l   /   i   n   d   e   x   .   h   t   m   "   >   B   a   s   i   c       
-                                           J   a   v   a       A   c   c   e   s   s       C   o   n   t   r   o   l   /   a   >       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   X   X   X   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   X   X   X   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                           /   u   l   >   
-                                           /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                           /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       4   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       5   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                           p   >   &n   b   s   p   ;   
-                                   /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       6   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       7   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                           p   >   &n   b   s   p   ;   
-                                   /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                           /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       8   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       9   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       1   0   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       1   1   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   X   X   X   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   X   X   X   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                           /   u   l   >   
-                                           p   >   &n   b   s   p   ;   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       1   2   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       1   3   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                           p   >   &n   b   s   p   ;   
-                                   /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       1   4   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       1   5   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X       /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   S   e   s   s   i   o   n       1   6   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                                   t   d   >   
-                                           p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   e   m   >   s   t   r   o   n   g   >   u   >   b   r   >   
-                                                   I   n   f   o   r   m   a   t   i   o   n   /   u   >   /   s   t   r   o   n   g   >   /   e   m   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                           t   r   >       
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   X   X   X       
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   e   m   >   s   t   r   o   n   g   >   f   o   n   t       s   i   z   e   =   "   2   "   >   X   X   X   /   f   o   n   t   >   /   s   t   r   o   n   g   >   /   e   m   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                                   t   d       v   a   l   i   g   n   =   "   t   o   p   "       w   i   d   t   h   =   "   5   0   %   "   >   
-                                           u   l   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                                   l   i   >   f   o   n   t       s   i   z   e   =   "   2   "   >   e   m   >   s   t   r   o   n   g   >   X   X   X   /   s   t   r   o   n   g   >   /   e   m   >   /   f   o   n   t   >   /   l   i   >   
-                                           /   u   l   >   
-                                   /   t   d   >   
-                           /   t   r   >   
-                   /   t   a   b   l   e   >   
-           /   c   e   n   t   e   r   >   
-   /   d   i   v   >   
-   p   >   &n   b   s   p   ;   /   p   >   
-   p   >   &n   b   s   p   ;       /   p   >   
-   p       a   l   i   g   n   =   "   c   e   n   t   e   r   "   >   f   o   n   t       s   i   z   e   =   "   1   "   >   s   t   r   o   n   g   >   a       h   r   e   f   =   "   .   .   /   .   .   /   .   .   /   m   a   i   n   /   m   a   i   n   _   c   o   p   y   r   i   g   h   t   .   h   t   m   "   >   C   o   p   y   r   i   g   h   t   /   a   >       
-           1   9   9   6   -   2   0   0   3       O   p   e   n   L   o   o   p       C   o   m   p   u   t   i   n   g   .       A   l   l       r   i   g   h   t   s       r   e   s   e   r   v   e   d   .       /   s   t   r   o   n   g   >   /   f   o   n   t   >   /   p   >   
-   !   -   -   w   e   b   b   o   t       b   o   t   =   "   I   n   c   l   u   d   e   "       e   n   d   s   p   a   n       i   -   c   h   e   c   k   s   u   m   =   "   9   9   5   3   "       -   -   >       
-   /   b   o   d   y   >   
-   /   h   t   m   l   >   
-   !   -   -       t   e   x   t       b   e   l   o   w       g   e   n   e   r   a   t   e   d       b   y       s   e   r   v   e   r   .       P   L   E   A   S   E       R   E   M   O   V   E       -   -   >   !   -   -       C   o   u   n   t   e   r   /   S   t   a   t   i   s   t   i   c   s       d   a   t   a       c   o   l   l   e   c   t   i   o   n       c   o   d   e       -   -   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   J   a   v   a   S   c   r   i   p   t   "       s   r   c   =   "   h   t   t   p   :   /   /   l   .   y   i   m   g   .   c   o   m   /   d   /   l   i   b   /   s   m   b   /   j   s   /   h   o   s   t   i   n   g   /   c   p   /   j   s   _   s   o   u   r   c   e   /   w   h   v   2   _   0   0   1   .   j   s   "   >   /   s   c   r   i   p   t   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   j   a   v   a   s   c   r   i   p   t   "   >   g   e   o   v   i   s   i   t   (   )   ;   /   s   c   r   i   p   t   >   n   o   s   c   r   i   p   t   >   i   m   g       s   r   c   =   "   h   t   t   p   :   /   /   v   i   s   i   t   .   w   e   b   h   o   s   t   i   n   g   .   y   a   h   o   o   .   c   o   m   /   v   i   s   i   t   .   g   i   f   ?   u   s   1   3   8   4   5   7   7   5   6   8   "       a   l   t   =   "   s   e   t   s   t   a   t   s   "       b   o   r   d   e   r   =   "   0   "       w   i   d   t   h   =   "   1   "       h   e   i   g   h   t   =   "   1   "   >   /   n   o   s   c   r   i   p   t   >   
+ooo ooo lalllk lajlckamlc laclmal
+asd asd lalllk lajlckamlc laclmal
+kk kk lalllk lajlckamlc laclmal
+aaa aaa lalllk lajlckamlc laclmal
+asda asda lalllk lajlckamlc laclmal
+aabbaa aabbaa lalllk lajlckamlc laclmal
+ee ee asd dsa asda
+a a a a a
+Upload: Type: Size: 0 kBTemp file:  already exists. 
+
 =============
 
-http://openloop.com/softwareEngineering/sfwEngClassic/classicModel1.htm
-[u'Classic Material Part I']
+http://ramtest55.heliohost.org/allinfo
+[u' allinfo']
 ['']
-Classic Model Part I
 
-Classic Models Part I
- 
-Software Enginners Wish List
+e.mp4 d.png f.txt
+i.mp4 h.png g.txt
+j.mp4 l.png k.txt
+xx.mp4 yy.png zz.txt
+ff.mp4 dd.png rr.txt
 
-Short Software Development Cycle (From 2
-        years to 9 months of OS/400, DB2 v5       t   o       v   6   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   o   n   f   i   g   u   r   a   t   i   o   n       m   a   n   a   g   e   m   e   n   t       v   s       R   e   u   s   e   a   b   i   l   i   t   y   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   O   b   j   e   c   t   -   O   r   i   e   n   t   e   d       D   e   s   i   g   n   /   P   r   o   g   r   a   m   m   i   n   g   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   o   m   m   u   n   i   c   a   t   i   o   n       S   k   i   l   l   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   H   a   r   d   w   a   r   e   /   s   o   f   t   w   a   r   e       t   r   a   d   e   o   f   f   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   J   a   v   a       !   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   G   e   n   e   r   a   l       P   r   i   n   c   i   p   l   e   s       o   f       S   o   f   t   w   a   r   e       E   n   g   i   n   e   e   r   i   n   g   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   D   i   v   i   d   e       a   n   d       c   o   n   q   u   e   r   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   A   b   s   t   r   a   c   t   i   o   n       (   L   a   y   e   r       A   r   c   h   i   t   e   c   t   u   r   e   ,       O   S   ,   
-                                   3   2   b   i   t   s       t   o       6   4   b   i   t   s   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   E   x   p   l   i   c   i   t       r   e   p   r   e   s   e   n   t   a   t   i   o   n       o   f       c   o   m   p   l   e   x   
-                                   r   e   l   a   t   i   o   n   s   h   i   p   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   c   e   s   s   e   s       (   I   S   O       9   0   0   0   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   E   x   t   e   n   s   i   v   e       v   e   r   i   f   i   c   a   t   i   o   n       a   n   d       v   a   l   i   d   a   t   i   o   n   
-                                   (   T   e   s   t   i   n   g   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   u   s   a   b   i   l   i   t   y   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   W   a   t   e   r   f   a   l   l       M   o   d   e   l       R   e   v   i   s   i   t   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   q   u   i   r   e   m   e   n   t       a   n   a   l   y   s   i   s       a   n   d       s   p   e   c   i   f   i   c   a   t   i   o   n   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   D   e   s   i   g   n   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   A   r   c   h   i   t   e   c   t   u   r   e       d   e   s   i   g   n   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   o   d   u   l   e       d   e   s   i   g   n   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   o   d   i   n   g   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   e   s   t   i   n   g   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   a   i   n   t   e   n   a   n   c   e       a   n   d       e   v   o   l   u   t   i   o   n   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   q   u   i   r   e   m   e   n   t       A   n   a   l   y   s   i   s   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   U   n   d   e   r   s   t   a   n   d       r   e   q   u   i   r   e   m   e   n   t   s       w   i   t   h       C   u   s   t   o   m   e   r   s   
-                                   (   P   a   s   t       p   r   o   b   l   e   m       r   e   p   o   r   t   ,       d   e   v   e   l   o   p   m   e   n   t       t   e   a   m   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   n   t   e   r   v   i   e   w       w   i   t   h       u   s   e   r   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   a   d   i   n   g       r   e   l   e   v   a   n   t       d   o   c   u   m   e   n   t   s       (   e   .   g   .       N   e   w   
-                                   s   t   a   n   d   a   r   d       o   f       S   Q   L   ,       J   D   K   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   n   s   p   e   c   t   i   o   n   s       (   e   .   g   .       M   a   n   u   f   a   c   t   u   r   i   n   g       S   y   s   t   e   m   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   t   o   t   y   p   i   n   g   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   F   e   a   s   i   b   i   l   i   t   y       s   t   u   d   y   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   j   e   c   t       p   l   a   n   n   i   n   g       (   S   i   z   i   n   g       o   f       s   t   a   f   f   s       (   P   M   ,   
-                                   P   Y   )   ,       R   e   s   o   u   r   c   e   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   U   s   e   r       i   n   t   e   r   f   a   c   e   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   e   s   t       c   a   s   e       g   e   n   e   r   a   t   i   o   n       m   i   g   h   t       b   e       i   n       t   h   i   s   
-                                   p   h   a   s   e   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   s   t   r   u   c   t   u   r   i   n   g       (   P   o   r   t   i   n   g       o   f       o   l   d       p   r   o   j   e   c   t   )   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   W   h   a   t       K   i   n   d       o   f       I   n   f   o       S   h   o   u   l   d       b   e       I   n   c   l   u   d   e   d   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   A       d   e   t   a   i   l       d   o   c   u   m   e   n   t   a   t   i   o   n       r   e   v   i   e   w   e   d       b   y   
-                                   d   i   f   f   e   r   e   n   t       t   e   a   m   s       (   M   a   r   k   e   t   i   n   g   ,       D   e   v   e   l   o   p   m   e   n   t   ,       U   p   p   e   r   
-                                   m   a   n   a   g   e   m   e   n   t   ,       F   i   l   e   d       A   n   a   l   y   s   i   s   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   F   u   n   c   t   i   o   n   a   l       r   e   q   u   i   r   e   m   e   n   t   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   N   o   n   f   u   n   c   t   i   o   n   a   l       r   e   q   u   i   r   e   m   e   n   t   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   a   i   n   t   a   i   n   a   b   i   l   i   t   y   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   a   d   a   b   i   l   i   t   y   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   l   i   a   b   i   l   i   t   y   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   e   r   f   o   r   m   a   n   c   e   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   L   i   m   i   t   a   t   i   o   n       a   n   d       C   o   n   s   t   r   a   i   n   t   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   q   u   i   r   e   m   e   n   t       i   t   e   m   s       m   u   s   t       b   e       t   e   s   t   a   b   l   e       f   o   r   
-                                   f   u   n   c   t   i   o   n   a   l       t   e   s   t   i   n   g   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   q   u   i   r   e   m   e   n   t       S   p   e   c   i   f   i   c   a   t   i   o   n   s   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   a   n       b   e       f   o   r   m   a   l   ,       l   i   k   e       Z       a   n   d       V   D   M   
-                                   s   p   e   c   i   f   i   c   a   t   i   o   n   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   a   n       b   e       i   n   f   o   r   m   a   l   ,       l   i   k   e       E   n   g   l   i   s   h   
-                                   s   p   e   c   i   f   i   c   a   t   i   o   n   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   O   r       s   e   m   i   -   f   o   r   m   a   l   ,       l   i   k   e       d   a   t   a       f   l   o   w       d   i   a   g   r   a   m   s   
-                                   o   r       O   b   j   e   c   t   -   o   r   i   e   n   t   e   d       s   p   e   c   i   f   i   c   a   t   i   o   n   s   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   F   u   n   c   t   i   o   n   a   l       S   p   e   c   i   f   i   c   a   t   i   o   n   s   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   o   n   t   r   o   l       -   -       s   e   q   u   e   n   c   e       a   s   p   e   c   t   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   D   a   t   a       -   -       e   n   t   i   t   i   e   s   ,       a   t   t   r   i   b   u   t   e   s   ,   
-                                   r   e   l   a   t   i   o   n   s   h   i   p   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   D   a   t   a       f   l   o   w       -   -       i   n   p   u   t   /   o   u   t   p   u   t       o   r   
-                                   t   r   a   n   s   f   o   r   m   a   t   i   o   n       v   i   e   w   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   u   s   t       s   u   p   p   o   r   t       d   e   c   o   m   p   o   s   i   t   i   o   n   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   u   s   t       s   u   p   p   o   r   t       a   b   s   t   r   a   c   t   i   o   n   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   u   s   t       b   e       i   n   t   e   g   r   a   t   e   d   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   F   a   k   i   n   g       t   h   e       W   a   t   e   r   f   a   l   l       M   o   d   e   l   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   b   y       P   a   r   n   a   s       a   n   d       C   l   e   m   e   n   t   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   W   a   t   e   r   f   a   l   l       m   o   d   e   l       i   s       t   o   o       i   d   e   a   l   i   z   e   d   ,       c   a   n       n   o   t   
-                                   b   e       p   r   a   c   t   i   c   e   d       (   W   h   y       ?   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   B   u   t   ,       w   e       c   a   n       f   a   k   e       t   h   e       p   r   o   c   e   s   s       a   n   d       p   r   o   d   u   c   e   
-                                   t   h   e       d   o   c   u   m   e   n   t   s       a   s       t   h   o   u   g   h       w   e       f   o   l   l   o   w       e   x   a   c   t   l   y       t   h   e       s   a   m   e   
-                                   p   r   o   c   e   s   s   .       I   t       i   s       t   h   e       d   o   c   u   m   e   n   t       p   r   o   d   u   c   e   d       t   h   a   t       i   s       i   m   p   o   r   t   a   n   t   
-                                   n   o   t       f   a   i   t   h   f   u   l   l   y       f   o   l   l   o   w   i   n   g       t   h   e       w   a   t   e   r   f   a   l   l       m   o   d   e   l       p   r   o   c   e   s   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   n       d   e   s   i   g   n       d   o   c   u   m   e   n   t   s   ,       t   h   e   y       r   e   c   o   m   m   e   n   d   e   d   
-                                   t   h   a   t       w   e       r   e   c   o   r   d       t   h   e       d   e   s   i   g   n       a   l   t   e   r   n   a   t   i   v   e   s   ,       a   n   d       t   h   e       r   e   a   s   o   n   s   
-                                   f   o   r       t   h   e       a   c   c   e   p   t   a   n   c   e       o   r       r   e   j   e   c   t   i   o   n   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   D   o   c   u   m   e   n   t   -   D   r   i   v   e   n       P   r   o   c   e   s   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   D   .       L   .       P   a   r   n   a   s       a   n   d       P   .       C   .       C   l   e   m   e   n   t   s   ,       &q   u   o   t   ;   A   
-                                   R   a   t   i   o   n   a   l       D   e   s   i   g   n       P   r   o   c   e   s   s   :       H   o   w       a   n   d       W   h   y       t   o       F   a   k   e       i   t   &q   u   o   t   ;   ,   
-                                   I   E   E   E       T   r   a   n   s   .       o   n       S   o   f   t   w   a   r   e       E   n   g   i   n   e   e   r   i   n   g   ,       1   9   8   6   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   S   p   i   r   a   l       M   o   d   e   l   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   p   o   s   e   d       b   y       B   a   r   r   y       B   o   e   h   m   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   i   m   i   l   a   r       t   o       t   h   e       W   a   t   e   r   f   a   l   l       m   o   d   e   l   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   4       s   t   a   g   e   s   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   1   )       i   d   e   n   t   i   f   y       t   h   e       o   b   j   e   c   t   i   v   e       o   f       t   h   e       p   r   o   d   u   c   t   ,       t   o   
-                   d   e   s   i   g   n   ,       b   u   y       o   r       r   e   -   u   s   e   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   2   )       p   e   r   f   o   r   m       p   r   o   t   o   t   y   p   i   n   g       o   r       s   i   m   u   l   a   t   i   o   n   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   3   )       d   e   v   e   l   o   p   i   n   g       a   n   d       v   e   r   i   f   y   i   n   g       t   h   e       p   r   o   d   u   c   t   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   4   )       r   e   v   i   e   w       e   v   e   r   y   t   h   i   n   g       s   o       f   a   r   ,       c   o   d   i   n   g   ,       u   n   i   t   
-                   t   e   s   t   i   n   g   ,       i   n   t   e   g   r   a   t   i   o   n       t   e   s   t   i   n   g   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   t   e   r   a   t   i   o   n       o   f       t   h   e       f   o   u   r       s   t   a   g   e   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   t   r   e   s   s       t   h   e       i   t   e   r   a   t   i   v   e       n   a   t   u   r   e       o   f       s   o   f   t   w   a   r   e   
-                                   d   e   v   e   l   o   p   m   e   n   t   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   W   h   a   t       i   s       t   h   e       d   i   s   a   d   v   a   n   t   a   g   e   s       ?       C   o   m   p   a   r   e   d       t   h   a   t   
-                                   w   i   t   h       t   h   e       c   l   a   s   s   i   c       W   a   t   e   r   f   a   l   l       m   o   d   e   l   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   S   p   i   r   a   l       M   o   d   e   l       i   n       P   r   a   c   t   i   c   e   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   a   c   t   i   c   e   d       b   y       M   i   c   r   o   s   o   f   t       a   n   d       m   a   n   y       o   t   h   e   r   
-                                   c   o   m   p   a   n   i   e   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   O   f   t   e   n   ,       t   h   e   y       m   u   s   t       p   r   o   d   u   c   e       a       w   o   r   k   i   n   g   
-                                   p   r   o   t   o   t   y   p   e       a   t       t   h   e       e   n   d       o   f       e   a   c   h       s   p   i   r   a   l   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   H   o   w       t   o       p   i   c   k       t   h   e       i   d   e   a   l       s   p   i   r   a   l       l   e   n   g   t   h       ?       M   S   
-                                   s   o   m   e   t   i   m   e   s       p   i   c   k   s       1       d   a   y   ,       I   B   M       A   u   s   t   i   n       p   i   c   k   s       1       m   o   n   t   h   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   W   h   y   ?       T   o       a   v   o   i   d       c   o   s   t   l   y       t   e   s   t   i   n   g       a   t       t   h   e       e   n   d   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   o       a   l   l   o   w       m   e   a   n   i   n   g   f   u   l       e   v   a   l   u   a   t   i   o   n       b   y   
-                                   c   u   s   t   o   m   e   r   s       a   n   d       e   n   d       u   s   e   r   s       (   B   e   t   a   ,       o   r       .   .   .       l   e   t       a       r   e   a   l       u   s   e   r       t   o   
-                                   t   e   s   t       i   t       o   u   t   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   i   c   r   o   s   o   f   t       e   v   e   n       p   r   a   c   t   i   c   e       d   a   i   l   y       b   u   i   l   d       t   o   
-                                   m   a   k   e       s   u   r   e       t   h   a   t       t   h   e   y       h   a   v   e       a       w   o   r   k   i   n   g       s   y   s   t   e   m       a   t       t   h   e       e   n   d       o   f   
-                                   e   a   c   h       d   a   y   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   .       A   .       C   u   s   u   m   a   n   o       a   n   d       R   .       W   .       S   e   l   b   y   ,       M   i   c   r   o   s   o   f   t   
-                                   S   e   c   r   e   t   s   ,       F   r   e   e       P   r   e   s   s   ,       1   9   9   5   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   t   o   t   y   p   i   n   g   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   a   n       m   e   a   n       v   e   r   y       d   i   f   f   e   r   e   n   t       t   h   i   n   g   s       t   o   
-                                   d   i   f   f   e   r   e   n   t       p   e   o   p   l   e   :   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   t   o   t   y   p   e       f   o   r       f   e   a   s   i   b   i   l   i   t   y       s   t   u   d   y   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   t   o   t   y   p   e       f   o   r       e   x   p   e   r   i   m   e   n   t   a   t   i   o   n   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   t   o   t   y   p   e       f   o   r       e   v   o   l   u   t   i   o   n   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   t   o   t   y   p   e       f   o   r       r   e   q   u   i   r   e   m   e   n   t       u   n   d   e   r   s   t   a   n   d   i   n   g   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   e   y       r   e   p   r   e   s   e   n   t       F   O   U   R       d   i   f   f   e   r   e   n   t       a   p   p   r   o   a   c   h   e   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   o   f   -   o   f       C   o   n   c   e   p   t       v   s       S   c   h   e   d   u   l   i   n   g   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   E   x   p   e   r   t       S   y   s   t   e   m       D   e   v   e   l   o   p   m   e   n   t   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   d   e   n   t   i   f   i   c   a   t   i   o   n       -   -       i   d   e   n   t   i   f   y       p   r   o   b   l   e   m   
-                                   c   h   a   r   a   c   t   e   r   i   s   t   i   c   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   c   o   n   c   e   p   t   u   a   l   i   z   a   t   i   o   n       -   -       i   d   e   n   t   i   f   y       c   o   n   c   e   p   t   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   f   o   r   m   a   l   i   z   a   t   i   o   n       -   -       d   e   s   i   g   n       s   t   r   u   c   t   u   r   e   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   m   p   l   e   m   e   n   t   a   t   i   o   n       -   -       d   e   s   i   g   n       r   u   l   e   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   V   a   l   i   d   a   t   i   o   n       -   -       t   e   s   t   i   n   g   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   F   r   o   m       v   a   l   i   d   a   t   i   o   n   ,       r   e   v   i   s   e       i   d   e   n   t   i   f   i   c   a   t   i   o   n   ,   
-                                   c   o   n   c   e   p   t   u   a   l   i   z   a   t   i   o   n   ,       f   o   r   m   a   l   i   z   a   t   i   o   n       a   n   d       i   m   p   l   e   m   e   n   t   a   t   i   o   n   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   y   s   t   e   m   s       u   s   e   d       i   n       m   e   d   i   c   a   l       f   i   e   l   d   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   A   n   a   l   y   z   i   n   g       t   h   e       E   x   p   e   r   t       S   y   s   t   e   m       L   i   f   e   c   y   c   l   e   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   d   e   n   t   i   f   i   c   a   t   i   o   n       a   n   d       c   o   n   c   e   p   t   u   a   l   i   z   a   t   i   o   n       -   -   
-                                   r   e   q   u   i   r   e   m   e   n   t       a   n   a   l   y   s   i   s       a   n   d       s   p   e   c   i   f   i   c   a   t   i   o   n   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   F   o   r   m   a   l   i   z   a   t   i   o   n       -   -       d   e   s   i   g   n   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   m   p   l   e   m   e   n   t   a   t   i   o   n       -   -       c   o   d   i   n   g   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   V   a   l   i   d   a   t   i   o   n       -   -       t   e   s   t   i   n   g   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   M   a   i   n   t   e   n   a   n   c   e       o   f       E   x   p   e   r   t       S   y   s   t   e   m   s   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   W   e   l   l       k   n   o   w   n       p   r   o   b   l   e   m   s       i   n       e   x   p   e   r   t       s   y   s   t   e   m   s       (   I   n   
-                                   t   e   s   t   i   n   g       a   n   d       d   e   b   u   g   i   n   g       a   n   d       a   d   d   i   n   g       r   e   q   u   i   r   e   m   e   n   t   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   o   m   e       p   r   o   p   o   s   e   d       s   o   l   u   t   i   o   n   s   :   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   B   e   t   t   e   r       k   n   o   w   l   e   d   g   e       r   e   p   r   e   s   e   n   t   a   t   i   o   n   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   u   s   e       n   a   t   u   r   a   l       l   a   n   g   u   a   g   e       i   n   t   e   r   f   a   c   e   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   e   x   p   l   a   n   a   t   i   o   n   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   k   n   o   w   l   e   d   g   e   -   b   a   s   e   d       r   e   v   i   s   i   o   n   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   B   u   i   l   d   i   n   g       s   m   a   l   l       p   r   o   t   o   t   y   p   e   s   /   p   >   
-                   b   l   o   c   k   q   u   o   t   e   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   b   l   e   m   s       m   u   s   t       b   e       s   m   a   l   l       e   n   o   u   g   h       s   i   n   g   l   e   
-                                   p   e   r   s   o   n   s       c   a   n       h   a   n   d   l   e       t   h   e       j   o   b   .   /   p   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   e       s   y   s   t   e   m       i   s       f   o   r       e   x   p   e   r   i   m   e   n   t   a   t   i   o   n       o   n   l   y   ,   
-                                   n   o       n   e   e   d       o   f       m   a   i   n   t   e   n   a   n   c   e       o   r       m   o   d   i   f   i   c   a   t   i   o   n   .   /   p   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   A       t   o   o   l       i   s       a   v   a   i   l   a   b   l   e       f   o   r       d   e   v   e   l   o   p   i   n   g       t   h   e   
-                                   p   r   o   t   o   t   y   p   e   .   /   p   >   
-                   /   b   l   o   c   k   q   u   o   t   e   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   e       S   o   l   u   t   i   o   n       ?   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   e       e   x   p   e   r   t       s   y   s   t   e   m       n   e   e   d   s       t   o       b   e       m   a   i   n   t   a   i   n   e   d   
-                                   t   o       b   e       u   s   e   f   u   l       i   n       p   r   a   c   t   i   c   e   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   t       i   s       b   e   t   t   e   r       t   o       h   a   v   e       a       r   i   g   o   r   o   u   s   
-                                   d   e   v   e   l   o   p   m   e   n   t       p   r   o   c   e   s   s       w   i   t   h       i   n   t   e   r   m   e   d   i   a   t   e       d   e   l   i   v   e   r   a   b   l   e   s       a   n   d   
-                                   t   r   a   c   e   a   b   i   l   i   t   y       a   m   o   n   g       t   h   e   m   ,       a   n   d       p   e   r   f   o   r   m       v   e   r   i   f   i   c   a   t   i   o   n       a   n   d   
-                                   v   a   l   i   d   a   t   i   o   n       a   t       e   a   c   h       s   t   a   g   e   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   U   s   e       o   f       a   n   y       c   o   n   s   t   r   u   c   t   s   ,       s   t   r   u   c   t   u   r   e   d       o   r       n   o   t   ,   
-                                   d   o   e   s       n   o   t       g   u   a   r   a   n   t   e   e       t   h   e       s   o   f   t   w   a   r   e       d   e   v   e   l   o   p   e   d       w   i   l   l       b   e   
-                                   s   t   r   u   c   t   u   r   e   d   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   K   n   o   w   l   e   d   g   e   -   B   a   s   e   d       S   o   f   t   w   a   r   e       D   e   v   e   l   o   p   m   e   n   t   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   p   o   s   e   d       b   y       m   a   n   y       A   I       r   e   s   e   a   r   c   h   e   r   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   p   e   c   i   f   i   c   a   t   i   o   n       i   s       s   u   p   p   o   s   e   d       t   o       b   e   
-                                   o   p   e   r   a   t   i   o   n   a   l   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   e   m   i   -   a   u   t   o   m   a   t   i   c       t   r   a   n   s   f   o   r   m   a   t   i   o   n       f   r   o   m   
-                                   o   p   e   r   a   t   i   o   n   a   l       s   p   e   c   i   f   i   c   a   t   i   o   n   s       i   n   t   o       a       c   o   m   p   i   l   a   b   l   e       p   r   o   g   r   a   m   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   F   e   e   d   b   a   c   k       l   o   o   p   s       f   o   r       v   e   r   i   f   i   c   a   t   i   o   n       a   n   d   
-                                   v   a   l   i   d   a   t   i   o   n   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   o   d   i   f   i   c   a   t   i   o   n       i   s       d   o   n   e       b   y       r   e   -   p   l   a   y   i   n   g       o   r   
-                                   r   e   -   d   e   r   i   v   i   n   g       t   r   a   n   s   f   o   r   m   a   t   i   o   n   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   V   e   r   y       H   i   g   h   -   L   e   v   e   l       L   a   n   g   u   a   g   e   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   n   i   t   i   a   t   e   d       b   y       s   o       c   a   l   l   e   d       4   t   h       g   e   n   e   r   a   t   i   o   n   
-                                   l   a   n   g   u   a   g   e   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   O   f   t   e   n       a   s   s   o   c   i   a   t   e   d       w   i   t   h       d   a   t   a   b   a   s   e       m   a   n   a   g   e   m   e   n   t   
-                                   s   y   s   t   e   m   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   U   s   e   f   u   l       f   o   r       r   e   p   o   r   t       g   e   n   e   r   a   t   i   o   n   ,       s   o   r   t   i   n   g   ,   
-                                   s   e   a   r   c   h   i   n   g   ,       q   u   e   r   i   e   s       (   R   P   G       ?   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   U   s   e   f   u   l       f   o   r       c   e   r   t   a   i   n       a   p   p   l   i   c   a   t   i   o   n   s       s   u   c   h       a   s   
-                                   b   a   n   k   i   n   g       o   r       m   a   t   h   e   m   a   t   i   c   a   l       o   p   e   r   a   t   i   o   n   s       s   u   c   h       a   s       s   e   t       o   p   e   r   a   t   i   o   n   s   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   f       i   t       w   o   r   k   s   ,       i   t       c   a   n       i   n   c   r   e   a   s   e       p   r   o   d   u   c   t   i   v   i   t   y   
-                                   s   i   g   n   i   f   i   c   a   n   t   l   y   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   W   i   l   l       n   o   t       b   e       u   s   e   f   u   l       f   o   r       g   e   n   e   r   a   l       p   u   r   p   o   s   e   
-                                   c   o   m   p   u   t   i   n   g       i   n       t   h   e       n   e   a   r       f   u   t   u   r   e   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   U   n   l   e   s   s       a   p   p   r   o   v   e   d   ,       v   e   n   d   o   r   s       c   a   n       n   o   t       u   s   e       t   h   i   s   
-                                   a   p   p   r   o   a   c   h       t   o       d   e   v   e   l   o   p       m   i   l   i   t   a   r   y       a   p   p   l   i   c   a   t   i   o   n   s   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   u   s   a   b   i   l   i   t   y   /   h   3   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   A   l   l       s   o   f   t   w   a   r   e       a   r   t   i   f   a   c   t   s       a   r   e       r   e   u   s   a   b   l   e       i   n   c   l   u   d   i   n   g   
-                   r   e   q   u   i   r   e   m   e   n   t       i   t   e   m   s   ,       e   m   >   d   e   s   i   g   n       p   a   t   t   e   r   n   s   /   e   m   >   ,       d   e   s   i   g   n       i   t   e   m   s   ,   
-                   c   o   d   e       s   e   g   m   e   n   t   s   ,       a   n   d       t   e   s   t       c   a   s   e   s   .   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   o   s   t       l   a   r   g   e       p   r   o   g   r   a   m   s       a   r   e       d   o   m   a   i   n   -   s   p   e   c   i   f   i   c       a   n   d   
-                   i   n   v   o   l   v   e       m   a   n   y       v   e   r   s   i   o   n   s   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   o   f   t   w   a   r   e       d   e   v   e   l   o   p   m   e   n   t       p   r   o   c   e   s   s       d   e   f   i   n   i   t   i   o   n   s       c   a   n   
-                   a   l   s   o       b   e       r   e   u   s   e   d   .   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   S   o   f   t   w   a   r   e       R   e   u   s   a   b   i   l   i   t   y   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   i   s       i   s       a       B   I   G       d   e   a   l       !   !   !   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   L   o   w   -   l   e   v   e   l       s   o   f   t   w   a   r   e       r   e   u   s   e   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   r   e   u   s   a   b   l   e       o   b   j   e   c   t   s   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   m   o   s   t   l   y       p   r   i   m   i   t   i   v   e       o   b   j   e   c   t   s   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   u   t       a   n   d       P   a   s   t   e       C   o   d   e       ?   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   H   i   g   h   -   l   e   v   e   l       s   o   f   t   w   a   r   e       r   e   u   s   e   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   r   e   u   s   a   b   l   e       s   o   f   t   w   a   r   e       c   o   m   p   o   n   e   n   t   s       -   -       M   i   c   r   o   s   o   f   t   
-                   W   o   r   d       a   s       a   n       o   b   j   e   c   t   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   L   o   t   u   s       e   S   u   i   t   e       D   e   v   P   a   c   k   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   r   e   q   u   i   r   e       a       f   l   e   x   i   b   l   e       s   o   f   t   w   a   r   e       a   r   c   h   i   t   e   c   t   u   r   e   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   A   p   p   l   i   c   a   t   i   o   n       g   e   n   e   r   a   t   o   r   s       (   N   e   t   O   b   j   ,       W   i   n   O   b   j   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   O   b   j   e   c   t   -   o   r   i   e   n   t   e   d       f   r   a   m   e   w   o   r   k   s       (   I   B   M   
-                                   S   a   n   F   r   a   n   c   i   s   o       P   r   o   j   e   c   t   )   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   S   o   f   t   w   a   r   e       R   e   u   s   a   b   i   l   i   t   y   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   i   s       i   s       t   h   e       w   a   y       t   o       s   h   o   r   t   e   n       s   o   f   t   w   a   r   e   
-                                   d   e   v   e   l   o   p   m   e   n   t       c   y   c   l   e   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   u   s   e       c   o   d   e       (   f   a   s   t   e   r       d   e   v   e   l   o   p   m   e   n   t   )   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   u   s   e       p   l   a   t   f   o   r   m       (   A   S   /   4   0   0       3   2   b   i   t       t   o       6   4   b   i   t   )   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   W   h   a   t       a   r   e       t   h   e   i   r       T   e   c   h   n   i   q   u   e   s   ?   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   o   f   t   w   a   r   e       R   e   u   s   a   b   i   l   i   t   y   /   p   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   g   r   a   m       G   e   n   e   r   a   t   i   o   n   /   p   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   G   r   a   p   h   i   c   a   l       a   n   d       u   s   e   r   -   f   r   i   e   n   d   l   y       s   p   e   c   i   f   i   c   a   t   i   o   n   
-                                   l   a   n   g   u   a   g   e   /   p   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   o   m   m   o   n   a   l   i   t   y       a   n   a   l   y   s   i   s   /   p   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   o   f   t   w   a   r   e       D   e   v   e   l   o   p   m   e   n   t       P   r   o   c   e   s   s       m   o   d   e   l   i   n   g   /   p   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   L   a   y   e   r       a   r   c   h   i   t   e   c   t   u   r   e       a   n   d       d   e   p   l   o   y   m   e   n   t   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   W   h   a   t       i   s       t   h   e       M   o   s   t       I   m   p   o   r   t   a   n   t       l   e   s   s   o   n       w   i   t   h       t   h   i   s   ?   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   i   n   k   i   n   g       a   b   o   u   t       5       t   o       1   0   %       i   n       p   r   o   d   u   c   t   i   v   i   t   y   
-                                   i   m   p   r   o   v   e   m   e   n   t       p   e   r       y   e   a   r       i   s       n   o   w       o   b   s   o   l   e   t   e   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   t       i   s       t   i   m   e       t   o       t   h   i   n   k       a   b   o   u   t       m   o   r   e   
-                                   p   r   o   d   u   c   t   i   v   i   t   y       g   a   i   n   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   I   t       w   i   l   l       t   a   k   e       s   o   m   e       t   i   m   e       f   o   r       t   h   i   s   
-                                   t   e   c   h   n   o   l   o   g   y       t   o       b   e       w   i   d   e   l   y       k   n   o   w   n       a   n   d       p   r   a   c   t   i   c   e   d       a   n   d       w   e       s   t   i   l   l   
-                                   h   a   v   e       t   h   e       t   i   m   e       t   o       m   a   s   t   e   r       t   h   e       t   e   c   h   n   o   l   o   g   y   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   B   y       P   r   o   f       T   s   a   i   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   I   B   M       C   l   e   a   n   r   o   o   m       M   e   t   h   o   d   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   M   u   l   t   i   p   l   e       I   B   M       C   l   e   a   n   r   o   o   m       m   e   t   h   o   d   s   .       W   h   y       o   n   e   ?   
-                                   T   h   e   r   e       a   r   e       3   -   s   t   a   g   e       C   l   e   a   n   r   o   o   m       a   n   d       4   -   s   t   a   g   e       C   l   e   a   n   r   o   o   m       w   i   t   h   
-                                   d   i   f   f   e   r   e   n   t       a   s   s   o   c   i   a   t   e   d       t   e   c   h   n   i   q   u   e   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   e   s   e   n   t       3   -   s   t   a   g   e       C   l   e   a   n   r   o   o   m       m   e   t   h   o   d       b   y       H   .   
-                                   M   i   l   l   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   3       i   n   d   e   p   e   n   d   e   n   t       t   e   a   m   s       -   -       s   p   e   c   i   f   i   c   a   t   i   o   n   s   ,   
-                                   c   o   d   i   n   g       a   n   d       t   e   s   t   i   n   g       t   e   a   m   s   ,       t   h   e   y       c   a   n       c   o   m   m   u   n   i   c   a   t   e       v   i   a   
-                                   d   o   c   u   m   e   n   t   a   t   i   o   n   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   N   o       c   o   m   p   i   l   e   r   s       w   i   l   l       b   e       m   a   d   e       a   v   a   i   l   a   b   l   e       t   o   
-                                   t   h   e       c   o   d   i   n   g       t   e   a   m   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   W   h   y   ,       i   s       I       t   e   l   l       y   o   u       t   h   e   r   e       i   s       n   o       c   o   m   p   i   l   e   r   
-                                   u   n   t   i   l       2       h   o   u   r   s       b   e   f   o   r   e       t   h   e       h   o   m   e   w   o   r   k       i   s       h   a   n   d   l   e       i   n   .       A   r   e       y   o   u   
-                                   g   o   i   n   g       t   o       c   o   d   e       m   u   c   h       m   o   r   e       c   a   r   e   f   u   l       ?   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   r   e   e       T   e   a   m   s       o   f       t   h   e       C   l   e   a   n   r   o   o   m   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   e       s   p   e   c   i   f   i   c   a   t   i   o   n       t   e   a   m       u   s   e       a       s   e   m   i   -   f   o   r   m   a   l   
-                                   s   p   e   c   i   f   i   c   a   t   i   o   n       l   a   n   g   u   a   g   e   s       t   o       s   p   e   c   i   f   y       t   h   e       r   e   q   u   i   r   e   m   e   n   t   s   ,       t   h   e   
-                                   s   p   e   c   i   f   i   c   a   t   i   o   n       t   e   a   m       w   i   l   l       e   n   s   u   r   e       t   h   a   t       t   h   e       s   p   e   c   i   f   i   c   a   t   i   o   n   s   
-                                   a   r   e       c   o   r   r   e   c   t   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   e       c   o   d   i   n   g       t   e   a   m       w   i   l   l       c   o   d   e       t   h   e       s   o   f   t   w   a   r   e   
-                                   w   i   t   h   o   u   t       c   o   m   p   i   l   e   r   s       a   n   d       w   i   l   l       i   n   s   p   e   c   t       t   h   e       c   o   d   e   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   e       t   e   s   t   i   n   g       t   e   a   m       w   i   l   l       p   e   r   f   o   r   m       f   u   n   c   t   i   o   n   a   l   
-                                   t   e   s   t   i   n   g       b   a   s   e   d       o   n       u   s   a   g   e   ,       i   n   s   t   e   a   d       o   f       c   o   v   e   r   a   g   e   ,       u   s   i   n   g       a   
-                                   s   t   a   t   i   s   t   i   c   a   l       m   o   d   e   l       a   n   d       u   n   i   t       t   e   s   t   i   n   g       a   n   d       m   o   d   u   l   e       t   e   s   t   i   n   g   
-                                   w   i   l   l       n   o   t       b   e       p   e   r   f   o   r   m   e   d   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   E   v   a   l   u   a   t   i   o   n       o   f       C   l   e   a   n   r   o   o   m       M   e   t   h   o   d   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   G   e   t   t   i   n   g       r   i   d       o   f       c   o   m   p   i   l   e   r   s       f   o   r       p   r   o   g   r   a   m   m   e   r   s   
-                                   i   s       a   n       e   x   c   e   l   l   e   n   t       i   d   e   a       -   -       b   e   s   t       p   r   o   g   r   a   m   m   e   r   s       o   f   t   e   n       u   s   e   
-                                   c   o   m   p   i   l   e   r   s       t   h   e       l   e   a   s   t   ,       t   h   e   y       s   p   e   n   d       m   o   r   e       t   i   m   e       t   h   i   n   k   i   n   g   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   H   a   v   i   n   g       t   h   r   e   e       i   n   d   e   p   e   n   d   e   n   t       t   e   a   m   s       f   o   r   
-                                   d   i   f   f   e   r   e   n   t       t   a   s   k   s       i   s       a   n       e   x   c   e   l   l   e   n   t       i   d   e   a       -   -       t   h   i   s       f   o   r   c   e   s       e   a   c   h   
-                                   t   e   a   m       t   o       p   r   o   d   u   c   e       d   e   p   e   n   d   a   b   l   e       p   r   o   d   u   c   t   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   e       p   r   o   b   l   e   m       r   e   q   u   i   r   e   m   e   n   t   s       m   u   s   t       b   e   
-                                   r   e   l   a   t   i   v   e   l   y       s   t   a   b   l   e   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   i   s       p   r   o   c   e   s   s       i   s       t   o   o       r   i   g   o   r   o   u   s   .   /   p   >   
-                   /   l   i   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   T   h   i   s       a   p   p   r   o   a   c   h       h   a   s       b   e   e   n       t   r   i   e   d       o   n       s   m   a   l   l       t   o   
-                                   m   e   d   i   u   m       s   c   a   l   e       p   r   o   j   e   c   t   s       o   n   l   y       -   -       d   o       m   o   s   t       I   B   M       s   i   t   e   s       u   s   e       t   h   i   s   
-                                   a   p   p   r   o   a   c   h       i   n       t   h   e   i   r       s   o   f   t   w   a   r   e       d   e   v   e   l   o   p   m   e   n   t   ?   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   W   a   t   e   r   f   a   l   l       M   o   d   e   l       a   s       M   e   t   a   -   M   o   d   e   l   /   h   3   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   W   e       c   a   n       a   n   a   l   y   z   e       a   n   y       s   o   f   t   w   a   r   e       d   e   v   e   l   o   p   m   e   n   t   
-                                   p   r   o   c   e   s   s       u   s   i   n   g       t   h   e       w   a   t   e   r   f   a   l   l       m   o   d   e   l   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   q   u   i   r   e   m   e   n   t       -   -       d   e   s   i   g   n       -   -       c   o   d   i   n   g       a   n   d       t   e   s   t   i   n   g   
-                   a   r   e       b   a   s   i   c   a   l   l   y       g   e   n   e   r   i   c       a   c   t   i   v   i   t   i   e   s   .   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   u   l   >   
-                   l   i   >   p       a   l   i   g   n   =   "   l   e   f   t   "   >   A   l   l       t   h   e       p   r   o   c   e   s   s   e   s       m   u   s   t       g   o       t   h   r   o   u   g   h       t   h   e   s   e   
-                                   a   c   t   i   v   i   t   i   e   s       e   i   t   h   e   r       e   x   p   l   i   c   i   t   l   y       o   r       i   m   p   l   i   c   i   t   l   y   .   /   p   >   
-                   /   l   i   >   
-   /   u   l   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   C   a   n       w   e       b   e       C   r   e   a   t   i   v   e   ?   /   h   3   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   U   s   e       D   i   v   i   d   e       a   n   d       C   o   n   q   u   e   u   r   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   a   n       w   e       s   k   i   p       R   ?   /   p   >   
-                   b   l   o   c   k   q   u   o   t   e   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   w   e       m   a   y       n   o   t       k   n   o   w       e   x   a   c   t   l   y       w   h   a   t       t   h   e       u   s   e   r   
-                                   w   a   n   t   e   d   /   p   >   
-                   /   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   a   n       w   e       s   k   i   p       D   ?   /   p   >   
-                   b   l   o   c   k   q   u   o   t   e   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   w   e       m   a   y       h   a   v   e       u   n   s   t   r   u   c   t   u   r   e   d       d   e   s   i   g   n   /   p   >   
-                   /   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   a   n       w   e       c   o   m   b   i   n   e       R       &a   m   p   ;       D   ?   /   p   >   
-                   b   l   o   c   k   q   u   o   t   e   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   t   h   e       d   e   s   i   g   n       m   a   y       b   e   c   o   m   e       r   e   q   u   i   r   e   m   e   n   t   s       o   r   
-                                   a   s   s   u   m   p   t   i   o   n   s   /   p   >   
-                   /   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   C   a   n       w   e       c   o   m   b   i   n   e       R       &a   m   p   ;       D       &a   m   p   ;       C   ?   /   p   >   
-                   b   l   o   c   k   q   u   o   t   e   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   H   a   c   k   i   n   g   /   p   >   
-                                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   r   e   q   u   i   r   e   m   e   n   t   ,       d   e   s   i   g   n       a   n   d       i   m   p   l   e   m   e   n   t   a   t   i   o   n   
-                                   i   s   s   u   e   s       a   l   l       m   i   x       t   o   g   e   t   h   e   r   /   p   >   
-                   /   b   l   o   c   k   q   u   o   t   e   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   A   n   a   l   y   z   i   n   g       S   o   f   t   w   a   r   e       M   a   i   n   t   e   n   a   n   c   e   /   h   3   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   b   l   e   m       i   d   e   n   t   i   f   i   c   a   t   i   o   n       -   -       r   e   q   u   i   r   e   m   e   n   t   s   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   P   r   o   g   r   a   m       u   n   d   e   r   s   t   a   n   d   i   n   g       -   -       r   e   q   u   i   r   e   m   e   n   t   s   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   p   r   o   p   o   s   e       d   e   s   i   g   n       c   h   a   n   g   e   s       -   -       d   e   s   i   g   n   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   m   o   d   i   f   i   c   a   t   i   o   n       -   -       c   o   d   i   n   g   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   r   e   -   v   a   l   i   d   a   t   i   o   n       -   -       t   e   s   t   i   n   g   /   p   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   S   o   f   t   w   a   r   e       m   a   i   n   t   e   n   a   n   c   e       i   s       e   s   s   e   n   t   i   a   l   l   y       a   
-                   r   e   p   e   t   i   t   i   v   e       w   a   t   e   r   f   a   l   l       m   o   d   e   l   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   
-   p       a   l   i   g   n   =   "   l   e   f   t   "   >   &n   b   s   p   ;   /   p   >   
-   
-   h   3       a   l   i   g   n   =   "   l   e   f   t   "   >   R   e   f   e   r   e   n   c   e   /   h   3   >   
-   
-   b   l   o   c   k   q   u   o   t   e   >   
-                   p       a   l   i   g   n   =   "   l   e   f   t   "   >   A   l   l       m   a   t   e   r   i   a   l   s       a   r   e       f   r   o   m       w   o   r   k       e   x   p   e   r   i   e   n   c   e   ,   
-                   s   o   f   t   w   a   r   e       e   n   g   i   n   e   e   r   i   n   g       b   o   o   k   s       a   n   d       i   d   e   a   s       &a   m   p   ;       n   o   t   e   s       f   r   o   m       m   y   
-                   a   d   v   i   s   o   r       i   n       U   n   i   v   e   r   s   i   t   y       o   f       M   i   n   n   e   s   o   t   a   /   p   >   
-   /   b   l   o   c   k   q   u   o   t   e   >   
-   /   b   o   d   y   >   
-   /   h   t   m   l   >   
-   !   -   -       t   e   x   t       b   e   l   o   w       g   e   n   e   r   a   t   e   d       b   y       s   e   r   v   e   r   .       P   L   E   A   S   E       R   E   M   O   V   E       -   -   >   !   -   -       C   o   u   n   t   e   r   /   S   t   a   t   i   s   t   i   c   s       d   a   t   a       c   o   l   l   e   c   t   i   o   n       c   o   d   e       -   -   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   J   a   v   a   S   c   r   i   p   t   "       s   r   c   =   "   h   t   t   p   :   /   /   l   .   y   i   m   g   .   c   o   m   /   d   /   l   i   b   /   s   m   b   /   j   s   /   h   o   s   t   i   n   g   /   c   p   /   j   s   _   s   o   u   r   c   e   /   w   h   v   2   _   0   0   1   .   j   s   "   >   /   s   c   r   i   p   t   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   j   a   v   a   s   c   r   i   p   t   "   >   g   e   o   v   i   s   i   t   (   )   ;   /   s   c   r   i   p   t   >   n   o   s   c   r   i   p   t   >   i   m   g       s   r   c   =   "   h   t   t   p   :   /   /   v   i   s   i   t   .   w   e   b   h   o   s   t   i   n   g   .   y   a   h   o   o   .   c   o   m   /   v   i   s   i   t   .   g   i   f   ?   u   s   1   3   8   4   5   7   7   5   7   0   "       a   l   t   =   "   s   e   t   s   t   a   t   s   "       b   o   r   d   e   r   =   "   0   "       w   i   d   t   h   =   "   1   "       h   e   i   g   h   t   =   "   1   "   >   /   n   o   s   c   r   i   p   t   >   
 =============
 
-http://openloop.com/softwareEngineering/sfwEngClassic/classicModel2.htm
-[u'Classic Material Part II']
+http://ramtest55.heliohost.org/allsite.css
+[u' allsite.css']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/designPattern/introPattern.htm
-[u'Introduction']
+http://ramtest55.heliohost.org/cgi-bin
+[u' cgi-bin/']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_wholePart.htm
-[u'Whole Part']
+http://ramtest55.heliohost.org/error_log
+[u' error_log']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_MasterSlave.htm
-[u'Master Slave']
+http://ramtest55.heliohost.org/homepageassign2.html
+[u' homepageassign2.html']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_Proxy.htm
-[u'Proxy']
+http://ramtest55.heliohost.org/proj_newusr.php
+[u' proj_newusr.php']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_CommandProcessor.htm
-[u'Command Processor']
+http://ramtest55.heliohost.org/proj_oldusr.php
+[u' proj_oldusr.php']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/designPattern/dPattern_publisherSubscriber.ht
-[u'm   "   >   P   u   b   l   i   s   h   e   r       S   u   b   s   c   r   i   b   e   r   /   a   >   /   p   >   \n   \n   p   >   a       h   r   e   f   =   "   d   P   a   t   t   e   r   n   _   V   i   e   w   H   a   n   d   l   e   r   .   h   t   m   "   >   V   i   e   w       H   a   n   d   l   e   r   /   a   >   /   p   >   \n   /   b   o   d   y   >   \n   /   h   t   m   l   >   \n   !   -   -       t   e   x   t       b   e   l   o   w       g   e   n   e   r   a   t   e   d       b   y       s   e   r   v   e   r   .       P   L   E   A   S   E       R   E   M   O   V   E       -   -   >   !   -   -       C   o   u   n   t   e   r   /   S   t   a   t   i   s   t   i   c   s       d   a   t   a       c   o   l   l   e   c   t   i   o   n       c   o   d   e       -   -   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   J   a   v   a   S   c   r   i   p   t   "       s   r   c   =   "   h   t   t   p   :   /   /   l   .   y   i   m   g   .   c   o   m   /   d   /   l   i   b   /   s   m   b   /   j   s   /   h   o   s   t   i   n   g   /   c   p   /   j   s   _   s   o   u   r   c   e   /   w   h   v   2   _   0   0   1   .   j   s   "   >   /   s   c   r   i   p   t   >   s   c   r   i   p   t       l   a   n   g   u   a   g   e   =   "   j   a   v   a   s   c   r   i   p   t   "   >   g   e   o   v   i   s   i   t   (   )   ;   /   s   c   r   i   p   t   >   n   o   s   c   r   i   p   t   >   i   m   g       s   r   c   =   "   h   t   t   p   :   /   /   v   i   s   i   t   .   w   e   b   h   o   s   t   i   n   g   .   y   a   h   o   o   .   c   o   m   /   v   i   s   i   t   .   g   i   f   ?   u   s   1   3   8   4   5   7   7   5   6   4   "       a   l   t   =   "   s   e   t   s   t   a   t   s   "       b   o   r   d   e   r   =   "   0   "       w   i   d   t   h   =   "   1   "       h   e   i   g   h   t   =   "   1   "   >   /   n   o   s   c   r   i   p   t   >   ']
+http://ramtest55.heliohost.org/proj_upload_step2.php
+[u' proj_upload_step2.php']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Intro.htm
-[u'Introduction']
+http://ramtest55.heliohost.org/showallbyall.php
+[u' showallbyall.php']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Layers.htm
-[u'Layers']
+http://ramtest55.heliohost.org/upload
+[u' upload/']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Blackboard.htm
-[u'Blackboard']
+http://ramtest55.heliohost.org/userauth.html
+[u' userauth.html']
 ['']
 
 
 =============
 
-http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Broker.htm
-[u'Broker']
+http://ramtest55.heliohost.org/userguide.html
+[u' userguide.html']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/userinfo
+[u' userinfo']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org
+[u' Parent Directory']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley1.gif
+[u' smiley1.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley10.gif
+[u' smiley10.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley11.gif
+[u' smiley11.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley12.gif
+[u' smiley12.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley13.gif
+[u' smiley13.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley14.gif
+[u' smiley14.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley15.gif
+[u' smiley15.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley16.gif
+[u' smiley16.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley2.gif
+[u' smiley2.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley3.gif
+[u' smiley3.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley4.gif
+[u' smiley4.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley5.gif
+[u' smiley5.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley6.gif
+[u' smiley6.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley7.gif
+[u' smiley7.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley8.gif
+[u' smiley8.gif']
+['']
+
+
+=============
+
+http://ramtest55.heliohost.org/smiley9.gif
+[u' smiley9.gif']
 ['']
 
 
@@ -1113,4 +339,4 @@ http://openloop.com/softwareEngineering/patterns/architecturePattern/arch_Broker
 
 *****************************
 
-['http://openloop.com/softwareEngineering/', 'http://openloop.com/softwareEngineering/sfwEngClassic/index.htm', 'http://openloop.com/softwareEngineering/patterns/designPattern/index.htm', 'http://openloop.com/softwareEngineering/patterns/architecturePattern/index.htm', 'http://openloop.com/softwareEngineering/security/index.htm', 'http://openloop.com/softwareEngineering/sfwEngClassic/classicModel1.htm']
+['http://ramtest55.heliohost.org/', 'http://ramtest55.heliohost.org/.htaccess', 'http://ramtest55.heliohost.org/.smileys', 'http://ramtest55.heliohost.org/.wysiwygPro_preview_f3ca88f5a4d4aeb8ee1331d6308823df.php', 'http://ramtest55.heliohost.org/abc.php', 'http://ramtest55.heliohost.org/allinfo']

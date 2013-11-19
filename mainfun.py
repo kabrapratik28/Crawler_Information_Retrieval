@@ -30,7 +30,6 @@ from reppy.cache import RobotsCache
 robots = RobotsCache()         ## creating object for cache robots.txt
 
 
-
 '''
 url data
 '''
@@ -80,8 +79,10 @@ def datastorer(site , at_given_url):      # return beautifulsoup object         
     list_of_one_object =  filter(lambda x: x.url ==at_given_url , listofobject)
     object_url = list_of_one_object[0]
     ##open page and give to beautiful soup
-    try : 
-        objecturllib = urllib2.urlopen( at_given_url)
+    try :
+        req = urllib2.Request(at_given_url)
+        req.add_unredirected_header('User-Agent', 'StudentBot')      ## Bot name  ... StudentBot
+        objecturllib = urllib2.urlopen(req )
         site_last_time_visit[site] = dt.datetime.now()               ## site visited now so time is updated 
         htmlcode  =  objecturllib.read()
         soupobject = BeautifulSoup(htmlcode)
@@ -272,8 +273,50 @@ def back_queue_feeder():
                   for del_each in dellist : 
                       del (site_current_url_remain[del_each])
         else : 
-                  print "Site Queue Finished ... Stopping Crawling"
-                  exit()
+                    print " ===============  QUEUE FINISHED RESULTS ============= \n "
+
+                    print "URL FECTER QUEUE"
+                    print url_fecher_queue
+
+                    print "\n\n\n\n"
+
+                    print "VISITED SITE URL"
+                    print visited_site_url
+
+                    print "\n\n\n\n"
+
+                    print "DATA URL"
+                    print data_url
+
+                    print "\n\n\n\n"
+
+                    print "SITE TIME"
+                    print site_last_time_visit
+
+                    print "\n\n\n\n"
+
+                    print "URL REMAINED"
+                    print site_current_url_remain
+
+                    print "\n\n\n\n"
+
+                    for data_con in data_url:
+                        print data_con
+                        for  dataobj in data_url[data_con]: 
+                                    print dataobj.url.encode('utf-8')  
+                                    print dataobj.anchor
+                                    print dataobj.anchor_win  
+                                    print dataobj.title.encode('utf-8') 
+                                    print dataobj.urldata.encode('utf-8')        
+                                    print "=============\n"
+                    print "*****************************\n"          
+
+
+                    print urllistvisted
+
+
+                    print "Site Queue Finished ... Stopping Crawling"
+                    exit()
     #else : 
     #    print "No need to feed"
 
@@ -474,7 +517,7 @@ print urllistvisted
 
 ###  1. anchor window add  
 ###  2. anchor add ...change url_visited class return object ... so used to add anchor    #### DONE ... :) 
-###  3. delete from dicitionary return -1 sites ... bz they are not present   
+###  3. delete from dicitionary return -1 sites ... bz they are not present   #### DONE ... :) 
 ###  4. user -agent 
 ###  5. how many levels go deeper
 ###  6. focused crawler 
