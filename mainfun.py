@@ -86,6 +86,7 @@ def datastorer(site , at_given_url):      # return beautifulsoup object         
         site_last_time_visit[site] = dt.datetime.now()               ## site visited now so time is updated 
         htmlcode  =  objecturllib.read()
         soupobject = BeautifulSoup(htmlcode)
+        nouse = [xjs.extract() for xjs in soupobject.findAll(['script', 'style'])]    ## remove all javascript and css from body NOUSE OF THAT
         #soupnormalized = soupobject.prettify()
         #print soupnormalized
         if soupobject.title : 
