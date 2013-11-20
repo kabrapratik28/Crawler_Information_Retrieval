@@ -518,6 +518,6 @@ print urllistvisted
 ###  1. anchor window add  
 ###  2. anchor add ...change url_visited class return object ... so used to add anchor    #### DONE ... :) 
 ###  3. delete from dicitionary return -1 sites ... bz they are not present   #### DONE ... :) 
-###  4. user -agent 
+###  4. user -agent                                                           #### DONE ... :) 
 ###  5. how many levels go deeper
 ###  6. focused crawler 
