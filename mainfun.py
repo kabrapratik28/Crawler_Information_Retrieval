@@ -21,6 +21,7 @@ STOPING CONDITION => after N(e.g. 10) url dont tc urls into url dictionary and e
 '''
 data
 '''
+import re
 import datetime as dt
 from bs4 import BeautifulSoup
 import urllib2
@@ -56,6 +57,32 @@ visited_site_url = {}	 # {'http://asd.com':['http://asd.com/ddd','http://asd.com
 data_url = {}             #{site : [urlobject1 , .... ]}  ##urrl object => url,anchor,anchor window,metachar,main text
 site_last_time_visit ={}       # {'http://asd.com':time(), .... }
 site_current_url_remain = {}   # {'http://asd.com':['http://asd.com/ddd','http://asd.com/fff'] , ... }
+
+'''ALL USER DEFINED DATA READING  '''
+def user_defined():
+#open file and read what he want for focused crawling    
+    FILE_READ_DATA = open( "data", "r" )
+    linedata = ""
+    for linethis in FILE_READ_DATA:
+        linedata = linedata + linethis 
+    clearline = re.sub('\s+',' ',linedata)
+    listretpls =  filter(None, clearline.lower().split(" "))
+    return listretpls
+
+'''ALL USER DEFINED DEPTH DATA READING  '''
+def user_defined_depth():
+#open file and read what he want for focused crawling    
+    FILE_READ_DATA = open( "depth", "r" )
+    linedata = ""
+    for linethis in FILE_READ_DATA:
+        linedata = linethis 
+        break      ## First line read only ... depth number
+    clearline = re.sub('\s+','',linedata)  ## replace by null string not " "
+    listretpls =  filter(None, clearline.lower().split(" "))
+    return int(listretpls[0])
+    
+    
+
 
 '''Seed reader .. only used for first time'''
 def seed_reader():   ##return list of urls 
@@ -119,10 +146,31 @@ def all_url_on_given_page(beautful_soap_string):   # return [[url,anchor,anchorw
              if link.previousSibling : 
                  ref_anchorwindow = link.previousSibling.string     ##******** CORRECT THIS AFTERWARDS  *******************
              make_list = [ref_link, ref_anchor,ref_anchorwindow]
+##***** DONT MAKE URL LOWER... OTHERWISE IT WILL NOT WORK ... FOLDER ARE CASE SENSATIVE .... ONLY SITE URL AFTERWARDS MAKE SMALL
              temp_list.append(make_list)
     return temp_list
 
 
+
+#========== FOCUSED CRAWLER ============================
+#*******************************************************
+
+
+def focused_links (list_of_links):
+#****************** MAKE LOWER ANCHOR TEXT ************************ >>>>IN PREVIOSE ONLY
+    list_ret = [ ]
+    for evry_link_list in list_of_links :
+        if evry_link_list[1] : 
+            anchor_for_that_url = evry_link_list[1].lower()    ## remove lower from here and put that in datastorer function
+            words_in_that_anchor = filter(None, anchor_for_that_url.split(" "))
+            if len(list(set(LIST_OF_WORDS_USER) & set(words_in_that_anchor))):
+                list_ret.append(evry_link_list)
+    return list_ret
+
+
+
+#*******************************************************
+#=============== FOCUSED CRAWLER ENDS HERE ==============
 
 '''Site normalized before further processong '''
 def sitenamenormalization(baseurl , one_url_at_a_time): ## baseurl is one used for datastored , and one url from all url returns from that page
@@ -313,7 +361,12 @@ def back_queue_feeder():
                     print "*****************************\n"          
 
 
+                    print "Url visited"
                     print urllistvisted
+
+                    print "Depth List"
+                    print LIST_DEPTH_REC
+
 
 
                     print "Site Queue Finished ... Stopping Crawling"
@@ -378,14 +431,48 @@ def url_giver():
 ## DONT NEED TO CHECK TIME AND QUEUE FEEDER .... TAKEN CARE BY URL_GIVER
 
 
+#===========DEPTH IMPLEMENTATION======================
+#==========*********************=====================
+## depth calculation for crawling
+
+def create_depth_list (user_given_no):   ## create depth empty list 
+## e.g. depth 4 === [ [],[],[],[]  ] ## for each depth one list
+## add 1 to user given because first is zero and taken by seeds
+    LIST_DEPTH_REC = [[] for x in range(user_given_no + 1)]
+    return LIST_DEPTH_REC
+
+def add_to_depth (one_full_url , depth_number): ## adding given urls to depth
+## depth number provides info about in which depth we want to add
+    LIST_DEPTH_REC[ depth_number].append(one_full_url) 
+
+
+def check_depth (full_absolute_url): ## returning 1 if depth is not boundary depth AND 0 when depth is boundary depth 
+    for current_list in  LIST_DEPTH_REC:
+        if full_absolute_url in current_list : 
+            break 
+    depth_of_url = LIST_DEPTH_REC.index(current_list)
+    if depth_of_url == USER_GIVEN_NO : 
+        return [0,depth_of_url]
+    else :
+        return [1,depth_of_url]
 
 
 
+
+#==========*********************=====================
+#===========DEPTH IMPLEMENTATION FINISHED======================
 
 
 
 #======================= MAIN ++++++ =============================
 url_list = seed_reader()
+LIST_OF_WORDS_USER = user_defined()  
+USER_GIVEN_NO = user_defined_depth()    ## Number of depth max user want to crawl
+LIST_DEPTH_REC = create_depth_list(USER_GIVEN_NO)     ## list where records are stored
+depth_of_current = 0 
+
+
+
 for one_url_in_list in url_list : 
     site_base_name  = url_splitter(one_url_in_list)
     res_dpli = url_checker_dupli( site_base_name , one_url_in_list)
@@ -394,6 +481,9 @@ for one_url_in_list in url_list :
         if ret_robo== 1 :    ## if -1 do nothing site not present  or delete site from dictionary ***** 
             res_dpli.add_anchor("Seeds","Seeds")   ##    ASK madam ... remove bz .. other will give anchor abt seeds
             add_to_site_queue_dict(site_base_name , one_url_in_list)
+            # ===== depth calculation =======
+            add_to_depth (one_url_in_list , depth_of_current)
+            # ===== depth calculation ends ======
         elif ret_robo == 0:  
             denied_robots_call(site_base_name , one_url_in_list , "NO ACHOR TO SEEDS","NO WINDOW TO SEEDS")
         elif ret_robo == -1 :  #*** delete site bz its not present in actual world   
@@ -439,12 +529,24 @@ while True :
 counter = 0 
 #for now only 
 urllistvisted = []
-while counter <= 5 : 
+while counter <= 5 :                            ## fist n number of urls only ..... 
     urlgiver  = url_giver()
+
+
+    # checking its depth ===========
+    list_of_info_url = check_depth (urlgiver)
+    ok_or_cancel = list_of_info_url[0]
+    depth_of_current = list_of_info_url[1] 
+    #checking ite depth ends===========
+
+
     site_base_name  = url_splitter(urlgiver)
     soup_catcher = datastorer(site_base_name ,urlgiver )
-    if soup_catcher : 
+    if soup_catcher and ok_or_cancel:                        ## ok or cancel decided by depth ... on boundary depth no further urls  
         list_of_url = all_url_on_given_page(soup_catcher)
+        #FOCUSED CRAWLER ======================
+        list_of_url = focused_links (list_of_url) ## VARIABLE OVERWRITTEN
+        #FOCUSE CRAWLER =======================
         for one_url_list_in_all_list in list_of_url : 
             modified_abs_url = sitenamenormalization(urlgiver ,one_url_list_in_all_list[0] )
             modi_site_base =  url_splitter(modified_abs_url)
@@ -455,6 +557,9 @@ while counter <= 5 :
                     if ret_robo== 1 :    ## if -1 do nothing site not present  or delete site from dictionary *****  
                         add_to_site_queue_dict(modi_site_base , modified_abs_url)
                         urlretval.add_anchor(one_url_list_in_all_list[1], one_url_list_in_all_list[2])   ## anchor added 
+                        # ===== depth calculation =======
+                        add_to_depth (modified_abs_url ,depth_of_current+1 )
+                        # ===== depth calculation ends ======
                     elif ret_robo == 0:  
                         denied_robots_call(modi_site_base , modified_abs_url,one_url_list_in_all_list[1] ,one_url_list_in_all_list[2])
                     elif ret_robo == -1 :  #*** delete site bz its not present in actual world   
@@ -506,11 +611,11 @@ for data_con in data_url:
                 print "=============\n"
 print "*****************************\n"          
 
-
+print "Url visited"
 print urllistvisted
 
-
-
+print "Depth List"
+print LIST_DEPTH_REC
 
 
 
