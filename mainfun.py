@@ -112,6 +112,16 @@ def datastorer(site , at_given_url):      # return beautifulsoup object         
         objecturllib = urllib2.urlopen(req )
         site_last_time_visit[site] = dt.datetime.now()               ## site visited now so time is updated 
         htmlcode  =  objecturllib.read()
+        #============== STORING FILE IN FOLDER =============
+        html_code_file = open("segment/"+site,"a")
+        html_code_file.write(at_given_url)
+        html_code_file.write('\n\n')
+        html_code_file.write(str(htmlcode))
+        html_code_file.write('\n\n\n\n')
+        html_code_file.write("#===========================================================================================================#")
+        html_code_file.write('\n\n\n\n')
+        html_code_file.close()
+        #============== STORING FILE ENDS ==================
         soupobject = BeautifulSoup(htmlcode)
         nouse = [xjs.extract() for xjs in soupobject.findAll(['script', 'style'])]    ## remove all javascript and css from body NOUSE OF THAT
         #soupnormalized = soupobject.prettify()

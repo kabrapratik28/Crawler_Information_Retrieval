@@ -1,44 +1,432 @@
- ===============  QUEUE FINISHED RESULTS ============= 
- 
 URL FECTER QUEUE
-[]
+['http://rediff.com/movies', 'http://news.rediff.com/commentary/2013/nov/24/live-news-as-it-happens/7e59506112e643785e528ca1ae50b21a']
 
 
 
 
 
 VISITED SITE URL
-{'rediff.com': ['http://rediff.com']}
+{'ia.rediff.com': ['http://ia.rediff.com/news'], 'news.rediff.com': ['http://news.rediff.com/commentary/2013/nov/24/liveupdates.htm', 'http://news.rediff.com/commentary/2013/nov/24/live-news-as-it-happens/7e59506112e643785e528ca1ae50b21a'], 'rediff.com': ['http://rediff.com', 'http://rediff.com/news', 'http://rediff.com/movies', 'http://rediff.com/business', 'http://rediff.com/newshound/hottopics', 'http://rediff.com/news/headlines'], 'realtime.rediff.com': ['http://realtime.rediff.com/topnews/india', 'http://realtime.rediff.com/news', 'http://realtime.rediff.com/topnews/world']}
 
 
 
 
 
 DATA URL
-{'rediff.com': [<__main__.Url_class instance at 0xa660e6c>]}
+{'ia.rediff.com': [<__main__.Url_class instance at 0x8bc26ec>], 'news.rediff.com': [<__main__.Url_class instance at 0x8bc2f2c>, <__main__.Url_class instance at 0x8d036ec>], 'rediff.com': [<__main__.Url_class instance at 0x8a5e04c>, <__main__.Url_class instance at 0x8bc2eec>, <__main__.Url_class instance at 0x8bcba6c>, <__main__.Url_class instance at 0x8bc2ecc>, <__main__.Url_class instance at 0x8ce2e6c>, <__main__.Url_class instance at 0x8ce2fcc>], 'realtime.rediff.com': [<__main__.Url_class instance at 0x8a5e2ac>, <__main__.Url_class instance at 0x8d2322c>, <__main__.Url_class instance at 0x8bcb62c>]}
 
 
 
 
 
 SITE TIME
-{'rediff.com': datetime.datetime(2013, 11, 21, 7, 32, 3, 281398)}
+{'ia.rediff.com': datetime.datetime(2013, 11, 24, 4, 37, 57, 639175), 'realtime.rediff.com': datetime.datetime(2013, 11, 24, 4, 38, 4, 906481), 'rediff.com': datetime.datetime(2013, 11, 24, 4, 37, 59, 786810), 'news.rediff.com': datetime.datetime(2013, 11, 24, 4, 37, 58, 967725)}
 
 
 
 
 
 URL REMAINED
-{}
+{'realtime.rediff.com': ['http://realtime.rediff.com/topnews/world'], 'rediff.com': ['http://rediff.com/business', 'http://rediff.com/newshound/hottopics', 'http://rediff.com/news/headlines']}
 
 
 
 
+
+ia.rediff.com
+http://ia.rediff.com/news
+[u'News', u'News', u'News', u'News', u'News', u'News', u'News', u'News']
+['', '', '', '', '', '', '', '']
+Latest India News, Headlines, Stories and Videos - Rediff.com
+
+
+
+ wrapper starts 
+
+
+
+
+rediff.comRediff News
+
+
+News
+Business
+Movies
+Sports
+Get Ahead
+ rediff NewsApp 
+
+
+
+
+
+NewsApp (Free)Read news as it happensAvailable on  
+
+
+ Sign in   |  Create a Rediffmail account
+
+
+
+
+
+
+
+Rediff News  All News  
+ newmaincontainer starts 
+
+ Headlines&nbsp |  Specials&nbsp |  Images&nbsp |  Columns&nbsp |  Interviews&nbsp |  Blogs
+ Nov 24, 2013 IST 04:37:56
+ newleftcontainer starts 
+
+
+
+
+
+
+It's free!Get Rediff News delivered into your Inbox daily
+
+
+
+
+
+
+
+
+
+
+ column1 starts 
+
+
+LIVE: Live! News As It HappensLive! News As It Happens
+More news stories 
+
+
+Tarun Tejpal sexual assault case: Victim speaks up
+More news stories 
+
+
+Excuse me, where is the law against sexual harassment?
+More news stories 
+
+
+India wants to turn Bangladesh into a puppet state: Opposition
+More news stories 
+
+
+Top EmailedPHOTO: Mars orbiter's first ever image of earth
+More top emailed news 
+
+
+Best SpecialsWTF News! It's Weird, True and Funny
+More on Best Specials 
+
+
+Slide ShowsPhotos: 6 killed as Cyclone 'Helen' batters coastal Andhra
+More news slide shows 
+
+
+Top Stories - WeeklySnooping charges leveled against Amit Shah, Guj cops
+More top stories 
+
+
+Special features'Tejpal should just go to the police station and surrender'
+More Special features 
+
+
+Special featuresIf they can vote, why can't YOU?!
+More Special features 
+
+
+Blogs Pakistan taps into US rebalance
+More blogs 
+
+
+Special featuresMusharraf to challenge special court for his trial in SC
+More Special features 
+
+
+ column1 ends 
+ column2 starts 
+
+
+Kunal Ghosh's arrest: Some questions for Mamata Banerjee, Trinamool
+More news stories 
+
+
+Congress fears it will be out of power if India gets rid of poverty: Modi
+More news stories 
+
+
+Top Kashmir govt official arrested over exam paper scam
+More news stories 
+
+
+ Five-State Assembly Election CoveragePoll diary: No time for food on the campaign trail!
+More 
+
+
+Top EmailedThe unresolved puzzles of the 26/11 attacks
+More top emailed news 
+
+
+Most CommentedA new low in politics, hypocrisy and greed
+More trending news 
+
+
+Slide ShowsIndian American Biswal takes charge as Obama's point person in S Asia
+More news slide shows 
+
+
+Top Stories - MonthlyExclusive! Amit Shah: I won't do anything against the principles of my party
+More top stories 
+
+
+Special featuresA leaf out of Tehelka braveheart's book of bravery
+More Special features 
+
+
+RealTime NewsCD angle to snoop row
+More realtime news 
+
+
+Blogs US gives up on Central Asian base
+More blogs 
+
+
+ column2 ends 
+ column3 starts 
+
+
+
+What I love about India
+ <div style="font-weight: bold;width:170px;height:36px;" name="image_tag">
+ <img src="http://im.rediff.com/news/2013/oct/04kapil.jpg" style="width:30px;margin-right:10px;vertical-align: bottom;" alt="Kapil Sharma" title="Kapil Sharma" align=left>Kapil Sharma</div> 
+
+  
+Well-known Indians speak about their India
+More    
+
+
+Why so superstitious, CNR Rao asks ISRO
+More news stories 
+
+
+Lawyers of Pakistani 26/11 accused step down
+More news stories 
+
+
+Goa police quiz Shoma Chaudhary, file FIR against Tarun Tejpal
+More news stories 
+
+
+ Five-State Assembly Election CoverageCong following 'divide and rule' policy: Modi
+More 
+
+
+Best SpecialsIt can't get any more BARBARIC than this
+More on Best Specials 
+
+
+Most CommentedTejpal faces ARREST after being booked on rape charge
+More trending news 
+
+
+Top Stories - Weekly50 crore cyber attacks in 90 days: Android phones worst hit!
+More top stories 
+
+
+Top Stories - MonthlyA year since Bal Thackeray, Uddhav's challenge is about to begin
+More top stories 
+
+
+RealTime NewsIAS officer moves apex court for CBI probe into snooping charge
+More realtime news 
+
+
+ column3 ends 
+
+
+ newleftcontainer ends 
+ right container starts 
+
+
+
+
+ZaraBol - Trending Topics#Money#How-To-Quit-Smoking?#No-English-in-Parliament?#What-Indian-Women-Want?
+
+ right container ends 
+
+ newmaincontainer ends 
+ do not remove this line 
+Headlines&nbsp |  Specials&nbsp |  Images&nbsp |  Columns&nbsp |  Interviews&nbsp |  Blogs
+
+
+
+Business emailOffice email AppDomain registrationWebsiteRediffmailMoneyCompany emailOnline ShoppingBooksGiftsVideosQ&ABlogsBuzz
+
+News India  |  Latest News India  |  Bollywood News  |  Indian Cricket Score  |  India Business News  |  India Abroad Person of the Year 2011
+
+© 2013 Rediff.com - Investors - Advertise - Disclaimer - Privacy - Careers - Feedback | Terms of use | India Abroad weekly
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ wrapper ends 
+
+
+=============
+
+news.rediff.com
+http://news.rediff.com/commentary/2013/nov/24/liveupdates.htm
+[u'Live! News As It Happens']
+[u'\n']
+Live! News As It Happens - Rediff.com India News
+
+
+
+
+
+
+ wrapper starts 
+
+
+
+rediff.comRediff News
+
+
+News
+Business
+Movies
+Sports
+Get Ahead
+ rediff NewsApp 
+
+
+
+
+ Sign in   |  Create a Rediffmail account
+
+
+
+
+
+
+
+Rediff News  All News  
+ leftcontainer starts 
+
+
+Live! News As It HappensWrite a commentNovember 24, 2013
+
+
+
+
+01:41  Live! News As It Happens:  
+Top Headlines of the last 24 Hours:Tarun Tejpal sexual assault case: Victim speaks upExcuse me, where is the law against sexual harassment?Goa police quiz Shoma Chaudhary, file FIR against Tarun TejpalDouble trouble: Why Nepal, Maldives poll results shocked IndiaSonia goes after BJP again: Medicines are not poisonous, YOU are!
+
+
+
+
+ leftcontainer ends 
+ rightcontainer starts 
+
+
+
+Stars spotted!  What's this?
+
+
+Spotted: Aamir Khan in Utah, USAReader Manoj Verma sends us a photograph.More stars spotted 
+
+
+Met a celebrity?Email us photos & videos
+
+
+
+
+
+ rightcontainer ends 
+
+
+
+
+
+
+Business emailOffice email AppDomain registrationWebsiteRediffmailMoneyCompany emailOnline ShoppingBooksGiftsVideosQ&ABlogsBuzz
+
+
+© 2013 Rediff.com - Investors - Advertise - Disclaimer - Privacy - Careers - Feedback | Terms of use | India Abroad weekly
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ wrapper ends 
+
+
+
+
+
+=============
+
+http://news.rediff.com/commentary/2013/nov/24/live-news-as-it-happens/7e59506112e643785e528ca1ae50b21a
+[u'Live! News As It Happens']
+['']
+
+
+=============
 
 rediff.com
 http://rediff.com
-['Seeds']
-['Seeds']
+['Seeds', u'News India', u'News India']
+['Seeds', '', '']
 Rediff.com - India, Business, Stock, Sports, Cricket, Entertainment, Bollywood, Music, Video and Breaking news, Rediffmail NG, Shopping
 
 
@@ -57,12 +445,12 @@ Rediff.com - India, Business, Stock, Sports, Cricket, Entertainment, Bollywood, 
 
 
 
- Happening Now : Narendra Modi,  Jet - Etihad Deal,  Prithvi Shaw Harris Shield Tournament,  IFFI - Goa
+ Happening Now : Tehelka Tarun Tejpal,  Narendra Modi,  Ashes,  Bigg Boss 7
 
  new design starts 
 
 rediffmailCompany EmailMoneyMyPageShoppingVideosSupport aCause
-Advertise with usLast Updated: Nov 21, 2013 IST 07:32:01
+Advertise with usLast Updated: Nov 24, 2013 IST 04:37:32
  maincontainer starts 
 
 
@@ -82,64 +470,64 @@ India Abroad
 
 News
 
-Wanted to come to Mumbai, take part in 26/11 attack: JundalMore News stories News
+Tarun Tejpal sexual assault case: Victim speaks upMore News stories News
 
-Women want a safer Delhi, but do politicians care?More News stories News
+Mr Tejpal, enough is enough!More News stories Sports
 
-Moving images by a photographer who grew up on the streetsMore News stories Movies
+'Role model' Tendulkar deserves Bharat Ratna, says Milkha SinghMore Sports stories Business
 
-Amitabh, Ajay Devgn, Vidya Balan in MahabharatMore Movies stories Get Ahead
+Why Honda Amaze is the best compact sedanMore Business stories Get Ahead
 
- Modi's kurtas, Sonia's Chanderis, Omar's suitsMore Get Ahead stories News
+10 things to watch out for before taking up that new jobMore Get Ahead stories News
 
-LIVE! Cyclone Helen heading for Kavali in south AP, landfall on ThursdayMore News stories Cricket
+Live! News As It HappensMore News stories Cricket
 
-Kumble says Karnataka cricket progressed under him, slams PatelMore Cricket stories Movies
+WI opener Gayle to return home with hamstring injuryMore Cricket stories Movies
 
-Katrina: There are no plans for marriage yetMore Movies stories 
-Cricket
+Waheeda Rehman's haunting melancholy in KhamoshiMore Movies stories 
+Sports
 
-Tendulkar enjoys post retirement vacation at MussoorieMore Cricket stories Get Ahead
+Vettel on pole for Brazilian F1 Grand PrixMore Sports stories Get Ahead
 
-REVEALED: What made Zuckerberg and Jobs so successful!More Get Ahead stories Business
+Top 5 cheapest Android smartphones with 1 GB RAMMore Get Ahead stories Business
 
-Half of the traders don't have PANMore Business stories Movies
+Supreme Court issues notice on chit fund regulationMore Business stories Movies
 
-PIX: Meet Celina Jaitly's twins!More Movies stories Business
+Imran Khan: I am careful about who I work withMore Movies stories Business
 
-Mumbai's new iconic structure: Bombay Arts Society buildingMore Business stories  
+24 countries that offer best opportunities to foreignersMore Business stories  
 
 Rediff Labs
 
 Which way will Delhi vote? Check out the Sentiment MeterMore in labs 
-Cricket
-
-Kochi ODI: India looking to continue domination over West IndiesMore Cricket stories Cricket
-
-Record was not on mind, says Mumbai schoolboy Shaw after hitting 546More Cricket stories Business
-
-7 things to know about India's first women's bankMore Business stories Movies
-
-PIX: Kareena gives dance lessons to Amitabh BachchanMore Movies stories Business
-
-LG to launch 25 devices in India; aims to sell 50 mn phonesMore Business stories Business
-
-Govt imposes $792 million additional penalty on RelianceMore Business stories Get Ahead
-
-Whoa! A swimsuit worth Rs 5.88 crore!?!More Get Ahead stories Business
-
-Is FIIs' love affair with Asia waning?More Business stories 
 News
 
-Mohanlal or Mohandas? Modi bungles up Mahatma Gandhi's name!More News stories Movies
+Photos: 6 killed as Cyclone 'Helen' batters coastal AndhraMore News stories News
 
-Deepika Padukone's 10 BIGGEST HITSMore Movies stories Sports
+26/11 Exclusive: How the LeT chose Kasab and who Honeybee could beMore News stories Cricket
 
-Ronaldo steals show from Ibrahimovic in titanic clashMore Sports stories Get Ahead
+Ganesha cartoon row: India asked to boycott SA cricket tourMore Cricket stories Business
 
-Wedding photos: A multi-cultural marriageMore Get Ahead stories News
+India among countries that saw biggest jump in gold stockpileMore Business stories Movies
 
- WTF news: Miss Bum Bum, 'poo' rain and more More News stories 
+PIX: When Sunny Deol met Bhagat Singh!More Movies stories Business
+
+What triggers Sensex's split personalityMore Business stories Get Ahead
+
+REVEALED: What made Zuckerberg and Jobs so successful!More Get Ahead stories Business
+
+Govt's proposal to tax the super rich may not find takersMore Business stories 
+News
+
+50 crore cyber attacks in 90 days: Android phones worst hit!More News stories Movies
+
+Sunny Deol's 10 CAREER BEST performancesMore Movies stories Sports
+
+Yuki earns doubles wild card for Australia Open after winning play-offMore Sports stories Get Ahead
+
+Whoa! A swimsuit worth Rs 5.88 crore!?!More Get Ahead stories News
+
+The Duchess of Kolkata's Sudder StreetMore News stories 
 
 
 
@@ -149,59 +537,59 @@ MoneyWiz LiveMore from Money
 
 
 Videos  
- The REAL reason behind Gutthi's exit from Comedy Nights
+ Tehelka sexual assualt case: Shoma Chaudhury speaks up
 More Videos 
 
 
 
 Editor's Choice
 
-'Arranged marriage seemed like a box of lies waiting to explode'More Editor's Choice stories 
+'Tejpal should just go to the police station and surrender'More Editor's Choice stories 
 
 
 
 Videos  
- UNCENSORED: Sachin Tendulkar's farewell party
+ Caught: Salman visits Lulia in Romania!
 More Videos 
 
 
 
 Editor's Choice
 
- The call of the GangaMore Editor's Choice stories 
+ On the trail of the terror boatMore Editor's Choice stories 
 
 
 
 Pages
 
-Soha Ali Khan Photos : Mr Joe B Carvalho Movie Pics
-Deepika Padukone Photos : Ram Leela Movie Photos
+Urvashi Rautela Photos : Singh Saab The Great Photos
+Kareena Kapoor Photos : Gori Tere Pyaar Mein Photos
 More Pages 
 
 
 
 
 Videos  
- Bigg Boss 7: Did Tanisha Mukherji PROPOSE to Armaan Kohli?
+ SHOCKING:Tanisha and Armaan caught 'in a very awkward' position
 More Videos 
 
 
 
 
 Realtime News
- Female journalist accuses Tehelka editor-in-chief Tarun Tejpal of misconduct
+ Wonder what Delhi CM does, Narendra Modi says
 More Realtime News 
 
 
 Movies
 
-How to wear statement earrings like Sonam, Deepika!More Movies stories Get Ahead
+Katrina, Ash, Bipasha: Sexiest Dhoom girl? VOTE!More Movies stories Get Ahead
 
-Eight hot new courses that will kickstart your career!More Get Ahead stories News
+Young, obese? Here's what kids, parents can doMore Get Ahead stories News
 
-Bengaluru: ATM victim paralysed, attacker still on the looseMore News stories Cricket
+ WTF news: Miss Bum Bum, 'poo' rain and more More News stories Cricket
 
-PHOTOS: Azhar, Ganguly grace Tendulkar's retirement bashMore Cricket stories  
+What's next for Sachin? Suggest options for the batting legend!More Cricket stories  
 
 
 
@@ -233,7 +621,7 @@ MORE SERVICES
 
  new design ends 
 
-Dell 15.6 Laptop Backpack With Trustport Total Security 2012 1 User 6 MonthsPlantronics Ml10 Bluetooth HeadsetLotto Shoes With Pedometer & Pack Of 3 Pair Tnf Cotton SocksHtc Desire UPrafful Set Of 2 Crepe Dress Material 14014-16-cVega Corah Cue Ball 8-black Base With Blue Graphic HelmetSukkhi Rajasthani Rhodium Plated Ad Stone Necklace Set1017vBlackberry 9360 Curve SmartphoneMilton Nova 5 PCs Hard Coat Induction CookwareLotto Campus JacketNokia Datacard Cs-17 14.4mbps 3G USB ModemReebok Wicket Taker Hi Ankle Cricket Spikes ShoesPhilips 6970 Shaver With Pop Up TrimmerNintendo 3ds Xl Handheld Gaming ConsoleJabra Bt2046 Bluetooth HeadsetApple Macbook Pro 13.3 Inch Mid Night Black Colour Hard Shell Soft Body CasJack N Jones Blue Men DenimBlack And Decker 10mm Electric Drill MachineNestle Quality Street Assorted Fine Chocolates (480gms)2 Reebok T-shirt With Tnf SunglassAnjali Hand Blender AnnapurnaMartini Red Long Zip JacketFabdeal Red/black Colored Georgette Abstract Printed SareeGfive Fanse A57Reebok Swift Sport ShoeFlatlander Portable Barbecue Charcoal GrillCanon EOS 70d SLR With 18-55 F/3.5-5.6 I.s Stm Lens With 4 GB CardKriaa-anmol Set Of Anarkali & Short Kurti (kckt272)Ambrane Ac-770 Tablet (calling Tablet) With Free Tablet KeyboardPolo Club Executive Classic Combo For Men
+Sony Playstation Ps4 500gb Gaming ConsoleLimited Edition Harley Davidson 3d Metal Back Case For Apple iPhone 5cGlen Electric Mini Multipurpose ChopperHuawei E1731 Airtel 7.2mbps 2g/3g USB Modem Data Card - UnlockedSony Ericsson Liveview Android WatchDr. Slim Tea 2 MonthsMicromax Canvas Turbo A250 Android SmartphoneFlatlander Portable Barbecue Charcoal GrillReebok Radiate Run Sports Shoes J86617Puma Marcus Ind Floaters-white/dark NavyFabdeal Dani Georgette Sarees Combo - Pack Of 2Belkin Bluetooth Music ReceiverLevis Cotton Brown Chino For ManHarbinger Gloves Pro Wash & DryAero Cd-6702 Mini Portable Cd-radio Boombox Stereo PlayerLevi's Redloop Men's JeansSukkhi Rodium Plated Necklace SetMaxx Smart Power Bank 2600 mAh Charger -pbs-26-sdiaSony Bravia Klv-24r402a 24 Inches Direct LED TelevisionHtc One 801e Android Smartphone (silver)Casio Imported Ef-550 Men's White Dail WatchBsnl Penta 701c TabletPrafful Semi Stitched Magenta Anarkali Designer Dress Material Gs66809Nikon Coolpix S3300 With 6x Optical Zoom 4GB Card, Case & Mini TripodIntex Computer Multimedia Headphone Wireless RoamingOmron Hem 7113 Automatic Blood Pressure MonitorUltimate Nutrition Muscle Juice 2544 4.75kgNikon Coolpix L28 20.1 Megapixel 5x Optical Zoom With Combo KitReebok Padded Men Red Sporty Jacket
 
 Using your mobile's internet browsergo to:  m.rediff.com
 
@@ -268,10 +656,861 @@ Your browser does not support JavaScript or it may be disabled!
 
 =============
 
+http://rediff.com/news
+[u'NEWS', u'NEWS', u'India News', u'News']
+[u'\n', u'\n', '', '']
+Latest India News, Headlines, Stories and Videos - Rediff.com
+
+
+
+ wrapper starts 
+
+
+
+
+rediff.comRediff News
+
+
+News
+Business
+Movies
+Sports
+Get Ahead
+ rediff NewsApp 
+
+
+
+
+
+NewsApp (Free)Read news as it happensAvailable on  
+
+
+ Sign in   |  Create a Rediffmail account
+
+
+
+
+
+
+
+Rediff News  All News  
+ newmaincontainer starts 
+
+ Headlines&nbsp |  Specials&nbsp |  Images&nbsp |  Columns&nbsp |  Interviews&nbsp |  Blogs
+ Nov 24, 2013 IST 04:37:59
+ newleftcontainer starts 
+
+
+
+
+
+
+It's free!Get Rediff News delivered into your Inbox daily
+
+
+
+
+
+
+
+
+
+
+ column1 starts 
+
+
+LIVE: Live! News As It HappensLive! News As It Happens
+More news stories 
+
+
+Tarun Tejpal sexual assault case: Victim speaks up
+More news stories 
+
+
+Excuse me, where is the law against sexual harassment?
+More news stories 
+
+
+India wants to turn Bangladesh into a puppet state: Opposition
+More news stories 
+
+
+Top EmailedPHOTO: Mars orbiter's first ever image of earth
+More top emailed news 
+
+
+Best SpecialsWTF News! It's Weird, True and Funny
+More on Best Specials 
+
+
+Slide ShowsPhotos: 6 killed as Cyclone 'Helen' batters coastal Andhra
+More news slide shows 
+
+
+Top Stories - WeeklySnooping charges leveled against Amit Shah, Guj cops
+More top stories 
+
+
+Special features'Tejpal should just go to the police station and surrender'
+More Special features 
+
+
+Special featuresIf they can vote, why can't YOU?!
+More Special features 
+
+
+Blogs Pakistan taps into US rebalance
+More blogs 
+
+
+Special featuresMusharraf to challenge special court for his trial in SC
+More Special features 
+
+
+ column1 ends 
+ column2 starts 
+
+
+Kunal Ghosh's arrest: Some questions for Mamata Banerjee, Trinamool
+More news stories 
+
+
+Congress fears it will be out of power if India gets rid of poverty: Modi
+More news stories 
+
+
+Top Kashmir govt official arrested over exam paper scam
+More news stories 
+
+
+ Five-State Assembly Election CoveragePoll diary: No time for food on the campaign trail!
+More 
+
+
+Top EmailedThe unresolved puzzles of the 26/11 attacks
+More top emailed news 
+
+
+Most CommentedA new low in politics, hypocrisy and greed
+More trending news 
+
+
+Slide ShowsIndian American Biswal takes charge as Obama's point person in S Asia
+More news slide shows 
+
+
+Top Stories - MonthlyExclusive! Amit Shah: I won't do anything against the principles of my party
+More top stories 
+
+
+Special featuresA leaf out of Tehelka braveheart's book of bravery
+More Special features 
+
+
+RealTime NewsCD angle to snoop row
+More realtime news 
+
+
+Blogs US gives up on Central Asian base
+More blogs 
+
+
+ column2 ends 
+ column3 starts 
+
+
+
+What I love about India
+ <div style="font-weight: bold;width:170px;height:36px;" name="image_tag">
+ <img src="http://im.rediff.com/news/2013/oct/04kapil.jpg" style="width:30px;margin-right:10px;vertical-align: bottom;" alt="Kapil Sharma" title="Kapil Sharma" align=left>Kapil Sharma</div> 
+
+  
+Well-known Indians speak about their India
+More    
+
+
+Why so superstitious, CNR Rao asks ISRO
+More news stories 
+
+
+Lawyers of Pakistani 26/11 accused step down
+More news stories 
+
+
+Goa police quiz Shoma Chaudhary, file FIR against Tarun Tejpal
+More news stories 
+
+
+ Five-State Assembly Election CoverageCong following 'divide and rule' policy: Modi
+More 
+
+
+Best SpecialsIt can't get any more BARBARIC than this
+More on Best Specials 
+
+
+Most CommentedTejpal faces ARREST after being booked on rape charge
+More trending news 
+
+
+Top Stories - Weekly50 crore cyber attacks in 90 days: Android phones worst hit!
+More top stories 
+
+
+Top Stories - MonthlyA year since Bal Thackeray, Uddhav's challenge is about to begin
+More top stories 
+
+
+RealTime NewsIAS officer moves apex court for CBI probe into snooping charge
+More realtime news 
+
+
+ column3 ends 
+
+
+ newleftcontainer ends 
+ right container starts 
+
+
+
+
+ZaraBol - Trending Topics#Money#How-To-Quit-Smoking?#No-English-in-Parliament?#What-Indian-Women-Want?
+
+ right container ends 
+
+ newmaincontainer ends 
+ do not remove this line 
+Headlines&nbsp |  Specials&nbsp |  Images&nbsp |  Columns&nbsp |  Interviews&nbsp |  Blogs
+
+
+
+Business emailOffice email AppDomain registrationWebsiteRediffmailMoneyCompany emailOnline ShoppingBooksGiftsVideosQ&ABlogsBuzz
+
+News India  |  Latest News India  |  Bollywood News  |  Indian Cricket Score  |  India Business News  |  India Abroad Person of the Year 2011
+
+© 2013 Rediff.com - Investors - Advertise - Disclaimer - Privacy - Careers - Feedback | Terms of use | India Abroad weekly
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ wrapper ends 
+
+
+=============
+
+http://rediff.com/movies
+[u'Bollywood News', u'Bollywood News', u'Bollywood News']
+[u'\xa0|\xa0', u'\xa0 | \xa0', u'\xa0 | \xa0']
+
+
+=============
+
+http://rediff.com/business
+[u'Business News', u'India Business News', u'India Business News']
+[u'\xa0|\xa0', u'\xa0 | \xa0', u'\xa0 | \xa0']
+
+
+=============
+
+http://rediff.com/newshound/hottopics
+[u'RealTime News', u'RealTime News', u'RealTime News', u'RealTime News']
+['', '', '', '']
+
+
+=============
+
+http://rediff.com/news/headlines
+[u'Latest News India', u'Latest News India']
+[u'\xa0 | \xa0', u'\xa0 | \xa0']
+
+
+=============
+
+realtime.rediff.com
+http://realtime.rediff.com/topnews/india
+[u'Realtime News \xa0 \xa0', u'Realtime News', u'Top News']
+[u' ', '', '']
+india | Latest news on india | india photos - Rediff Realtime News Search
+
+
+Your browser does not support JavaScript or it may be disabled!
+
+ End comScore Tag 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ India As It Happens
+
+close
+
+Thank you for your feedback.
+Did you find Realtime News useful?
+
+What I liked
+
+
+Freshness of news and images
+Variety of news and images
+Ease of use
+Instant page load
+Service useful, will keep coming back
+ <input type="checkbox" id="like6" class="vmiddle" value="Other"/> Other:
+Please enter feedback.
+
+What I did not like
+
+
+News stories or images not recent
+Page load takes forever
+Search results not relevant
+Page layout
+				Missing feature / Any other suggestion:
+Please enter feedback.
+
+
+ <span class="ht5 clear"></span>
+	<span class="floatL feedbacktext"><textarea rows="3" cols="46" style="width:333px;" id="fdbacktextarea"></textarea></span><span class="clear"></span><div class="errBox"><span id="fid_err">Please enter feedback.</span></div> 
+
+Please provide a valid email address
+
+
+
+
+
+ Div Layer for ad Banner
+div id="div_ad_box03" style="position:absolute;top:100;width:250px;height:300px;overflow:hidden;z-index:999999;"></div>
+
+
+rediff.com  <img id="labImg" onmouseover="showDiv('msgLab')" onmouseout="hideDiv('msgLab')" src="http://im.rediff.com/uim/searchnews/pix/lab-icon.png" width="112" height="29" border="0" alt="">India As It Happens
+Rediff Labs will showcase innovative products that rediff is working on behind the scenes.
+
+
+News Home   |   Images Home
+
+ NEWS ON MOBILE
+
+
+
+What do you think of Realtime News?
+
+
+Hi Guest
+
+
+
+
+
+
+
+/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ inter Page 
+ inter Page 
+ allData start here 
+
+
+
+ allData end here 
+
+
+
+
+
+
+ Personal diloge start 
+
+
+Personalize your Realtimeclose [x]
+
+
+
+
+Add content to your personalized tab - My News
+
+Add upto 6 topics of your interest:
+for eg.2g Scam , World
+
+
+1. 
+2. 
+3. 
+
+
+4. 
+5. 
+6. 
+
+
+
+Personalize the tabs display. ( You can add or remove the tabs )
+
+
+
+
+
+Cancel
+
+►AlertsGet updates on latest news & your favourite topics right in your inbox.Set an Alert|Manage your Alerts
+
+►WidgetGet Realtime news on your homepage & get your members hooked.Add Realtime Widget
+
+
+ Personal diloge box end
+
+ rightcontainer starts 
+
+ <div id="newApp_tab2" class="newApp_tab" style="width:97%;margin:4px 0px 15px;" onmouseover="showNewsappPromo(this,'newsAppPop',0,38);" onmouseout="hideDivs('newsAppPop');"><span class="homesprite appMobile" style="margin-left:73px;"></span><span class="ht3"></span><span class="ht5"></span><span class="">&nbsp;rediff News App</span></div>
+ 
+
+
+GetRealtime Newson your WebpageAdd Widget >Get your members hooked!
+
+
+ related query with smarty response start 
+
+
+ related query with smarty response end 
+
+    Alerts
+Get updated on latest news & your favorite topics right in your inbox!
+Set an Alert | Manage Your Alerts
+
+    Widget
+Get Realtime News on your webpage & get your members hooked!
+Add Realtime Widget
+
+
+
+
+
+
+
+Happening by Location
+
+Click on any location on map to view latest news by location
+
+
+
+
+
+
+div id="MCE"></div>  most emailed, commented 
+
+div id="adBanner" class="floatL"><div id="div_ad_box03" style="width:300px;height:250px;overflow:hidden;"></div><div class="smartBannerIdentifier"></div></div><span class='ht5'></span>
+
+
+
+
+
+
+
+
+Refresh
+
+
+table style="width:842px;margin:0px;">
+	<tr>
+		<td>  <div class="div_hometab" id="t_div_hometab"><div class="homesprite round6" id="img0"></div><div class="hometabsel" id="hometab1" onclick="showNewsTabs(1,'india');return false;"><h3><a href="http://realtime.rediff.com/topnews/india" >Top News</a></h3></div><div class="homesprite round3" id="img1"></div><div class="homesprite hometabnormal" id="hometab2" onclick="showNewsTabs(2,'world');return false;"><h3><a href="http://realtime.rediff.com/topnews/world" >World News</a></h3></div><div class="homesprite round1" id="img2"></div><div class="homesprite hometabnormal" id="hometab3" onclick="showNewsTabs(3,'entertainment');return false;"><h3><a href="http://realtime.rediff.com/topnews/entertainment">Entertainment</a></h3></div><div class="homesprite round1" id="img3"></div><div class="homesprite hometabnormal" id="hometab4" onclick="showNewsTabs(4,'business');return false;"><h3><a href="http://realtime.rediff.com/topnews/business">Business</a></h3></div><div class="homesprite round1" id="img4"></div><div class="homesprite hometabnormal" id="hometab5" onclick="showNewsTabs(5,'cricket');return false;"><h3><a href="http://realtime.rediff.com/topnews/cricket">Cricket</a></h3></div><div class="homesprite round1" id="img5"></div><div class="homesprite hometabnormal" id="hometab6" onclick="showNewsTabs(6,'sports');return false;"><h3><a href="http://realtime.rediff.com/topnews/sports">Sports</a></h3></div><div class="homesprite round4" id="img6"></div></div><span class="clear">&nbsp;</span>
+</td>
+	</tr>
+</table>
+
+
+
+ 
+
+
+
+Top NewsWorld NewsEntertainmentBusinessCricketSports 
+
+
+
+
+Wonder what Delhi CM does, Narendra Modi says
+Times of India,  1 hour agonarendra modi
+
+Iran nuclear talks inching towards deal
+The Hindu,  23 minutes agoiran nuclear talks
+
+The Norwegian model who conquered the chess world
+The Telegraph UK,  1 hour agochess world magnus car...
+
+Gulbarga district Judge: 2,455 cases settled through conc...
+The Hindu,  1 hour agonational lok adalat la...
+
+No CCTV camera in hotel lift, police told
+The Hindu,  1 hour agogoa police cctv footage
+
+Imran party blocks key highway to Afghanistan
+The Telegraph,  1 hour agoafghanistan supply route
+
+PM focus on fragile peace
+The Telegraph,  1 hour agomanmohan singh
+
+Nepali Congress takes the lead
+The Hindu,  1 hour agonepali congress
+
+
+More    
+Less    
+
+
+ rightcontainer ends//// document.getElementById('otherImages').style.display='block';
+
+
+Copyright © 2013 Rediff.com India Limited. All rights Reserved. Disclaimer | Privacy policy | Feedback | Terms of use
+
+
+ wrapper ends 
+
+
+
+
+▲Go totop
+
+
+
+=============
+
+http://realtime.rediff.com/news
+[u'News Home']
+[u'\n']
+india | Latest news on india | india photos - Rediff Realtime News Search
+
+
+Your browser does not support JavaScript or it may be disabled!
+
+ End comScore Tag 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ India As It Happens
+
+close
+
+Thank you for your feedback.
+Did you find Realtime News useful?
+
+What I liked
+
+
+Freshness of news and images
+Variety of news and images
+Ease of use
+Instant page load
+Service useful, will keep coming back
+ <input type="checkbox" id="like6" class="vmiddle" value="Other"/> Other:
+Please enter feedback.
+
+What I did not like
+
+
+News stories or images not recent
+Page load takes forever
+Search results not relevant
+Page layout
+				Missing feature / Any other suggestion:
+Please enter feedback.
+
+
+ <span class="ht5 clear"></span>
+	<span class="floatL feedbacktext"><textarea rows="3" cols="46" style="width:333px;" id="fdbacktextarea"></textarea></span><span class="clear"></span><div class="errBox"><span id="fid_err">Please enter feedback.</span></div> 
+
+Please provide a valid email address
+
+
+
+
+
+ Div Layer for ad Banner
+div id="div_ad_box03" style="position:absolute;top:100;width:250px;height:300px;overflow:hidden;z-index:999999;"></div>
+
+
+rediff.com  <img id="labImg" onmouseover="showDiv('msgLab')" onmouseout="hideDiv('msgLab')" src="http://im.rediff.com/uim/searchnews/pix/lab-icon.png" width="112" height="29" border="0" alt="">India As It Happens
+Rediff Labs will showcase innovative products that rediff is working on behind the scenes.
+
+
+News Home   |   Images Home
+
+ NEWS ON MOBILE
+
+
+
+What do you think of Realtime News?
+
+
+Hi Guest
+
+
+
+
+
+
+
+/div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ inter Page 
+ inter Page 
+ allData start here 
+
+
+
+ allData end here 
+
+
+
+
+
+
+ Personal diloge start 
+
+
+Personalize your Realtimeclose [x]
+
+
+
+
+Add content to your personalized tab - My News
+
+Add upto 6 topics of your interest:
+for eg.2g Scam , World
+
+
+1. 
+2. 
+3. 
+
+
+4. 
+5. 
+6. 
+
+
+
+Personalize the tabs display. ( You can add or remove the tabs )
+
+
+
+
+
+Cancel
+
+►AlertsGet updates on latest news & your favourite topics right in your inbox.Set an Alert|Manage your Alerts
+
+►WidgetGet Realtime news on your homepage & get your members hooked.Add Realtime Widget
+
+
+ Personal diloge box end
+
+ rightcontainer starts 
+
+ <div id="newApp_tab2" class="newApp_tab" style="width:97%;margin:4px 0px 15px;" onmouseover="showNewsappPromo(this,'newsAppPop',0,38);" onmouseout="hideDivs('newsAppPop');"><span class="homesprite appMobile" style="margin-left:73px;"></span><span class="ht3"></span><span class="ht5"></span><span class="">&nbsp;rediff News App</span></div>
+ 
+
+
+GetRealtime Newson your WebpageAdd Widget >Get your members hooked!
+
+
+ related query with smarty response start 
+
+
+ related query with smarty response end 
+
+    Alerts
+Get updated on latest news & your favorite topics right in your inbox!
+Set an Alert | Manage Your Alerts
+
+    Widget
+Get Realtime News on your webpage & get your members hooked!
+Add Realtime Widget
+
+
+
+
+
+
+
+Happening by Location
+
+Click on any location on map to view latest news by location
+
+
+
+
+
+
+div id="MCE"></div>  most emailed, commented 
+
+div id="adBanner" class="floatL"><div id="div_ad_box03" style="width:300px;height:250px;overflow:hidden;"></div><div class="smartBannerIdentifier"></div></div><span class='ht5'></span>
+
+
+
+
+
+
+
+
+Refresh
+
+
+table style="width:842px;margin:0px;">
+	<tr>
+		<td>  <div class="div_hometab" id="t_div_hometab"><div class="homesprite round6" id="img0"></div><div class="hometabsel" id="hometab1" onclick="showNewsTabs(1,'india');return false;"><h3><a href="http://realtime.rediff.com/topnews/india" >Top News</a></h3></div><div class="homesprite round3" id="img1"></div><div class="homesprite hometabnormal" id="hometab2" onclick="showNewsTabs(2,'world');return false;"><h3><a href="http://realtime.rediff.com/topnews/world" >World News</a></h3></div><div class="homesprite round1" id="img2"></div><div class="homesprite hometabnormal" id="hometab3" onclick="showNewsTabs(3,'entertainment');return false;"><h3><a href="http://realtime.rediff.com/topnews/entertainment">Entertainment</a></h3></div><div class="homesprite round1" id="img3"></div><div class="homesprite hometabnormal" id="hometab4" onclick="showNewsTabs(4,'business');return false;"><h3><a href="http://realtime.rediff.com/topnews/business">Business</a></h3></div><div class="homesprite round1" id="img4"></div><div class="homesprite hometabnormal" id="hometab5" onclick="showNewsTabs(5,'cricket');return false;"><h3><a href="http://realtime.rediff.com/topnews/cricket">Cricket</a></h3></div><div class="homesprite round1" id="img5"></div><div class="homesprite hometabnormal" id="hometab6" onclick="showNewsTabs(6,'sports');return false;"><h3><a href="http://realtime.rediff.com/topnews/sports">Sports</a></h3></div><div class="homesprite round4" id="img6"></div></div><span class="clear">&nbsp;</span>
+</td>
+	</tr>
+</table>
+
+
+
+ 
+
+
+
+Top NewsWorld NewsEntertainmentBusinessCricketSports 
+
+
+
+
+Wonder what Delhi CM does, Narendra Modi says
+Times of India,  1 hour agonarendra modi
+
+Iran nuclear talks inching towards deal
+The Hindu,  23 minutes agoiran nuclear talks
+
+The Norwegian model who conquered the chess world
+The Telegraph UK,  1 hour agochess world magnus car...
+
+Gulbarga district Judge: 2,455 cases settled through conc...
+The Hindu,  1 hour agonational lok adalat la...
+
+No CCTV camera in hotel lift, police told
+The Hindu,  1 hour agogoa police cctv footage
+
+Imran party blocks key highway to Afghanistan
+The Telegraph,  1 hour agoafghanistan supply route
+
+PM focus on fragile peace
+The Telegraph,  1 hour agomanmohan singh
+
+Nepali Congress takes the lead
+The Hindu,  1 hour agonepali congress
+
+
+More    
+Less    
+
+
+ rightcontainer ends//// document.getElementById('otherImages').style.display='block';
+
+
+Copyright © 2013 Rediff.com India Limited. All rights Reserved. Disclaimer | Privacy policy | Feedback | Terms of use
+
+
+ wrapper ends 
+
+
+
+
+▲Go totop
+
+
+
+=============
+
+http://realtime.rediff.com/topnews/world
+[u'World News']
+['']
+
+
+=============
+
 *****************************
 
 Url visited
-['http://rediff.com']
+['http://rediff.com', 'http://ia.rediff.com/news', 'http://news.rediff.com/commentary/2013/nov/24/liveupdates.htm', 'http://rediff.com/news', 'http://realtime.rediff.com/topnews/india', 'http://realtime.rediff.com/news']
 Depth List
-[['http://rediff.com']]
-Site Queue Finished ... Stopping Crawling
+[['http://rediff.com'], ['http://realtime.rediff.com/topnews/india', 'http://rediff.com/news', 'http://ia.rediff.com/news', 'http://news.rediff.com/commentary/2013/nov/24/liveupdates.htm', 'http://rediff.com/movies', 'http://rediff.com/business'], ['http://rediff.com/newshound/hottopics', 'http://rediff.com/news/headlines', 'http://news.rediff.com/commentary/2013/nov/24/live-news-as-it-happens/7e59506112e643785e528ca1ae50b21a', 'http://realtime.rediff.com/news', 'http://realtime.rediff.com/topnews/world']]
