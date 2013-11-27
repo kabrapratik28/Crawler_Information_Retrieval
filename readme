@@ -1,0 +1,47 @@
+0.Seeds, Depth, No. of pages to crawl, data (For focused cawler)  
+1.Robots cache (IMPORTED)
+2.Try Except (Url Broken)
+3.User Agent (Student Bot)
+4.Date time set (Mark as visited)  //When opened
+5.Storing in Segment Folder (HTML code)
+6.Removing Script(javascript) and CSS
+7.Focused by seeing words in anchor (LATER IMPOVED FOR ANCHOR WINDOW AND SCORE CALCULATION VIA VECTOR SPACE. PAGE RANK ALSO CAN BE EMBEDDED)
+8.URL normalization
+      https://
+      http://
+      http://www.
+      www.
+      http://abc.com
+      http://abc.com/
+      /asd => http://asd.com/asd  (Absolute)
+      ppp => http://asd.com/asd/ppp  (Relative)
+9.Duplication checking
+      If duplicate add anchor to list of anchor
+10.Robots checking (Using cache and all urls of same page checked at that time so getting more hits to robots cache)
+11. Robots checking Site actually present on internet 
+    If robots denied add Data as "ROBOTS DENIED"
+12. Site dyanamism removed after question mark
+13.One queue impleted 
+    For time (POLITNESS POLICY)
+    ## (SECOND QUEUE OF PRIORITY NOT IMPLEMENTED NO DATA AVAILABLE FOR THAT .... CAN BE IMPROVED HERE)
+
+14.Queue feeder feeds queue which gives url
+15.Url_giver gives url on request 
+    It checks time 
+    If time is less than 2 puts at 10 nuber in queue (Can be varied)
+    [IMPLEMENTED CIRCULAR QUEUE IN FRONT OF QUEUE]
+16.Depth implemented 
+	 Calculate depth 
+	 Not go ahead of user given depth 
+
+17.Stop condition 
+	Queue Ends
+	Depth reached
+	No of urls crawl limit exceeds
+
+WHERE CAN IMPROVED ???
+1. THREADS CAN BE IMPLEMENTATED
+2. CIRCULAR QUEUE ALL ELEMENT IS BEFORE 2 SEC .... 
+3. SOME SITES MAKES CRAWLER LATE BY SOME SECOND SOLUTION ON THAT
+   (THREADS)
+4. FTP CALLS
