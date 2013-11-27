@@ -1,11 +1,86 @@
+#===========================================================
+WEB CRAWLER 
+Writer : Pratik Shrikant Kabara
+Email : kabrapratik28@gmail.com
+Github : https://github.com/kabrapratik28/craw
+#===========================================================
+To Run requirements
+Beautful soup python
+reppy
+
+Files Edit
+1. Data
+enter keywords on which you want focused crawler
+
+2.Depth
+put depth upto which you want to crawl
+
+3.Url
+Put Seed list
+(put url in format http://example.com)
+
+4.Page
+Put number of pages you want to crawl
+
+
+
+Run
+Python mainfun.py > out
+
+
+OUTPUT 
+out            (file created in folder)
+segment        (folder in which all html code)
+#==========================================================
+BASIC ALGORITHM 
+
+
+0. url and data stored for coressponfing url (title , meta chara also) ... anchor saved before only
+1. url get from page
+2. normalized them (lower case , http ,relative to absolute )
+3. check for done before or not
+	if done => add anchor only , anchor window 
+        else => add to visited 
+       		checks robots.txt
+        	if => exclusion .. add url and set data as "Robot denied !!!" and add anchor  also add  to visited
+                else => url ( create a empty object with anchor no data  ... bz before it processed via queue if another came can add anchor text to it )
+                	Add to site queue dictionary 
+4.check urlfetcher queue lenght 
+	if => it is empty  refill it with site queue dictionary 
+        else => 
+        	see time last or put it aside time diff =2 sec 
+        	try : fetch url exception : broken urls  
+
+STOPING CONDITION => after N(e.g. 10) url dont tc urls into url dictionary and empty all dictionary and put into queue and finish that queue
+
+#===========================================================
+FUNCTIONS IMPLEMENTED
+
+
 0.Seeds, Depth, No. of pages to crawl, data (For focused cawler)  
+
 1.Robots cache (IMPORTED)
+  Robots cache program imported to cache robots.txt files
+  and reduce site load (Politness increases)
+
 2.Try Except (Url Broken)
+  Url is broken then catches here. Any site contain url which is now not valid now
+
 3.User Agent (Student Bot)
+  Bot name 
+
 4.Date time set (Mark as visited)  //When opened
+  For politness it is mark as visited when url requested to site 
+
 5.Storing in Segment Folder (HTML code)
+  In this folder all html code saved
+
 6.Removing Script(javascript) and CSS
-7.Focused by seeing words in anchor (LATER IMPOVED FOR ANCHOR WINDOW AND SCORE CALCULATION VIA VECTOR SPACE. PAGE RANK ALSO CAN BE EMBEDDED)
+  Many sites are dyanamic so there javascript contain and css cotain removed when parsed
+
+7.Focused by seeing words in anchor 
+  Crawler is focused by words provided
+
 8.URL normalization
       https://
       http://
@@ -15,33 +90,55 @@
       http://abc.com/
       /asd => http://asd.com/asd  (Absolute)
       ppp => http://asd.com/asd/ppp  (Relative)
-9.Duplication checking
-      If duplicate add anchor to list of anchor
-10.Robots checking (Using cache and all urls of same page checked at that time so getting more hits to robots cache)
-11. Robots checking Site actually present on internet 
-    If robots denied add Data as "ROBOTS DENIED"
-12. Site dyanamism removed after question mark
-13.One queue impleted 
-    For time (POLITNESS POLICY)
-    ## (SECOND QUEUE OF PRIORITY NOT IMPLEMENTED NO DATA AVAILABLE FOR THAT .... CAN BE IMPROVED HERE)
 
-14.Queue feeder feeds queue which gives url
-15.Url_giver gives url on request 
+      site name only lower case because other are case sensative
+
+9.Data stored in utf-8 because site in many languages
+  Many sites written in other languaes. It supports to them.
+
+10.Duplication checking
+      If duplicate add anchor to list of anchor
+
+11.Robots checking
+   Respecting to sites. Follow there provided rules.
+   (Using cache and all urls of same page checked at that time so getting more hits to robots cache)
+
+12. Robots checking Site actually present on internet 
+    If robots denied add Data as "ROBOTS DENIED"
+
+13. Site dyanamism removed after question mark
+    Many sites conatain urls made dyanamically. 
+    Remove there dyanamism
+ 
+14.One queue impleted 
+    For time (POLITNESS POLICY)
+
+15.Queue feeder feeds queue which gives url
+   Feeds queue when its empty from site queue
+
+16.Url_giver gives url on request 
     It checks time 
     If time is less than 2 puts at 10 nuber in queue (Can be varied)
     [IMPLEMENTED CIRCULAR QUEUE IN FRONT OF QUEUE]
-16.Depth implemented 
-	 Calculate depth 
-	 Not go ahead of user given depth 
 
-17.Stop condition 
+17.Depth implemented 
+   Calculate depth 
+   Not go ahead of user given depth 
+
+18.Stop condition 
 	Queue Ends
 	Depth reached
 	No of urls crawl limit exceeds
 
+
+#==========================================================
 WHERE CAN IMPROVED ???
-1. THREADS CAN BE IMPLEMENTATED
-2. CIRCULAR QUEUE ALL ELEMENT IS BEFORE 2 SEC .... 
-3. SOME SITES MAKES CRAWLER LATE BY SOME SECOND SOLUTION ON THAT
+
+
+1.THREADS CAN BE IMPLEMENTATED
+2.CIRCULAR QUEUE ALL ELEMENT IS BEFORE 2 SEC .... 
+3.SOME SITES MAKES CRAWLER LATE BY SOME SECOND SOLUTION ON THAT
    (THREADS)
-4. FTP CALLS
+4.FTP CALLS
+5.LATER IMPOVED FOR ANCHOR WINDOW AND SCORE CALCULATION VIA VECTOR SPACE. PAGE RANK ALSO CAN BE EMBEDDED
+6.SECOND QUEUE OF PRIORITY NOT IMPLEMENTED NO DATA AVAILABLE FOR THAT AND CAN BE USED PAGE RANK

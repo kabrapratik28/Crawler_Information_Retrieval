@@ -1,3 +1,9 @@
+# *********  WEB CRAWLER *************
+# VERSION 1.0  
+# Pratik Shrikant Kabara
+# kabrapratik28@gmail.com
+# https://github.com/kabrapratik28/craw
+
 '''
 0. url and data stored for coressponfing url (title , meta chara also) ... anchor saved before only
 1. url get from page
@@ -10,7 +16,7 @@
                 else => url ( create a empty object with anchor no data  ... bz before it processed via queue if another came can add anchor text to it )
                 	Add to site queue dictionary 
 4.check urlfetcher queue lenght 
-	if => it is less than 3 refill it with site queue dictionary 
+	if => it is empty  refill it with site queue dictionary 
         else => 
         	see time last or put it aside time diff =2 sec 
         	try : fetch url exception : broken urls  
@@ -73,6 +79,17 @@ def user_defined():
 def user_defined_depth():
 #open file and read what he want for focused crawling    
     FILE_READ_DATA = open( "depth", "r" )
+    linedata = ""
+    for linethis in FILE_READ_DATA:
+        linedata = linethis 
+        break      ## First line read only ... depth number
+    clearline = re.sub('\s+','',linedata)  ## replace by null string not " "
+    listretpls =  filter(None, clearline.lower().split(" "))
+    return int(listretpls[0])
+    
+def user_defined_pages():
+#open file and read what he want for focused crawling    
+    FILE_READ_DATA = open( "page", "r" )
     linedata = ""
     for linethis in FILE_READ_DATA:
         linedata = linethis 
@@ -534,12 +551,12 @@ while True :
     urlgiver  = url_giver()
     print urlgiver
 '''
-
+no_of_urls = user_defined_pages()
 ## exit functionality remove  ..... and   delete sites which are not present when robots checker say no site by returning -1 
-counter = 0 
+counter = 1 
 #for now only 
 urllistvisted = []
-while counter <= 5 :                            ## fist n number of urls only ..... 
+while counter <= no_of_urls :                            ## fist n number of urls only ..... 
     urlgiver  = url_giver()
 
 
