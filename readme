@@ -90,6 +90,7 @@ FUNCTIONS IMPLEMENTED
       http://abc.com/
       /asd => http://asd.com/asd  (Absolute)
       ppp => http://asd.com/asd/ppp  (Relative)
+	  #    (Same page reference)
 
       site name only lower case because other are case sensative
 
