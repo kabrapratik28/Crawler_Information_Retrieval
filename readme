@@ -32,26 +32,28 @@ OUTPUT
 out            (file created in folder)
 segment        (folder in which all html code)
 #==========================================================
-BASIC ALGORITHM 
+ALGORITHM 
 
-
-0. url and data stored for coressponfing url (title , meta chara also) ... anchor saved before only
-1. url get from page
-2. normalized them (lower case , http ,relative to absolute )
-3. check for done before or not
-	if done => add anchor only , anchor window 
-        else => add to visited 
-       		checks robots.txt
-        	if => exclusion .. add url and set data as "Robot denied !!!" and add anchor  also add  to visited
-                else => url ( create a empty object with anchor no data  ... bz before it processed via queue if another came can add anchor text to it )
-                	Add to site queue dictionary 
-4.check urlfetcher queue lenght 
-	if => it is empty  refill it with site queue dictionary 
-        else => 
-        	see time last or put it aside time diff =2 sec 
-        	try : fetch url exception : broken urls  
-
-STOPING CONDITION => after N(e.g. 10) url dont tc urls into url dictionary and empty all dictionary and put into queue and finish that queue
+1.Take information of seed from seed reader
+2.Take information of focused data from data reader
+3.Take information of depth from depth reader
+4.Given url check is it broken?
+5.Yes, add data as broken url
+6.No, add data 
+7.Mark as visited site (For politness)
+8.Write data into its repective object
+9.Extract list of urls on that page, and its respective anchors IF DEPTH NOT EXCEED. IF EXCEED DO NOT TAKE URLS 
+10.Focus urls (According to user data)
+11.Check for duplicate if duplicate add only anchor 
+12.Make all urls in proper format (Removal of same page, extra slashes, etc.)
+13.Check for Robots protocol and site presentation (Other than broken url)
+14.No, Add data as robots denied and take new url from queue
+15.Yes, Add to site queue dictionary
+16.Add urls depth 
+17.Add counter 
+18.Take new url from fetcher 
+19.Fetcher will check time and queue and return 1 url. If not proper time put back in queue.
+20.Repeat same procedure upto url page no. not exceed, or depth depth not exceed.
 
 #===========================================================
 FUNCTIONS IMPLEMENTED
